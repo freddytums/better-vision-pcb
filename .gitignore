@@ -1,0 +1,41 @@
+# Backups
+*-backups/
+*.bak
+*.kicad_pcb-bak
+*-bak.*
+
+# Autosave / lock files
+_autosave-*
+*.lck
+~*.lck
+fp-info-cache
+
+# Schematic/board rescue + cache
+*-rescue.kicad_sch
+*-cache.lib
+sym-lib-table.bak
+fp-lib-table.bak
+
+# Netlists and generated reports
+*.net
+*.xml
+
+# Fabrication / production outputs (regenerate from source)
+# Comment these out if you want to track your release artifacts
+*.gbr
+*.gbrjob
+*.drl
+*.pos
+*.csv
+*.pdf
+*.step
+*.stp
+*.wrl
+gerbers/
+production/
+fab/
+
+# OS junk
+.DS_Store
+Thumbs.db
+.history
