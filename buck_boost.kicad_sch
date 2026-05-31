@@ -1295,6 +1295,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "DC-DC Buck Boost Converter"
+		(exclude_from_sim no)
+		(at 112.268 77.978 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "1d857762-ef37-41b2-95b0-54a65c5279b5")
+	)
 	(junction
 		(at 81.28 116.84)
 		(diameter 0)
@@ -2008,16 +2018,6 @@
 			(type default)
 		)
 		(uuid "ff353593-0270-48e1-a0b2-9e1f291fb15a")
-	)
-	(label "DC-DC Buck Boost Converter"
-		(at 80.01 74.93 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left bottom)
-		)
-		(uuid "908103da-579e-4cf1-bd7e-782d1a786756")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4066,7 +4066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f54aa115-511a-4f82-a6b5-665ea1d06194")
-		(property "Reference" "CVAUX"
+		(property "Reference" "CVAUX1"
 			(at 68.58 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4130,7 +4130,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "CVAUX")
+					(reference "CVAUX1")
 					(unit 1)
 				)
 			)
