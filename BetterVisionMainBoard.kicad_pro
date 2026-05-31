@@ -601,12 +601,78 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Field5",
+          "name": "Field5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field6",
+          "name": "Field6",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field7",
+          "name": "Field7",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field8",
+          "name": "Field8",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Description",
+          "name": "Part Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field4",
+          "name": "Field4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -661,7 +727,7 @@
         "uuid": "ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
       }
     ],
-    "used_designators": "U2,#PWR65-67",
+    "used_designators": "U2-5,#PWR64-69,#PWR101,#PWR109-111,#PWR134,C3,#FLG1-2,R3,R6,R11,J5,J9,J14,TP2,TP4,SW1",
     "variants": []
   },
   "sheets": [

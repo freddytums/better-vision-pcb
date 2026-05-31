@@ -1102,411 +1102,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+BATT"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+BATT"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+BATT\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power battery"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+BATT_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+BATT_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:-BATT"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "-BATT"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"-BATT\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power battery"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "-BATT_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "-BATT_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1622,16 +1217,141 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "DC-DC Buck Boost Converter"
 		(exclude_from_sim no)
-		(at 166.878 80.518 0)
+		(at 166.878 79.756 0)
 		(effects
 			(font
 				(size 2.54 2.54)
 			)
 		)
 		(uuid "1d857762-ef37-41b2-95b0-54a65c5279b5")
+	)
+	(text "12V Battery Input"
+		(exclude_from_sim no)
+		(at 67.818 79.756 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "e77c6d05-1939-4078-a91f-39efdf95c74c")
 	)
 	(junction
 		(at 135.89 119.38)
@@ -1646,16 +1366,16 @@
 		(uuid "10835f86-8de6-430e-866a-3d7736356c57")
 	)
 	(junction
+		(at 259.08 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ce20d7b-65ba-4b61-aafe-cfd85b27f031")
+	)
+	(junction
 		(at 128.27 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d3fdd95-323b-4860-b4f5-48d8f79f0fd1")
-	)
-	(junction
-		(at 99.06 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "312a3eda-9aea-4e8e-842b-2e676de76168")
 	)
 	(junction
 		(at 219.71 104.14)
@@ -1668,12 +1388,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "453fc358-3a30-4c26-b314-7bbe98f9a494")
-	)
-	(junction
-		(at 109.22 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "513dd0ee-6772-4243-85bd-b8fc239eb064")
 	)
 	(junction
 		(at 104.14 110.49)
@@ -1724,12 +1438,6 @@
 		(uuid "c05995b4-88e6-4567-9e69-c9ceb0ad6c7e")
 	)
 	(junction
-		(at 259.08 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2dd2515-f74b-4474-a89d-2de134cd579d")
-	)
-	(junction
 		(at 208.28 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1740,12 +1448,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e28b9dd8-6731-4017-ba7f-8039d5dada7e")
-	)
-	(junction
-		(at 128.27 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e70cf1e2-3d96-40d5-9679-5dbd1a934bc6")
 	)
 	(junction
 		(at 139.7 111.76)
@@ -1784,16 +1486,6 @@
 			(type default)
 		)
 		(uuid "05b18144-dbf2-44bc-9b4c-f57df852d3b3")
-	)
-	(wire
-		(pts
-			(xy 80.01 135.89) (xy 80.01 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "094dcbb5-d322-432a-89f4-3005bc069927")
 	)
 	(wire
 		(pts
@@ -1887,16 +1579,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 133.35) (xy 87.63 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "249a35fe-06ba-4f93-a934-a9818de5dc24")
-	)
-	(wire
-		(pts
 			(xy 67.31 111.76) (xy 69.85 111.76)
 		)
 		(stroke
@@ -1904,16 +1586,6 @@
 			(type default)
 		)
 		(uuid "2710c12e-ac02-45b9-b2e5-aee7b3c4aab3")
-	)
-	(wire
-		(pts
-			(xy 99.06 107.95) (xy 99.06 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a038af0-1604-4aa9-b5d0-cf5b8561a73e")
 	)
 	(wire
 		(pts
@@ -1937,6 +1609,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 162.56) (xy 64.77 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "468ecd67-02ee-4e01-8e06-6e959787d133")
+	)
+	(wire
+		(pts
 			(xy 119.38 129.54) (xy 119.38 133.35)
 		)
 		(stroke
@@ -1954,16 +1636,6 @@
 			(type default)
 		)
 		(uuid "4d0621c4-6014-4338-a701-3c232209e7a8")
-	)
-	(wire
-		(pts
-			(xy 80.01 133.35) (xy 87.63 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4eef1084-29ef-4b44-b542-01234dd28f04")
 	)
 	(wire
 		(pts
@@ -2007,16 +1679,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 107.95) (xy 109.22 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f9c3c7f-c4d4-49d4-a6b6-369228962bb6")
-	)
-	(wire
-		(pts
 			(xy 259.08 116.84) (xy 259.08 114.3)
 		)
 		(stroke
@@ -2047,7 +1709,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 110.49) (xy 109.22 109.22)
+			(xy 109.22 109.22) (xy 109.22 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2074,16 +1736,6 @@
 			(type default)
 		)
 		(uuid "6c183d96-1b01-4dc8-a4b3-78c5355eaaa6")
-	)
-	(wire
-		(pts
-			(xy 104.14 110.49) (xy 104.14 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c9d80da-a035-43e4-bb71-be8903e004a3")
 	)
 	(wire
 		(pts
@@ -2134,16 +1786,6 @@
 			(type default)
 		)
 		(uuid "7bd855c6-7269-4002-bd29-e39420aff7c3")
-	)
-	(wire
-		(pts
-			(xy 128.27 107.95) (xy 128.27 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d691154-2209-4e6a-935c-1aa58b3b7c21")
 	)
 	(wire
 		(pts
@@ -2227,6 +1869,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 104.14) (xy 271.78 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a577951-1853-4a1f-9d24-7f52134e80b7")
+	)
+	(wire
+		(pts
 			(xy 104.14 111.76) (xy 104.14 110.49)
 		)
 		(stroke
@@ -2254,6 +1906,16 @@
 			(type default)
 		)
 		(uuid "9e2681b6-41e5-45bc-a3df-b9c58bd367d8")
+	)
+	(wire
+		(pts
+			(xy 68.58 170.18) (xy 64.77 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3a47158-5cff-46ab-97aa-8f41a7721260")
 	)
 	(wire
 		(pts
@@ -2287,7 +1949,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 110.49) (xy 99.06 109.22)
+			(xy 99.06 109.22) (xy 99.06 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2377,16 +2039,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 104.14) (xy 271.78 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0e8edbe-1278-431f-8805-d70ee42ca749")
-	)
-	(wire
-		(pts
 			(xy 184.15 138.43) (xy 219.71 138.43)
 		)
 		(stroke
@@ -2424,6 +2076,74 @@
 			(type default)
 		)
 		(uuid "ff353593-0270-48e1-a0b2-9e1f291fb15a")
+	)
+	(label "+12v"
+		(at 68.58 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "22a6bdb9-854b-4748-b737-c164427d4cdf")
+	)
+	(label "+12v"
+		(at 67.31 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1d4e8c4-0f0b-4c83-b3cb-1076b1c0bbbc")
+	)
+	(global_label "+5v"
+		(shape input)
+		(at 271.78 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "633a74ba-0856-4a5e-a5c8-598032b998ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 278.5147 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "+5v"
+		(shape input)
+		(at 68.58 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a0b65ef6-0756-4395-9103-d8fa21d379ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.3147 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2497,83 +2217,6 @@
 			(project "BetterVisionMainBoard"
 				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-BATT")
-		(at 80.01 135.89 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "12e3fa02-76fb-46a7-b6b1-92565b68f212")
-		(property "Reference" "#PWR066"
-			(at 80.01 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-BATT"
-			(at 80.01 139.954 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 80.01 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5f39798d-d4ea-4b03-a00a-b83dabf4723f")
-		)
-		(instances
-			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -2738,6 +2381,85 @@
 			(project "BetterVisionMainBoard"
 				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 64.77 170.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fbe61b4-40fc-4fe6-8e15-b05891a1486f")
+		(property "Reference" "#FLG01"
+			(at 62.865 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 60.96 170.1799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 64.77 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6db8c0a5-33ac-46ad-8e11-475bbfc1ada1")
+		)
+		(instances
+			(project "BetterVisionMainBoard"
+				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -2986,83 +2708,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 87.63 135.89 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "40549778-0782-4ccf-8e60-be219e6ae3e2")
-		(property "Reference" "#PWR067"
-			(at 87.63 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 87.63 139.954 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2aacc555-2a28-401b-95c5-f39ab8a4f3e5")
-		)
-		(instances
-			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 259.08 110.49 0)
 		(unit 1)
@@ -3266,6 +2911,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 64.77 162.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b7d3f02-2489-4020-8d6c-9a830a6fbcc5")
+		(property "Reference" "#FLG02"
+			(at 62.865 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 60.96 162.5599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 64.77 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9ad36cb0-bcd6-4943-a61a-d91a4792ba08")
+		)
+		(instances
+			(project "BetterVisionMainBoard"
+				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 208.28 110.49 0)
 		(unit 1)
@@ -3430,8 +3154,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 271.78 104.14 270)
+		(lib_id "power:GND")
+		(at 67.31 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3439,10 +3163,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "763a0286-6754-4f75-acc5-fac3869b3055")
-		(property "Reference" "#PWR05"
-			(at 267.97 104.14 0)
+		(uuid "6fd9ce56-8adf-4ec3-9a31-a9d823853c44")
+		(property "Reference" "#PWR068"
+			(at 67.31 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3452,19 +3175,18 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 275.59 104.1399 90)
+		(property "Value" "GND"
+			(at 67.31 120.904 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 104.14 0)
+			(at 67.31 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3475,7 +3197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 104.14 0)
+			(at 67.31 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3485,8 +3207,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 271.78 104.14 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3497,12 +3219,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4441ee2e-1668-4d27-9f95-b62f43dde5ca")
+			(uuid "3e0d2b37-a163-4d1c-a09f-c194cc894da4")
 		)
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "#PWR05")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -3979,85 +3701,6 @@
 			(project "BetterVisionMainBoard"
 				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 67.31 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a89c78dc-24e2-463c-b57e-01ea27d8af60")
-		(property "Reference" "#PWR02"
-			(at 67.31 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 69.85 95.2499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 67.31 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6cd9e6a3-b5ad-4ca3-ba1b-29f8e808776e")
-		)
-		(instances
-			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4812,83 +4455,6 @@
 			(project "BetterVisionMainBoard"
 				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "CVAUX1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-BATT")
-		(at 67.31 116.84 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ffd1363a-2fce-4f33-b47c-f2e8865bc7e3")
-		(property "Reference" "#PWR065"
-			(at 67.31 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-BATT"
-			(at 72.644 118.364 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 67.31 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c98c3e37-1507-4512-babb-ee8ac3ac9459")
-		)
-		(instances
-			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "#PWR065")
 					(unit 1)
 				)
 			)
