@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CM5 FRC Vision — Hardware Design Reference</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1a1f24;
+    --paper:#f4f1e9;
+    --panel:#ffffff;
+    --teal:#0e7c86;
+    --teal-soft:#e3f0f1;
+    --amber:#bf6a1a;
+    --amber-soft:#f6ead9;
+    --line:#d6d1c4;
+    --muted:#6b6f73;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:"IBM Plex Sans",system-ui,sans-serif;
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1120px;margin:0 auto;padding:28px 18px 64px;}
+  header.doc{
+    border-bottom:3px solid var(--ink);
+    padding-bottom:14px;margin-bottom:26px;
+  }
+  .eyebrow{
+    font-family:"IBM Plex Mono",monospace;
+    font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--teal);font-weight:600;margin:0 0 6px;
+  }
+  h1{font-size:clamp(22px,4vw,32px);margin:0;font-weight:700;letter-spacing:-.01em;}
+  .sub{color:var(--muted);font-size:14px;margin-top:6px;}
+  h2{
+    font-size:13px;font-family:"IBM Plex Mono",monospace;
+    text-transform:uppercase;letter-spacing:.12em;
+    color:var(--ink);margin:40px 0 14px;
+    display:flex;align-items:center;gap:10px;
+  }
+  h2::before{content:"";width:14px;height:14px;background:var(--teal);display:inline-block;}
+  .diagram-card{
+    background:var(--panel);border:1px solid var(--line);
+    border-radius:6px;padding:8px;overflow-x:auto;
+    box-shadow:0 1px 0 rgba(0,0,0,.03);
+  }
+  svg{display:block;min-width:880px;width:100%;height:auto;}
+  .legend{
+    display:flex;flex-wrap:wrap;gap:18px;margin-top:14px;
+    font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--muted);
+  }
+  .legend span{display:inline-flex;align-items:center;gap:7px;}
+  .sw{width:22px;height:0;border-top:2px solid var(--teal);}
+  .sw.solid{border-top:2px solid var(--ink);}
+  .sw.dash{border-top:2px dashed var(--amber);}
+  .sw.box{width:13px;height:13px;border:1.5px dashed var(--amber);border-top:1.5px dashed var(--amber);}
+  table{width:100%;border-collapse:collapse;font-size:13px;background:var(--panel);
+    border:1px solid var(--line);border-radius:6px;overflow:hidden;}
+  thead th{
+    background:var(--ink);color:#fff;text-align:left;padding:9px 12px;
+    font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.06em;
+    text-transform:uppercase;font-weight:500;
+  }
+  td{padding:8px 12px;border-top:1px solid var(--line);vertical-align:top;}
+  td.pin{font-family:"IBM Plex Mono",monospace;font-weight:600;color:var(--teal);white-space:nowrap;}
+  td.sig{font-family:"IBM Plex Mono",monospace;font-weight:500;}
+  tr.group td{
+    background:var(--teal-soft);font-family:"IBM Plex Mono",monospace;
+    font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:600;color:var(--teal);
+    padding:7px 12px;
+  }
+  tr.group.opt td{background:var(--amber-soft);color:var(--amber);}
+  .note{color:var(--muted);font-size:12.5px;}
+  .callout{
+    background:var(--amber-soft);border-left:3px solid var(--amber);
+    padding:12px 14px;border-radius:0 5px 5px 0;font-size:13px;margin-top:14px;
+  }
+  .callout b{color:var(--amber);}
+  code{font-family:"IBM Plex Mono",monospace;font-size:.9em;background:#ece8dd;padding:1px 5px;border-radius:3px;}
+  footer{margin-top:40px;font-size:11px;color:var(--muted);font-family:"IBM Plex Mono",monospace;border-top:1px solid var(--line);padding-top:12px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="doc">
+    <p class="eyebrow">FRC Vision Unit · v1 carrier · Compute Module 5</p>
+    <h1>CM5 Vision Carrier — Hardware Design Reference</h1>
+    <p class="sub">Pin map + functional block diagram for the AprilTag / 6DOF pose unit. Based on the Raspberry Pi CM5 datasheet (Release 2). CM5 with onboard eMMC — <em>not</em> CM5Lite.</p>
+  </header>
+
+  <h2>Functional Block Diagram</h2>
+  <div class="diagram-card">
+  <svg viewBox="0 0 1080 900" role="img" aria-label="CM5 FRC vision carrier block diagram">
+    <defs>
+      <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+        <path d="M0,0 L6,3 L0,6 Z" fill="#1a1f24"/>
+      </marker>
+      <marker id="arrowT" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+        <path d="M0,0 L6,3 L0,6 Z" fill="#0e7c86"/>
+      </marker>
+      <style>
+        .box{fill:#fff;stroke:#1a1f24;stroke-width:1.5;}
+        .boxT{fill:#e3f0f1;stroke:#0e7c86;stroke-width:1.5;}
+        .cm5{fill:#fbfaf6;stroke:#1a1f24;stroke-width:2.5;}
+        .opt{fill:#f6ead9;stroke:#bf6a1a;stroke-width:1.5;stroke-dasharray:5 4;}
+        .lbl{font-family:'IBM Plex Sans',sans-serif;font-size:12.5px;font-weight:600;fill:#1a1f24;}
+        .lbl-s{font-family:'IBM Plex Mono',monospace;font-size:10px;fill:#6b6f73;}
+        .pinlbl{font-family:'IBM Plex Mono',monospace;font-size:9.5px;fill:#0e7c86;font-weight:600;}
+        .wire{stroke:#1a1f24;stroke-width:1.4;fill:none;}
+        .wireT{stroke:#0e7c86;stroke-width:1.6;fill:none;}
+        .wireO{stroke:#bf6a1a;stroke-width:1.4;fill:none;stroke-dasharray:5 4;}
+        .zone{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.12em;fill:#a6a193;font-weight:600;}
+      </style>
+    </defs>
+
+    <!-- zone labels -->
+    <text x="40" y="34" class="zone">POWER</text>
+    <text x="470" y="34" class="zone">COMPUTE</text>
+    <text x="800" y="34" class="zone">I/O · SENSORS</text>
+
+    <!-- POWER SOURCES -->
+    <rect class="box" x="40" y="70" width="150" height="58" rx="4"/>
+    <text x="115" y="95" class="lbl" text-anchor="middle">12 V FRC Battery</text>
+    <text x="115" y="113" class="lbl-s" text-anchor="middle">~7–13.5 V, sags</text>
+
+    <rect class="box" x="40" y="300" width="150" height="58" rx="4"/>
+    <text x="115" y="325" class="lbl" text-anchor="middle">USB-C</text>
+    <text x="115" y="343" class="lbl-s" text-anchor="middle">power + debug/flash</text>
+
+    <!-- CONDITIONING -->
+    <rect class="boxT" x="245" y="58" width="170" height="46" rx="4"/>
+    <text x="330" y="78" class="lbl" text-anchor="middle">12 V Protection (eFuse)</text>
+    <text x="330" y="95" class="lbl-s" text-anchor="middle">TPS26631 + ext N-FET</text>
+
+    <rect class="boxT" x="245" y="118" width="170" height="52" rx="4"/>
+    <text x="330" y="140" class="lbl" text-anchor="middle">Buck-Boost → 5 V</text>
+    <text x="330" y="157" class="lbl-s" text-anchor="middle">TPS630701 (16 V max!)</text>
+
+    <rect class="boxT" x="245" y="296" width="170" height="52" rx="4"/>
+    <text x="330" y="318" class="lbl" text-anchor="middle">Power OR-ing</text>
+    <text x="330" y="335" class="lbl-s" text-anchor="middle">TPS2116 mux</text>
+
+    <!-- wires power -->
+    <path class="wire" d="M190 90 L245 81" marker-end="url(#arrow)"/>
+    <path class="wireT" d="M330 104 L330 118" marker-end="url(#arrowT)"/>
+    <path class="wire" d="M190 322 L245 322" marker-end="url(#arrow)"/>
+    <!-- 5V rail bus -->
+    <path class="wireT" d="M415 144 L450 144 L450 322 L415 322" />
+    <path class="wireT" d="M450 230 L478 230" marker-end="url(#arrowT)"/>
+    <text x="456" y="222" class="pinlbl">5 V → 77/79/81/83/85/87</text>
+
+    <!-- USB data path bypasses converter, through TVS -->
+    <path class="wire" d="M115 358 L115 690 L300 690" marker-end="url(#arrow)"/>
+    <rect class="boxT" x="300" y="672" width="118" height="36" rx="4"/>
+    <text x="359" y="688" class="lbl" text-anchor="middle" style="font-size:11px;">USBLC6-4SC6</text>
+    <text x="359" y="701" class="lbl-s" text-anchor="middle">ESD: D± + VBUS</text>
+    <path class="wire" d="M418 690 L478 690" marker-end="url(#arrow)"/>
+    <text x="430" y="666" class="pinlbl">D± → 103/105 · CC → 94/96</text>
+
+    <!-- CM5 -->
+    <rect class="cm5" x="478" y="56" width="210" height="560" rx="6"/>
+    <text x="583" y="84" class="lbl" text-anchor="middle" style="font-size:14px;">Raspberry Pi CM5</text>
+    <text x="583" y="102" class="lbl-s" text-anchor="middle">BCM2712 · eMMC · 4–8 GB</text>
+    <line x1="478" y1="114" x2="688" y2="114" stroke="#d6d1c4"/>
+    <!-- internal rail notes -->
+    <text x="498" y="138" class="lbl-s">GPIO_VREF (78) → 3.3 V *tie*</text>
+    <text x="498" y="156" class="lbl-s">CM5_3.3V 84/86 · 1.8V 88/90</text>
+    <text x="498" y="174" class="lbl-s">PMIC_EN 99 — left floating</text>
+    <line x1="478" y1="186" x2="688" y2="186" stroke="#eee5d4"/>
+
+    <!-- right-edge port stubs -->
+    <!-- Ethernet -->
+    <rect class="box" x="800" y="60" width="240" height="60" rx="4"/>
+    <text x="920" y="84" class="lbl" text-anchor="middle">RJ45 MagJack (1:1) + TVS</text>
+    <text x="920" y="102" class="lbl-s" text-anchor="middle">primary UDP path · SYNC_OUT (PTP)</text>
+    <path class="wireT" d="M688 130 L760 130 L760 90 L800 90" marker-end="url(#arrowT)"/>
+    <text x="700" y="124" class="pinlbl">Eth pairs 3/5/4/6/9/11/10/12 · 18</text>
+
+    <!-- Camera -->
+    <rect class="box" x="800" y="150" width="240" height="68" rx="4"/>
+    <text x="920" y="174" class="lbl" text-anchor="middle">OV9281 Camera (CSI-2)</text>
+    <text x="920" y="191" class="lbl-s" text-anchor="middle">global-shutter mono · 2 lanes</text>
+    <text x="920" y="207" class="lbl-s" text-anchor="middle">+ I²C + CAM_GPIO; FSIN off-ribbon</text>
+    <path class="wireT" d="M688 210 L745 210 L745 184 L800 184" marker-end="url(#arrowT)"/>
+    <text x="700" y="204" class="pinlbl">MIPI0 + 82/80 + 97/100</text>
+
+    <!-- IMU -->
+    <rect class="box" x="800" y="248" width="240" height="56" rx="4"/>
+    <text x="920" y="271" class="lbl" text-anchor="middle">IMU · ICM-42688-P (SPI0)</text>
+    <text x="920" y="288" class="lbl-s" text-anchor="middle">INT1 data-ready · FSYNC=GND</text>
+    <path class="wireT" d="M688 276 L800 276" marker-end="url(#arrowT)"/>
+    <text x="700" y="270" class="pinlbl">38/44/40/39 + INT 41</text>
+
+    <!-- LEDs -->
+    <rect class="box" x="800" y="330" width="240" height="46" rx="4"/>
+    <text x="920" y="358" class="lbl" text-anchor="middle">Status LEDs (ACT / PWR)</text>
+    <path class="wire" d="M688 350 L800 353" marker-end="url(#arrow)"/>
+    <text x="700" y="344" class="pinlbl">21 · 95 (buffered)</text>
+
+    <!-- Buttons -->
+    <rect class="box" x="800" y="392" width="240" height="46" rx="4"/>
+    <text x="920" y="420" class="lbl" text-anchor="middle">PWR_BUT · nRPIBOOT</text>
+    <path class="wire" d="M688 412 L800 415" marker-end="url(#arrow)"/>
+    <text x="700" y="406" class="pinlbl">92 · 93</text>
+
+    <!-- Fan -->
+    <rect class="box" x="800" y="454" width="240" height="46" rx="4"/>
+    <text x="920" y="482" class="lbl" text-anchor="middle">Fan / Heatsink (PWM·Tacho)</text>
+    <path class="wire" d="M688 474 L800 477" marker-end="url(#arrow)"/>
+    <text x="700" y="468" class="pinlbl">19 · 16</text>
+
+    <!-- OPTIONAL band -->
+    <rect x="40" y="720" width="1000" height="150" rx="6" fill="none" stroke="#bf6a1a" stroke-width="1.2" stroke-dasharray="2 4"/>
+    <text x="56" y="742" class="zone" style="fill:#bf6a1a;">RECOMMENDED ADD-ONS</text>
+
+    <rect class="opt" x="60" y="756" width="220" height="96" rx="4"/>
+    <text x="170" y="778" class="lbl" text-anchor="middle">Frame sync (FSTROBE-based)</text>
+    <text x="170" y="796" class="lbl-s" text-anchor="middle">Camera free-runs (no XVS)</text>
+    <text x="170" y="812" class="lbl-s" text-anchor="middle">FSTROBE → GPIO17 stamp + LED</text>
+    <text x="170" y="828" class="lbl-s" text-anchor="middle">IMU pin9 = GND (0Ω)</text>
+    <text x="170" y="844" class="lbl-s" text-anchor="middle">all on one PHC timeline</text>
+
+    <rect class="opt" x="300" y="756" width="220" height="96" rx="4"/>
+    <text x="410" y="784" class="lbl" text-anchor="middle">Illumination driver</text>
+    <text x="410" y="802" class="lbl-s" text-anchor="middle">IR/visible LED ring</text>
+    <text x="410" y="820" class="lbl-s" text-anchor="middle">constant-current,</text>
+    <text x="410" y="836" class="lbl-s" text-anchor="middle">GPIO/PWM gated</text>
+
+    <rect class="opt" x="540" y="756" width="220" height="96" rx="4"/>
+    <text x="650" y="784" class="lbl" text-anchor="middle">Power monitor (I²C)</text>
+    <text x="650" y="802" class="lbl-s" text-anchor="middle">INA-class V/I sense</text>
+    <text x="650" y="820" class="lbl-s" text-anchor="middle">brownout tagging →</text>
+    <text x="650" y="836" class="lbl-s" text-anchor="middle">salvage / replay</text>
+
+    <rect class="opt" x="780" y="756" width="220" height="96" rx="4"/>
+    <text x="890" y="784" class="lbl" text-anchor="middle">CAN FD transceiver</text>
+    <text x="890" y="802" class="lbl-s" text-anchor="middle">DNP footprint (SPI)</text>
+    <text x="890" y="820" class="lbl-s" text-anchor="middle">hedges original CAN</text>
+    <text x="890" y="836" class="lbl-s" text-anchor="middle">thesis · Pro tier</text>
+  </svg>
+  </div>
+  <div class="legend">
+    <span><span class="sw solid"></span> generic signal</span>
+    <span><span class="sw"></span> high-speed / sync-critical</span>
+    <span><span class="sw box"></span> optional add-on</span>
+  </div>
+
+  <h2>Pin Assignment Table</h2>
+  <table>
+    <thead><tr><th style="width:13%">Pin(s)</th><th style="width:22%">Signal</th><th style="width:28%">Net / Function</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr class="group"><td colspan="4">12 V Input Protection (battery → buck-boost)</td></tr>
+      <tr><td class="pin">eFuse</td><td class="sig">TPS26631PWPR</td><td>Reverse + OVP cutoff + inrush + Ilim</td><td class="note">60 V / 6 A eFuse, HTSSOP-20. <b>Use -631 (adjustable OVP cutoff), NOT -636</b> (fixed ~39 V clamp — would not protect the 16 V converter). Protects the TPS630701, whose input max is only <b>16 V</b>.</td></tr>
+      <tr><td class="pin">OVP+UVLO</td><td class="sig">3-resistor divider string</td><td>IN_SYS→UVLO→OVP→GND</td><td class="note">One string sets both (refs 1.2 V, datasheet-confirmed): <b>R1 402 kΩ, R2 60.4 kΩ, R3 40.2 kΩ</b> → UVLO ≈ 6.0 V, OVP ≈ 15.0 V. <b>Don't tie UVLO to GND</b> (default ~15.5 V would never start at 12 V). OVP above it cuts the FET off; converter rides bulk cap, auto-retry.</td></tr>
+      <tr><td class="pin">ILIM</td><td class="sig">Current limit</td><td>R_ILIM = 4.99 kΩ → ~3.6 A</td><td class="note">Law I_LIM ≈ 18000 / R_ILIM(Ω), datasheet-confirmed (3 kΩ→6 A, 4.02 kΩ→4.5 A, 30 kΩ→0.6 A). Above worst-case sag input current (~2.5 A); satisfies UL R_ILIM ≥ 3 kΩ.</td></tr>
+      <tr><td class="pin">dVdT</td><td class="sig">Inrush slew</td><td>C ≈ 10 nF (start)</td><td class="note">Verify inrush ≈ C_OUT × dV/dt stays under the 3.6 A limit; increase cap to slow ramp if needed.</td></tr>
+      <tr><td class="pin">B_GATE/DRV</td><td class="sig">Reverse-polarity (Q1 + Q2)</td><td>per TI Fig. 8-7</td><td class="note"><b>Q1 power FET:</b> BSC012N06NS (C6471337) or CSD18543Q3A — source→IN_SYS, drain→IN (battery), gate→B_GATE. Carries load current. <b>Q2 signal FET:</b> 2N7002 (C8545) across B_GATE/DRV/IN_SYS — pulls Q1 gate down fast on reverse; gate→DRV. <b>No standalone diode in this sub-circuit</b> (TI's "D1" is the input TVS below). If reverse protection not wanted: tie IN_SYS=IN, leave B_GATE/DRV open.</td></tr>
+      <tr><td class="pin">TVS (D1)</td><td class="sig">Input TVS / surge clamp</td><td>SMBJ16CA (C284001) or SMCJ16CA</td><td class="note"><b>Bidirectional</b>, 16 V standoff, ~26 V clamp. This is TI's "D1." Sits at raw input (before Q1) so it must survive reverse battery; 16 V is above the 15 V OVP so it only catches fast transients; clamps &lt;&lt; eFuse 60 V rating. SMB (600 W) adequate; SMC (1500 W) for margin.</td></tr>
+      <tr><td class="pin">MODE</td><td class="sig">Fault response</td><td>→ GND (auto-retry)</td><td class="note">GND = auto-retry, open = latch-off. <b>Auto-retry</b> so a transient trip self-recovers mid-match (no power-cycle needed).</td></tr>
+      <tr><td class="pin">SHDN</td><td class="sig">Enable (R4/R5 + Zener)</td><td>R4 100 kΩ (IN_SYS→SHDN), R5 33 kΩ (SHDN→GND)</td><td class="note">~3.35 V at 13.5 V; ~1.74 V at 7 V sag (above ~1 V enable thr — confirm). <b>Zener BZT52C4V7 (C173408) in parallel with R5</b> — both legs across SHDN→GND; <b>cathode→SHDN, anode→GND</b> (NOT in series, NOT both ends to GND). Clamps SHDN to ~4.7 V on a transient (else the ~26 V TVS clamp pushes SHDN to ~6.4 V, over its 5.5 V abs-max). Can't enable from a CM5 GPIO (CM5 powered <i>from</i> this eFuse). Optional CM5 GPIO pull-low-only = SW shutdown.</td></tr>
+      <tr><td class="pin">PGTH</td><td class="sig">PGOOD threshold (R6/R7)</td><td>R6 31.6 kΩ (OUT→PGTH), R7 10 kΩ (PGTH→GND)</td><td class="note">V(PGTHR) = 1.2 V (confirmed) → threshold ≈ 5.0 V, below the 7 V sag floor so PGOOD stays high through sag (TI confirms PGSET &lt; VIN(min) is valid). Enables fast brownout-recovery + sets PGOOD threshold. Don't tie to GND (disables it).</td></tr>
+      <tr><td class="pin">PGOOD</td><td class="sig">Power-good (open-drain)</td><td>→ buck-boost EN (w/ pull-up)</td><td class="note">High when FET enhanced → gate the converter so it starts only on valid input. Needs a pull-up.</td></tr>
+      <tr><td class="pin">FLT → GPIO16 (29)</td><td class="sig">Fault flag (open-drain)</td><td>→ CM5 GPIO16, <b>10 kΩ</b> pull-up to 3.3 V</td><td class="note">Active-low on UV/OV/overload/PLIM/ILIM-short/thermal. Slow status flag (no speed constraint), so 10 kΩ is the relaxed sweet spot: ~0.33 mA sink when low (« 10 mA limit), clean high. Pulled to 3.3 V = clean digital flag → log faults. (GPIO16 free; don't double-book with FSTROBE-capture.)</td></tr>
+      <tr><td class="pin">IMON</td><td class="sig">Current monitor (analog)</td><td><b>FLOAT</b> (unused, v1)</td><td class="note">Analog output — RP1 has no ADC, so not GPIO-readable. Left floating; no R_IMON, no bypass cap. (Add an I²C ADC + ~27 kΩ later only if current telemetry wanted.)</td></tr>
+
+      <tr class="group"><td colspan="4">Power &amp; System Control</td></tr>
+      <tr><td class="pin">77,79,81,83,85,87</td><td class="sig">5V (Input)</td><td>5 V rail from buck-boost</td><td class="note">Tie all six. 4.75–5.25 V. Add bulk capacitance for FRC sag/brownout.</td></tr>
+      <tr><td class="pin">78</td><td class="sig">GPIO_VREF</td><td>Tie to CM5_3.3V</td><td class="note"><b>Must not float</b> or be grounded. Sets GPIO bank to 3.3 V.</td></tr>
+      <tr><td class="pin">84, 86</td><td class="sig">CM5_3.3V (out)</td><td>3.3 V peripheral rail</td><td class="note">≤ 600 mA total. Powers IMU, LEDs, camera logic.</td></tr>
+      <tr><td class="pin">88, 90</td><td class="sig">CM5_1.8V (out)</td><td>1.8 V rail</td><td class="note">≤ 600 mA total.</td></tr>
+      <tr><td class="pin">99</td><td class="sig">PMIC_EN</td><td>Power enable — left floating</td><td class="note">Internal 100 kΩ pull-up to 5 V powers the module up. Breaker kills 12 V at match end; PWR_BUT covers bench on/off.</td></tr>
+      <tr><td class="pin">92</td><td class="sig">PWR_BUT</td><td>Momentary button → GND</td><td class="note">Short = on/off; hold &gt;5 s = forced shutdown.</td></tr>
+      <tr><td class="pin">93</td><td class="sig">nRPIBOOT</td><td>Flash / USB-boot jumper</td><td class="note"><b>Required</b> with no SD slot — low forces eMMC flashing over USB. Left write-enabled so users can update firmware in the field.</td></tr>
+      <tr><td class="pin">21</td><td class="sig">LED_nACT</td><td>Activity LED (green)</td><td class="note">eMMC access / boot error patterns. 20 mA max.</td></tr>
+      <tr><td class="pin">95</td><td class="sig">LED_nPWR</td><td>Power LED (red)</td><td class="note">Needs buffering.</td></tr>
+      <tr><td class="pin">19 / 16</td><td class="sig">Fan_PWM / Fan_Tacho</td><td>Active cooling (optional)</td><td class="note">PWM is open-drain; Tacho has internal pull-up. <b>Optional — only if a fan is fitted; with a heatsink GPIO19 is unconnected/free.</b> <b>Conflict:</b> GPIO16 is already the eFuse FLT flag — if a fan is fitted, move the tacho to another free GPIO.</td></tr>
+      <tr><td class="pin">all GND</td><td class="sig">GND</td><td>Ground</td><td class="note">Connect every ground pin on any connector in use.</td></tr>
+
+      <tr class="group"><td colspan="4">USB-C — Power + Debug / Flash</td></tr>
+      <tr><td class="pin">103 / 105</td><td class="sig">USB_N / USB_P</td><td>USB 2.0 D− / D+</td><td class="note">Route to USB-C data lines. Same port used for rpiboot flashing.</td></tr>
+      <tr><td class="pin">94 / 96</td><td class="sig">CC1 / CC2</td><td>USB-C config channel</td><td class="note">PD negotiation. Needed for 5 V power-in handshake.</td></tr>
+      <tr><td class="pin">101</td><td class="sig">USB_OTG_ID</td><td>OTG role — leave floating</td><td class="note"><b>Do not ground.</b> Floating keeps device-mode available, which rpiboot needs to flash the eMMC over USB-C (PC is host). Grounding locks host mode and blocks flashing. OTG on this port is undocumented per RPi — confirm on a real flash cycle.</td></tr>
+      <tr><td class="pin">conn</td><td class="sig">USB-C recept. (C2927038, 16P)</td><td>VBUS, GND, CC1, CC2, D±</td><td class="note">Tie all VBUS pads → OR-ing; tie DP1+DP2 (=D+) and DN1+DN2 (=D−) for reversibility; CC1/CC2 stay separate → 94/96; <b>no external 5.1 kΩ Rd</b> (CM5 PMIC terminates CC); SBU1/2 NC; solder shell anchor tabs to GND.</td></tr>
+      <tr><td class="pin">TVS</td><td class="sig">USBLC6-4SC6 (SOT-23-6)</td><td>ESD on D+, D−, <b>and VBUS</b></td><td class="note">4-line part; use 2 channels. <b>Pin 1 (I/O1)→D+, pin 3 (I/O2)→D−</b> as short stub <b>taps</b> (not feed-through); <b>pin 5→5 V, pin 2→GND</b>. Pins 4 (I/O3) &amp; 6 (I/O4) <b>NC</b>. VBUS pin clamps the rail (rail-to-rail), so <b>no separate VBUS TVS</b>. Place at the receptacle, short tracks. 3.5 pF/line, fine for USB 2.0.</td></tr>
+
+      <tr class="group"><td colspan="4">Ethernet — Primary UDP Path</td></tr>
+      <tr><td class="pin">3 / 5</td><td class="sig">Eth_Pair3_P / N</td><td>1:1 MagJack pair 3</td><td class="note" rowspan="4">Route as 100 Ω diff pairs, intra-pair match ≤0.15 mm. <b>Add ESD/TVS</b> — CM5 has none on-module.</td></tr>
+      <tr><td class="pin">4 / 6</td><td class="sig">Eth_Pair1_P / N</td><td>MagJack pair 1</td></tr>
+      <tr><td class="pin">11 / 9</td><td class="sig">Eth_Pair2_P / N</td><td>MagJack pair 2</td></tr>
+      <tr><td class="pin">12 / 10</td><td class="sig">Eth_Pair0_P / N</td><td>MagJack pair 0</td></tr>
+      <tr><td class="pin">15 / 17</td><td class="sig">nLED3 / nLED2</td><td>Activity / speed LEDs</td><td class="note">Active-low, 8 mA.</td></tr>
+      <tr><td class="pin">18</td><td class="sig">Ethernet_SYNC_OUT</td><td>IEEE 1588 PTP</td><td class="note"><b>Key for multi-unit sync</b> — time-align units over the robot LAN.</td></tr>
+
+      <tr class="group"><td colspan="4">Camera — CSI-2 (MIPI0) + Control</td></tr>
+      <tr><td class="pin">129 / 127</td><td class="sig">MIPI0_C_P / N</td><td>CSI clock lane</td><td class="note">100 Ω diff pairs, intra-pair ≤0.15 mm.</td></tr>
+      <tr><td class="pin">117 / 115</td><td class="sig">MIPI0_D0_P / N</td><td>Data lane 0</td><td class="note" rowspan="2">OV9281 is 2-lane → only D0/D1 used.</td></tr>
+      <tr><td class="pin">123 / 121</td><td class="sig">MIPI0_D1_P / N</td><td>Data lane 1</td></tr>
+      <tr><td class="pin">135/133 · 141/139</td><td class="sig">MIPI0_D2 · D3</td><td>Data lanes 2–3</td><td class="note">Unused by OV9281. Route anyway to future-proof for higher-res sensors.</td></tr>
+      <tr><td class="pin">82 / 80</td><td class="sig">SDA0 / SCL0</td><td>Camera I²C (GPIO38/39)</td><td class="note">Sensor config bus. Internal 1.8 kΩ pull-ups.</td></tr>
+      <tr><td class="pin">97 / 100</td><td class="sig">CAM_GPIO0 / 1</td><td>Power-en / reset (GPIO34/35)</td><td class="note">Sensor won't enumerate without these.</td></tr>
+      <tr><td class="pin">XVS</td><td class="sig">External trigger (sync in) — <b>NOT USED v1</b></td><td>no-connect, reserved</td><td class="note"><b>Dropped for v1 — camera free-runs.</b> XVS left disconnected; no level shifter populated on this leg. Pin kept on the 3-pin connector as a no-connect, reserved for a future externally-triggered iteration. If re-enabled later: needs a 1.8 V slave-mode trigger and the patchy libcamera/Pi external-trigger support proven on a module first.</td></tr>
+      <tr><td class="pin">FSTROBE</td><td class="sig">Exposure strobe (sensor output)</td><td>~1.8 V, active during integration</td><td class="note">Used for (1) LED illumination enable and (2) up-shifted 1.8→3.3 V (SN74LVC1T45) → PHC-timestamped GPIO for true exposure time (see Add-Ons). With XVS unused this is the <b>sole</b> per-frame timing source. Not for IMU FSYNC.</td></tr>
+      <tr><td class="pin">conn</td><td class="sig">Camera-sync connector</td><td>XVS (NC), FSTROBE, GND</td><td class="note">Vias are fragile — land a <b>locking</b> connector (JST-GH/SH class) on the carrier, short pigtails from the module vias. 3-pin kept for future flexibility; <b>XVS is a no-connect in v1</b>. Keep the FSTROBE shifter on the carrier; run 1.8 V across the short cable with GND adjacent. Verify via mapping + FSTROBE level (1.8 V confirmed) before layout.</td></tr>
+      <tr><td class="pin">SIOD/SIOC</td><td class="sig">SCCB config bus</td><td>= CM5 SDA0/SCL0 (82/80)</td><td class="note">Same I²C as on the ribbon; how you arm trigger mode. GPO via = spare (NC). 3v3 via = module power.</td></tr>
+
+      <tr class="group"><td colspan="4">IMU — TDK ICM-42688-P (C1850418) on SPI0</td></tr>
+      <tr><td class="pin">38 → IMU 13</td><td class="sig">SPI0_SCLK → AP_SCLK</td><td>SPI clock</td><td class="note" rowspan="4">4-wire SPI, ≤24 MHz. Linux <code>inv_icm42600</code> driver. Keep off the camera I²C bus.</td></tr>
+      <tr><td class="pin">44 → IMU 14</td><td class="sig">SPI0_MOSI → AP_SDI</td><td>Data CM5 → IMU</td></tr>
+      <tr><td class="pin">40 → IMU 1</td><td class="sig">SPI0_MISO → AP_SDO</td><td>Data IMU → CM5</td></tr>
+      <tr><td class="pin">39 → IMU 12</td><td class="sig">SPI0_CE0 → AP_CS</td><td>Chip select</td></tr>
+      <tr><td class="pin">41 → IMU 4</td><td class="sig">GPIO25 → INT1</td><td>Data-ready interrupt</td><td class="note">Hardware INT = precise per-sample timestamps for fusion.</td></tr>
+      <tr><td class="pin">IMU 8 / 5</td><td class="sig">VDD / VDDIO</td><td>Both → 3.3 V (CM5_3.3V)</td><td class="note">VDDIO sets SPI logic level → 3.3 V to match GPIO bank. Decouple: 0.1 µF + 2.2 µF on VDD, 10 nF on VDDIO, close to pins.</td></tr>
+      <tr><td class="pin">IMU 9</td><td class="sig">INT2 / FSYNC / CLKIN</td><td>GND via 0 Ω / solder-jumper</td><td class="note">FSYNC unused — IMU stays on the PHC timeline via FIFO timestamps anchored in software. Ground through a 0 Ω (not a hard short) to keep the option open. Higher-value future use of this pin is <b>CLKIN</b> (discipline sample clock to a PHC-derived ~32 kHz), not FSYNC.</td></tr>
+      <tr><td class="pin">IMU 6 / 7</td><td class="sig">GND / RESV</td><td>Ground</td><td class="note">Pin 7 RESV must go to GND. Pins 2/3/10/11 RESV: NC or GND. LGA-14, reflow; watch pin-1 fiducial.</td></tr>
+
+      <tr class="group opt"><td colspan="4">Recommended Add-Ons (optional / DNP-friendly)</td></tr>
+      <tr><td class="pin">GPIO18 (49)</td><td class="sig">Unused in v1 — <b>NC</b></td><td>no connect</td><td class="note">XVS dropped → no frame trigger to generate, so GPIO18 drives nothing and is left unconnected. The earlier PEROUT/SYNC_OUT bench-validation test point is removed. Multi-unit time sync is in-band <b>PTP over Ethernet</b> (network), not this pin.</td></tr>
+      <tr><td class="pin">FSTROBE → in</td><td class="sig">Exposure → <b>GPIO17 (pin 50)</b></td><td>up-shift 1.8 → 3.3 V</td><td class="note">Land the shifter output on <b>GPIO17 (CM5 pin 50)</b> and capture the edge with <b>RP1 PIO</b> stamped against the PHC — <b>not</b> a plain GPIO IRQ (µs-scale latency jitter smears the timestamp). CM5 GPIO needs ≥2.0 V for a logic high, so 1.8 V FSTROBE <b>must be up-shifted</b> — dual-supply <b>SN74LVC1T45</b> (VCCA 1.8 V, VCCB 3.3 V, DIR→VCCA for A→B). NB: GPIO17 ≠ connector pin 17 (that is nLED2). Logs true exposure time per frame for replay/salvage.</td></tr>
+      <tr><td class="pin">FSTROBE → LED</td><td class="sig">Illumination enable</td><td>→ LED driver enable</td><td class="note">Strobe illumination only during integration — efficient, kills motion blur, self-timed by the sensor.</td></tr>
+      <tr><td class="pin">→ shifter</td><td class="sig">SN74LVC1T45</td><td>1.8 V → 3.3 V → FSTROBE capture</td><td class="note">Dual-supply level translator for the FSTROBE up-shift (<b>not</b> BSS138 — its RC edge smears the timestamp). VCCA = sensor 1.8 V, VCCB = CM5 3.3 V, DIR strapped A→B (camera-out → CM5-in). SC70-6. The old 3.3→1.8 V XVS down-shifter (74LVC1G125) is <b>removed</b> with XVS dropped.</td></tr>
+      <tr><td class="pin">free GPIO/PWM</td><td class="sig">LED illumination en</td><td>Constant-current driver</td><td class="note">Optionally strobe with exposure window.</td></tr>
+      <tr><td class="pin">spare I²C</td><td class="sig">V/I monitor</td><td>INA-class on 12 V input</td><td class="note">Brownout telemetry feeds confidence weighting + replay.</td></tr>
+      <tr><td class="pin">SPI / spare</td><td class="sig">CAN FD transceiver</td><td>e.g. MCP2518FD</td><td class="note">Populate-or-not footprint; hedges CAN-native thesis for Pro tier.</td></tr>
+    </tbody>
+  </table>
+
+  <div class="callout">
+    <b>Three things easy to miss:</b> (1) <code>GPIO_VREF</code> (78) absolutely cannot float — tie to 3.3 V or the whole GPIO bank misbehaves. (2) With no SD slot, the eMMC is <em>only</em> flashable via <code>nRPIBOOT</code> + USB, so the USB-C path and the nRPIBOOT jumper are mandatory, not convenience features. (3) The TPS630701 buck-boost tops out at <b>16 V input</b> — thin margin on a transient-heavy FRC rail — so the 12 V protection must use the adjustable-cutoff eFuse (TPS26631), not a passive TVS or the fixed-clamp -636.
+  </div>
+
+  <footer>Source: Raspberry Pi Compute Module 5 Datasheet, Release 2 (07/10/2025). Pin numbers verified against §4.2 Pinout. Reference only — confirm against your schematic capture.</footer>
+</div>
+</body>
+</html>
