@@ -667,6 +667,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LSCS Part",
+          "name": "LSCS Part",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -712,28 +718,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "gpio.kicad_sch",
-        "name": "GPIO",
-        "uuid": "75513977-fef1-42fe-bc15-25ff10c00c36"
-      },
-      {
-        "filename": "buck_boost.kicad_sch",
-        "name": "Buck Boost",
-        "uuid": "ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-      },
-      {
-        "filename": "imu.kicad_sch",
-        "name": "IMU",
-        "uuid": "69fac105-0d9d-408f-a1f4-d2b6942bf0bd"
+        "filename": "BetterVisionMainBoard.kicad_sch",
+        "name": "BetterVisionMainBoard",
+        "uuid": "f44ceb17-72f5-41f7-85b6-46c590c0f90f"
       }
     ],
-    "used_designators": "#PWR101,#PWR112-115,R3,R6,RJ1,C3,U5",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
-      "75513977-fef1-42fe-bc15-25ff10c00c36",
-      "GPIO"
+      "f44ceb17-72f5-41f7-85b6-46c590c0f90f",
+      "BetterVisionMainBoard"
     ],
     [
       "ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca",
