@@ -3334,160 +3334,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:ERJPA2F4700X"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ERJPA2F4700X"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "EasyEDA:R0402"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_PANASONIC-ERJPA2F4700X_C427238.html"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "PANASONIC(松下)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "ERJPA2F4700X"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C427238"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Resistors"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ERJPA2F4700X_0_1"
-				(rectangle
-					(start -2.54 1.27)
-					(end 2.54 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "EasyEDA:FRC0402F3162TS"
 			(pin_numbers
 				(hide yes)
@@ -4584,166 +4430,6 @@
 				)
 			)
 			(symbol "RC0402FR-07100KL_0_1"
-				(rectangle
-					(start -2.54 1.02)
-					(end 2.54 -1.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "EasyEDA:RC0402FR-0710KL"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RC0402FR-0710KL"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "EasyEDA:R0402"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1002-1_C60490.html"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO(国巨)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "RC0402FR-0710KL"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C60490"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Resistors"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RC0402FR-0710KL_0_1"
 				(rectangle
 					(start -2.54 1.02)
 					(end 2.54 -1.02)
@@ -6366,6 +6052,320 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "JLCImport:ERJPA2F4700X"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 3.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ERJPA2F4700X"
+				(at 0 -3.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:ERJPA2F4700X"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404111648_PANASONIC-ERJPA2F4700X_C427238.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-55℃~+155℃ 200mW 470Ω 50V Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C427238"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "PANASONIC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "ERJPA2F4700X"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C427238 ERJPA2F4700X PANASONIC R0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ERJPA2F4700X_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JLCImport:RC0402FR-0710KL"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 3.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RC0402FR-0710KL"
+				(at 0 -3.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:RC0402FR-0710KL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0402FR-0710KL_C60490.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C60490"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "RC0402FR-0710KL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C60490 R0402 RC0402FR-0710KL YAGEO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RC0402FR-0710KL_0_1"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RC0402FR-07100KL_1"
 			(pin_numbers
 				(hide yes)
@@ -6476,166 +6476,6 @@
 				)
 			)
 			(symbol "RC0402FR-07100KL_1_0_1"
-				(rectangle
-					(start -2.54 1.02)
-					(end 2.54 -1.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "RC0402FR-0710KL_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RC0402FR-0710KL"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "EasyEDA:R0402"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1002-1_C60490.html"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO(国巨)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "RC0402FR-0710KL"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C60490"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Resistors"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RC0402FR-0710KL_1_0_1"
 				(rectangle
 					(start -2.54 1.02)
 					(end 2.54 -1.02)
@@ -9189,7 +9029,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "#PWR09")
 					(unit 1)
 				)
@@ -9305,7 +9145,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "COUT1")
 					(unit 1)
 				)
@@ -9421,7 +9261,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "R4")
 					(unit 1)
 				)
@@ -9498,7 +9338,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "#PWR067")
 					(unit 1)
 				)
@@ -9613,7 +9453,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "R9")
 					(unit 1)
 				)
@@ -9692,7 +9532,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "#FLG01")
 					(unit 1)
 				)
@@ -9807,7 +9647,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "C9")
 					(unit 1)
 				)
@@ -9885,7 +9725,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "#PWR079")
 					(unit 1)
 				)
@@ -10000,7 +9840,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "R2")
 					(unit 1)
 				)
@@ -10078,7 +9918,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "#PWR01")
 					(unit 1)
 				)
@@ -10209,7 +10049,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "U7")
 					(unit 1)
 				)
@@ -10217,8 +10057,7 @@
 		)
 	)
 	(symbol
-		(lib_name "RC0402FR-0710KL_1")
-		(lib_id "EasyEDA:RC0402FR-0710KL")
+		(lib_id "JLCImport:RC0402FR-0710KL")
 		(at 242.57 59.69 90)
 		(unit 1)
 		(body_style 1)
@@ -10251,29 +10090,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "EasyEDA:R0402"
-			(at 250.19 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1002-1_C60490.html"
-			(at 252.73 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
+		(property "Footprint" "JLCImport:RC0402FR-0710KL"
 			(at 242.57 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -10284,8 +10101,30 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 255.27 59.69 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0402FR-0710KL_C60490.pdf"
+			(at 242.57 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 242.57 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 242.57 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10317,6 +10156,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C60490"
+			(at 242.57 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "RC0402FR-0710KL"
+			(at 242.57 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3bac008e-8371-4729-9732-d1435bf4620c")
 		)
@@ -10325,7 +10186,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "R5")
 					(unit 1)
 				)
@@ -10441,7 +10302,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "COUT3")
 					(unit 1)
 				)
@@ -10520,7 +10381,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "#FLG02")
 					(unit 1)
 				)
@@ -10635,7 +10496,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "C8")
 					(unit 1)
 				)
@@ -10713,7 +10574,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "#PWR084")
 					(unit 1)
 				)
@@ -10827,7 +10688,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "D2")
 					(unit 1)
 				)
@@ -10942,7 +10803,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "C4")
 					(unit 1)
 				)
@@ -11057,7 +10918,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "R1")
 					(unit 1)
 				)
@@ -11136,7 +10997,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "#FLG03")
 					(unit 1)
 				)
@@ -11252,7 +11113,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "COUT2")
 					(unit 1)
 				)
@@ -11371,7 +11232,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "Q2")
 					(unit 1)
 				)
@@ -11450,7 +11311,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "#FLG04")
 					(unit 1)
 				)
@@ -11527,7 +11388,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "#PWR068")
 					(unit 1)
 				)
@@ -11642,7 +11503,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "R16")
 					(unit 1)
 				)
@@ -11757,7 +11618,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "R12")
 					(unit 1)
 				)
@@ -11836,7 +11697,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "#PWR083")
 					(unit 1)
 				)
@@ -11951,7 +11812,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "C2")
 					(unit 1)
 				)
@@ -12066,7 +11927,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "R14")
 					(unit 1)
 				)
@@ -12144,7 +12005,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "#PWR080")
 					(unit 1)
 				)
@@ -12222,7 +12083,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "#PWR081")
 					(unit 1)
 				)
@@ -12299,7 +12160,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "#PWR08")
 					(unit 1)
 				)
@@ -12412,7 +12273,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "L1")
 					(unit 1)
 				)
@@ -12528,7 +12389,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "CIN1")
 					(unit 1)
 				)
@@ -12536,7 +12397,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:ERJPA2F4700X")
+		(lib_id "JLCImport:ERJPA2F4700X")
 		(at 115.57 171.45 180)
 		(unit 1)
 		(body_style 1)
@@ -12567,29 +12428,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:R0402"
-			(at 115.57 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_PANASONIC-ERJPA2F4700X_C427238.html"
-			(at 115.57 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
+		(property "Footprint" "JLCImport:ERJPA2F4700X"
 			(at 115.57 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -12600,8 +12439,30 @@
 				)
 			)
 		)
-		(property "Manufacturer" "PANASONIC(松下)"
-			(at 115.57 158.75 0)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404111648_PANASONIC-ERJPA2F4700X_C427238.pdf"
+			(at 115.57 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 200mW 470Ω 50V Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 115.57 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "PANASONIC"
+			(at 115.57 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12633,6 +12494,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C427238"
+			(at 115.57 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "ERJPA2F4700X"
+			(at 115.57 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8a25b160-a706-498b-a9ea-41543d3ac5ee")
 		)
@@ -12641,7 +12524,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "R7")
 					(unit 1)
 				)
@@ -12719,7 +12602,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "#PWR04")
 					(unit 1)
 				)
@@ -12796,7 +12679,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "#PWR011")
 					(unit 1)
 				)
@@ -12804,7 +12687,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:RC0402FR-0710KL")
+		(lib_id "JLCImport:RC0402FR-0710KL")
 		(at 199.39 76.2 90)
 		(unit 1)
 		(body_style 1)
@@ -12837,29 +12720,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "EasyEDA:R0402"
-			(at 207.01 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1002-1_C60490.html"
-			(at 209.55 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
+		(property "Footprint" "JLCImport:RC0402FR-0710KL"
 			(at 199.39 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -12870,8 +12731,30 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 212.09 76.2 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0402FR-0710KL_C60490.pdf"
+			(at 199.39 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 199.39 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 199.39 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12903,6 +12786,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C60490"
+			(at 199.39 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "RC0402FR-0710KL"
+			(at 199.39 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4a5f5db0-e70c-4dc1-a3ec-b8e08a9e6236")
 		)
@@ -12911,7 +12816,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "R13")
 					(unit 1)
 				)
@@ -12990,7 +12895,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "#PWR085")
 					(unit 1)
 				)
@@ -13104,7 +13009,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "D3")
 					(unit 1)
 				)
@@ -13181,7 +13086,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "#PWR012")
 					(unit 1)
 				)
@@ -13260,7 +13165,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "#PWR082")
 					(unit 1)
 				)
@@ -13337,7 +13242,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "#PWR06")
 					(unit 1)
 				)
@@ -13415,7 +13320,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "#PWR03")
 					(unit 1)
 				)
@@ -13530,7 +13435,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "R8")
 					(unit 1)
 				)
@@ -13607,7 +13512,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "#PWR010")
 					(unit 1)
 				)
@@ -13759,7 +13664,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "U1")
 					(unit 1)
 				)
@@ -13890,7 +13795,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "Q1")
 					(unit 1)
 				)
@@ -14006,7 +13911,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "CIN2")
 					(unit 1)
 				)
@@ -14121,7 +14026,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "R15")
 					(unit 1)
 				)
@@ -14291,7 +14196,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "U10")
 					(unit 1)
 				)
@@ -14406,7 +14311,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "R10")
 					(unit 1)
 				)
@@ -14522,7 +14427,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "C1")
 					(unit 1)
 				)
@@ -14643,7 +14548,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "U2")
 					(unit 1)
 				)
@@ -14722,7 +14627,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "#FLG05")
 					(unit 1)
 				)
@@ -14799,7 +14704,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "#PWR070")
 					(unit 1)
 				)
@@ -14877,7 +14782,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "#PWR07")
 					(unit 1)
 				)
@@ -14992,16 +14897,11 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "CVAUX1")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "2")
 		)
 	)
 )

@@ -733,11 +733,11 @@
     ],
     [
       "ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca",
-      "Buck Boost"
+      "buck_boost"
     ],
     [
       "69fac105-0d9d-408f-a1f4-d2b6942bf0bd",
-      "IMU"
+      "imu"
     ]
   ],
   "text_variables": {},

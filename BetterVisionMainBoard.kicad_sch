@@ -3993,7 +3993,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ERJPA2F4700X_1"
+		(symbol "EasyEDA:CC0402KRX7R7BB104"
 			(pin_numbers
 				(hide yes)
 			)
@@ -4005,7 +4005,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
+			(property "Reference" "C"
 				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4015,7 +4015,7 @@
 					)
 				)
 			)
-			(property "Value" "ERJPA2F4700X"
+			(property "Value" "CC0402KRX7R7BB104"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4025,7 +4025,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:R0402"
+			(property "Footprint" "EasyEDA:C0402"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4036,7 +4036,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_PANASONIC-ERJPA2F4700X_C427238.html"
+			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-16V_C60474.html"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4058,7 +4058,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "PANASONIC(松下)"
+			(property "Manufacturer" "YAGEO(国巨)"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4069,7 +4069,7 @@
 					)
 				)
 			)
-			(property "MPN" "ERJPA2F4700X"
+			(property "MPN" "CC0402KRX7R7BB104"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4080,7 +4080,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C427238"
+			(property "LCSC Part" "C60474"
 				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4091,7 +4091,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Resistors"
+			(property "ki_keywords" "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4102,16 +4102,53 @@
 					)
 				)
 			)
-			(symbol "ERJPA2F4700X_1_0_1"
-				(rectangle
-					(start -2.54 1.27)
-					(end 2.54 -1.27)
+			(symbol "CC0402KRX7R7BB104_0_1"
+				(polyline
+					(pts
+						(xy -0.51 0) (xy -2.54 0)
+					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 -2.03) (xy -0.51 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 2.03) (xy 0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin unspecified line
@@ -4153,174 +4190,17 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ERJPA2F4700X_2"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "JLCImport:AFC01-S22FCA-00"
 			(pin_names
-				(hide yes)
+				(offset 1.016)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ERJPA2F4700X"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "EasyEDA:R0402"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_PANASONIC-ERJPA2F4700X_C427238.html"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "PANASONIC(松下)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "ERJPA2F4700X"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C427238"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Resistors"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ERJPA2F4700X_2_0_1"
-				(rectangle
-					(start -2.54 1.27)
-					(end 2.54 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "EasyEDA:AFC01-S22FCA-00"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "FPC"
-				(at 0 39.37 0)
+				(at 0 36.29 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4330,7 +4210,7 @@
 				)
 			)
 			(property "Value" "AFC01-S22FCA-00"
-				(at 0 -39.37 0)
+				(at 0 -36.29 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4339,29 +4219,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:FPC-SMD_P0.5-22P_FGS-XJ-H2.0"
-				(at 0 -41.91 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Others_JUSHUO-AFC01-S22FCA-00_C262668.html"
-				(at 0 -44.45 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
+			(property "Footprint" "JLCImport:AFC01-S22FCA-00"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4372,8 +4230,8 @@
 					)
 				)
 			)
-			(property "Manufacturer" "JS(钜硕电子)"
-				(at 0 -46.99 0)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JUSHUO-AFC01-S22FCA-00_C262668.pdf"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4383,8 +4241,8 @@
 					)
 				)
 			)
-			(property "MPN" "AFC01-S22FCA-00"
-				(at 0 -49.53 0)
+			(property "Description" "0.3mm 0.5mm 22P 2mm Bottom Contact Copper alloy Hinged Lid Surface Mount, Right Angle Tin SMD,P=0.5mm,卧贴 FFC, FPC (Flat Flexible) Connector Assemblies ROHS"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4394,8 +4252,8 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C262668"
-				(at 0 -52.07 0)
+			(property "LCSC" "C262668"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4405,7 +4263,29 @@
 					)
 				)
 			)
-			(property "ki_keywords" "FFC/FPC Connectors"
+			(property "Manufacturer" "JUSHUO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "AFC01-S22FCA-00"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "AFC01-S22FCA-00 C262668 FPC-SMD_P0.5-22P_FGS-XJ-H2.0 JUSHUO"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4417,12 +4297,19 @@
 				)
 			)
 			(symbol "AFC01-S22FCA-00_0_1"
-				(rectangle
-					(start -1.27 29.21)
-					(end 6.35 -29.21)
+				(polyline
+					(pts
+						(xy 5.842 -29.21) (xy 5.9411 -29.2002) (xy 6.0364 -29.1713) (xy 6.1242 -29.1244) (xy 6.2012 -29.0612)
+						(xy 6.2644 -28.9842) (xy 6.3113 -28.8964) (xy 6.3402 -28.8011) (xy 6.35 -28.702) (xy 6.3402 28.8011)
+						(xy 6.3113 28.8964) (xy 6.2644 28.9842) (xy 6.2012 29.0612) (xy 6.1242 29.1244) (xy 6.0364 29.1713)
+						(xy 5.9411 29.2002) (xy 5.842 29.21) (xy -0.8611 29.2002) (xy -0.9564 29.1713) (xy -1.0442 29.1244)
+						(xy -1.1212 29.0612) (xy -1.1844 28.9842) (xy -1.2313 28.8964) (xy -1.2602 28.8011) (xy -1.27 28.702)
+						(xy -1.2602 -28.8011) (xy -1.2313 -28.8964) (xy -1.1844 -28.9842) (xy -1.1212 -29.0612) (xy -1.0442 -29.1244)
+						(xy -0.9564 -29.1713) (xy -0.8611 -29.2002) (xy -0.762 -29.21) (xy 5.842 -29.21)
+					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type background)
@@ -4863,14 +4750,17 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:B3B-XH-A"
+		(symbol "JLCImport:B3B-XH-A_LF_SN"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 0 10.16 0)
+				(at 0 9.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4879,18 +4769,29 @@
 					)
 				)
 			)
-			(property "Value" "B3B-XH-A"
+			(property "Value" "B3B-XH-A_LF_SN"
+				(at 0 -4.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:B3B-XH-A_LF_SN"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:CONN-TH_3P-P2.50_A2501WV2-3P"
-				(at 0 -2.54 0)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JST-B3B-XH-A-LF-SN_C144394.pdf"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4900,8 +4801,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/XH-Connectors_JST-Sales-America_B3B-XH-A-LF-SN_JST-Sales-America-B3B-XH-A-LF-SN_C144394.html"
-				(at 0 -5.08 0)
+			(property "Description" "-25℃~+85℃ 1 1x3P 2.5mm 250V 3 3A 3P 5.75mm 7mm 9.9mm Brass K Pin PA66 Through Hole Tin UL94V-0 White XH 插件,P=2.5mm Wire To Board Connector ROHS"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4911,7 +4812,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "LCSC" "C144394"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4923,39 +4824,6 @@
 				)
 			)
 			(property "Manufacturer" "JST"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "B3B-XH-A(LF)(SN)"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C144394"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Wire To Board / Wire To Wire Connector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4966,20 +4834,42 @@
 					)
 				)
 			)
-			(symbol "B3B-XH-A_0_1"
+			(property "Manufacturer Part" "B3B-XH-A(LF)(SN)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "B3B-XH-A(LF)(SN) C144394 CONN-TH_3P-P2.50_A2501WV2-3P JST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "B3B-XH-A_LF_SN_0_1"
 				(rectangle
-					(start -5.08 0)
-					(end 5.08 -5.08)
+					(start -5.08 2.54)
+					(end 5.08 -2.54)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type background)
 					)
 				)
 				(pin unspecified line
-					(at -2.54 5.08 270)
+					(at -2.54 7.62 270)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -4997,7 +4887,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 5.08 270)
+					(at 0 7.62 270)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -5015,7 +4905,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 2.54 5.08 270)
+					(at 2.54 7.62 270)
 					(length 5.08)
 					(name "3"
 						(effects
@@ -5035,20 +4925,17 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:CC0402KRX7R7BB104"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "JLCImport:ERJPA2F4700X"
 			(pin_names
-				(hide yes)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0 5.08 0)
+			(property "Reference" "R"
+				(at 0 3.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -5057,8 +4944,8 @@
 					)
 				)
 			)
-			(property "Value" "CC0402KRX7R7BB104"
-				(at 0 -5.08 0)
+			(property "Value" "ERJPA2F4700X"
+				(at 0 -3.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -5067,29 +4954,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:C0402"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-16V_C60474.html"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
+			(property "Footprint" "JLCImport:ERJPA2F4700X"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5100,40 +4965,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "YAGEO(国巨)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "CC0402KRX7R7BB104"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C60474"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404111648_PANASONIC-ERJPA2F4700X_C427238.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5144,53 +4976,71 @@
 					)
 				)
 			)
-			(symbol "CC0402KRX7R7BB104_0_1"
-				(polyline
-					(pts
-						(xy -0.51 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+			(property "Description" "-55℃~+155℃ 200mW 470Ω 50V Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.51 -2.03) (xy -0.51 2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+			)
+			(property "LCSC" "C427238"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.51 0)
+			)
+			(property "Manufacturer" "PANASONIC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
+				)
+			)
+			(property "Manufacturer Part" "ERJPA2F4700X"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C427238 ERJPA2F4700X PANASONIC R0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ERJPA2F4700X_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(pin unspecified line
@@ -5232,14 +5082,17 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:GT-USB-7010ASV"
+		(symbol "JLCImport:GT-USB-7010ASV"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 0 19.05 0)
+				(at 0 19.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -5249,7 +5102,7 @@
 				)
 			)
 			(property "Value" "GT-USB-7010ASV"
-				(at 0 -19.05 0)
+				(at 0 -17.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -5258,29 +5111,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:USB-C-SMD_G-SWITCH_GT-USB-7010ASV"
-				(at 0 -21.59 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C2988369.pdf"
-				(at 0 -24.13 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
+			(property "Footprint" "JLCImport:GT-USB-7010ASV"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5291,8 +5122,8 @@
 					)
 				)
 			)
-			(property "Manufacturer" "G-Switch(品赞)"
-				(at 0 -26.67 0)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221125_G-Switch-GT-USB-7010ASV_C2988369.pdf"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5302,8 +5133,8 @@
 					)
 				)
 			)
-			(property "MPN" "GT-USB-7010ASV"
-				(at 0 -29.21 0)
+			(property "Description" "-40℃~+85℃ 1 1.68mm 10,000 Cycles 16P 24V 3A 7.35mm Black Female Surface Mount, Right Angle Type-C USB 2.0 SMD USB Connectors ROHS"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5313,8 +5144,8 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C2988369"
-				(at 0 -31.75 0)
+			(property "LCSC" "C2988369"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5324,7 +5155,29 @@
 					)
 				)
 			)
-			(property "ki_keywords" "USB Connectors"
+			(property "Manufacturer" "G-Switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "GT-USB-7010ASV"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C2988369 G-Switch GT-USB-7010ASV USB-C-SMD_G-SWITCH_GT-USB-7010ASV"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5336,30 +5189,37 @@
 				)
 			)
 			(symbol "GT-USB-7010ASV_0_1"
-				(rectangle
-					(start -6.35 16.51)
-					(end 11.43 -16.51)
+				(circle
+					(center -8.89 16.51)
+					(radius 0.381)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 -15.24) (xy 7.2111 -15.2302) (xy 7.3064 -15.2013) (xy 7.3942 -15.1544) (xy 7.4712 -15.0912)
+						(xy 7.5344 -15.0142) (xy 7.5813 -14.9264) (xy 7.6102 -14.8311) (xy 7.62 -14.732) (xy 7.6102 17.3711)
+						(xy 7.5813 17.4664) (xy 7.5344 17.5542) (xy 7.4712 17.6312) (xy 7.3942 17.6944) (xy 7.3064 17.7413)
+						(xy 7.2111 17.7702) (xy 7.112 17.78) (xy -9.7511 17.7702) (xy -9.8464 17.7413) (xy -9.9342 17.6944)
+						(xy -10.0112 17.6312) (xy -10.0744 17.5542) (xy -10.1213 17.4664) (xy -10.1502 17.3711) (xy -10.16 17.272)
+						(xy -10.1502 -14.8311) (xy -10.1213 -14.9264) (xy -10.0744 -15.0142) (xy -10.0112 -15.0912) (xy -9.9342 -15.1544)
+						(xy -9.8464 -15.2013) (xy -9.7511 -15.2302) (xy -9.652 -15.24) (xy 7.112 -15.24)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type background)
 					)
 				)
-				(circle
-					(center -5.08 15.24)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin unspecified line
-					(at 13.97 -13.97 180)
+					(at 10.16 -12.7 180)
 					(length 2.54)
 					(name "SHELL"
 						(effects
@@ -5377,7 +5237,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 13.97 -11.43 180)
+					(at 10.16 -10.16 180)
 					(length 2.54)
 					(name "SHELL"
 						(effects
@@ -5395,7 +5255,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 13.97 11.43 180)
+					(at 10.16 12.7 180)
 					(length 2.54)
 					(name "SHELL"
 						(effects
@@ -5413,7 +5273,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 13.97 13.97 180)
+					(at 10.16 15.24 180)
 					(length 2.54)
 					(name "SHELL"
 						(effects
@@ -5431,7 +5291,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -8.89 13.97 0)
+					(at -12.7 15.24 0)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -5449,7 +5309,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -8.89 11.43 0)
+					(at -12.7 12.7 0)
 					(length 2.54)
 					(name "VBUS"
 						(effects
@@ -5467,7 +5327,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -8.89 6.35 0)
+					(at -12.7 7.62 0)
 					(length 2.54)
 					(name "CC1"
 						(effects
@@ -5485,7 +5345,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -8.89 1.27 0)
+					(at -12.7 2.54 0)
 					(length 2.54)
 					(name "DP1"
 						(effects
@@ -5503,7 +5363,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -8.89 -1.27 0)
+					(at -12.7 0 0)
 					(length 2.54)
 					(name "DN1"
 						(effects
@@ -5521,7 +5381,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -8.89 -6.35 0)
+					(at -12.7 -5.08 0)
 					(length 2.54)
 					(name "SBU1"
 						(effects
@@ -5539,7 +5399,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -8.89 -13.97 0)
+					(at -12.7 -12.7 0)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -5557,7 +5417,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -8.89 -11.43 0)
+					(at -12.7 -10.16 0)
 					(length 2.54)
 					(name "VBUS"
 						(effects
@@ -5575,7 +5435,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -8.89 -8.89 0)
+					(at -12.7 -7.62 0)
 					(length 2.54)
 					(name "CC2"
 						(effects
@@ -5593,7 +5453,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -8.89 -3.81 0)
+					(at -12.7 -2.54 0)
 					(length 2.54)
 					(name "DP2"
 						(effects
@@ -5611,7 +5471,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -8.89 3.81 0)
+					(at -12.7 5.08 0)
 					(length 2.54)
 					(name "DN2"
 						(effects
@@ -5629,7 +5489,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -8.89 8.89 0)
+					(at -12.7 10.16 0)
 					(length 2.54)
 					(name "SBU2"
 						(effects
@@ -5649,14 +5509,17 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:LPJG0926HENL_C22457393"
+		(symbol "JLCImport:LPJG0926HENL_C22457393"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "RJ"
-				(at 0 26.67 0)
+				(at 0 23.59 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -5666,7 +5529,7 @@
 				)
 			)
 			(property "Value" "LPJG0926HENL_C22457393"
-				(at 0 -26.67 0)
+				(at 0 -23.59 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -5675,29 +5538,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:RJ45-TH_LPJG0926HENL_C22457393"
-				(at 0 -29.21 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C22457393.pdf"
-				(at 0 -31.75 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
+			(property "Footprint" "JLCImport:LPJG0926HENL_C22457393"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5708,8 +5549,8 @@
 					)
 				)
 			)
-			(property "Manufacturer" "LINK-PP(连普科技)"
-				(at 0 -34.29 0)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20250709/DE426B8BF096B5442AFA4AE31641E078.pdf"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5719,8 +5560,8 @@
 					)
 				)
 			)
-			(property "MPN" "LPJG0926HENL"
-				(at 0 -36.83 0)
+			(property "Description" "0℃~+70℃ 1 Gold Phosphor bronze RJ45 Jack Right Angle Shielded With LED With PoE Plugin Ethernet Connectors / Modular Connectors (RJ45 RJ11) ROHS"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5730,8 +5571,41 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C22457393"
-				(at 0 -39.37 0)
+			(property "LCSC" "C22457393"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "--"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "LPJG0926HENL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "-- C22457393 LPJG0926HENL RJ45-TH_LPJG0926HENL_C22457393"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5742,26 +5616,33 @@
 				)
 			)
 			(symbol "LPJG0926HENL_C22457393_0_1"
-				(rectangle
-					(start -6.35 19.05)
-					(end 10.16 -19.05)
+				(circle
+					(center -5.08 17.78)
+					(radius 0.381)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.652 -19.05) (xy 9.7511 -19.0402) (xy 9.8464 -19.0113) (xy 9.9342 -18.9644) (xy 10.0112 -18.9012)
+						(xy 10.0744 -18.8242) (xy 10.1213 -18.7364) (xy 10.1502 -18.6411) (xy 10.16 -18.542) (xy 10.1502 18.6411)
+						(xy 10.1213 18.7364) (xy 10.0744 18.8242) (xy 10.0112 18.9012) (xy 9.9342 18.9644) (xy 9.8464 19.0113)
+						(xy 9.7511 19.0402) (xy 9.652 19.05) (xy -5.9411 19.0402) (xy -6.0364 19.0113) (xy -6.1242 18.9644)
+						(xy -6.2012 18.9012) (xy -6.2644 18.8242) (xy -6.3113 18.7364) (xy -6.3402 18.6411) (xy -6.35 18.542)
+						(xy -6.3402 -18.6411) (xy -6.3113 -18.7364) (xy -6.2644 -18.8242) (xy -6.2012 -18.9012) (xy -6.1242 -18.9644)
+						(xy -6.0364 -19.0113) (xy -5.9411 -19.0402) (xy -5.842 -19.05) (xy 9.652 -19.05)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type background)
-					)
-				)
-				(circle
-					(center -5.08 17.78)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(pin unspecified line
@@ -6127,12 +6008,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:RC0402FR-0710KL"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "JLCImport:RC0402FR-0710KL"
 			(pin_names
-				(hide yes)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6140,7 +6018,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 0 5.08 0)
+				(at 0 3.016 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -6150,7 +6028,7 @@
 				)
 			)
 			(property "Value" "RC0402FR-0710KL"
-				(at 0 -5.08 0)
+				(at 0 -3.016 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -6159,29 +6037,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:R0402"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1002-1_C60490.html"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
+			(property "Footprint" "JLCImport:RC0402FR-0710KL"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6192,8 +6048,8 @@
 					)
 				)
 			)
-			(property "Manufacturer" "YAGEO(国巨)"
-				(at 0 -12.7 0)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0402FR-0710KL_C60490.pdf"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -6203,8 +6059,8 @@
 					)
 				)
 			)
-			(property "MPN" "RC0402FR-0710KL"
-				(at 0 -15.24 0)
+			(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -6214,8 +6070,8 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C60490"
-				(at 0 -17.78 0)
+			(property "LCSC" "C60490"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -6225,7 +6081,29 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Resistors"
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "RC0402FR-0710KL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C60490 R0402 RC0402FR-0710KL YAGEO"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6238,11 +6116,11 @@
 			)
 			(symbol "RC0402FR-0710KL_0_1"
 				(rectangle
-					(start -2.54 1.02)
-					(end 2.54 -1.02)
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type background)
@@ -6287,12 +6165,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:RC0402FR-071KL"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "JLCImport:RC0402FR-071KL"
 			(pin_names
-				(hide yes)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6300,7 +6175,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 0 5.08 0)
+				(at 0 3.016 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -6310,7 +6185,7 @@
 				)
 			)
 			(property "Value" "RC0402FR-071KL"
-				(at 0 -5.08 0)
+				(at 0 -3.016 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -6319,29 +6194,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:R0402"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_1KR-1001-1_C106235.html"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
+			(property "Footprint" "JLCImport:RC0402FR-071KL"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6352,8 +6205,8 @@
 					)
 				)
 			)
-			(property "Manufacturer" "YAGEO(国巨)"
-				(at 0 -12.7 0)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0402FR-071KL_C106235.pdf"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -6363,8 +6216,8 @@
 					)
 				)
 			)
-			(property "MPN" "RC0402FR-071KL"
-				(at 0 -15.24 0)
+			(property "Description" "-55℃~+155℃ 1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -6374,8 +6227,8 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C106235"
-				(at 0 -17.78 0)
+			(property "LCSC" "C106235"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -6385,7 +6238,29 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Resistors"
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "RC0402FR-071KL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C106235 R0402 RC0402FR-071KL YAGEO"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6398,11 +6273,11 @@
 			)
 			(symbol "RC0402FR-071KL_0_1"
 				(rectangle
-					(start -2.54 1.02)
-					(end 2.54 -1.02)
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type background)
@@ -6447,14 +6322,17 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:SN74LVC1T45DCKR"
+		(symbol "JLCImport:SN74LVC1T45DCKR"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 0 7.62 0)
+				(at 0 7.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -6464,7 +6342,7 @@
 				)
 			)
 			(property "Value" "SN74LVC1T45DCKR"
-				(at 0 -7.62 0)
+				(at 0 -7.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -6473,29 +6351,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:SC-70-6_L2.2-W1.3-P0.65-LS2.2-BR"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/74-Series_TI_SN74LVC1T45DCKR_SN74LVC1T45DCKR_C9382.html"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
+			(property "Footprint" "JLCImport:SN74LVC1T45DCKR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6506,8 +6362,8 @@
 					)
 				)
 			)
-			(property "Manufacturer" "TI(德州仪器)"
-				(at 0 -15.24 0)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810271111_Texas-Instruments-SN74LVC1T45DCKR_C9382.pdf"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -6517,8 +6373,8 @@
 					)
 				)
 			)
-			(property "MPN" "SN74LVC1T45DCKR"
-				(at 0 -17.78 0)
+			(property "Description" "-40℃~+85℃ 1 1 1.65V~5.5V 1.65V~5.5V 420Mbps Bidirectional Level translator Power-off protection、Output enable high-impedance Tri-State SC-70-6 Translators, Level Shifters ROHS"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -6528,8 +6384,8 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C9382"
-				(at 0 -20.32 0)
+			(property "LCSC" "C9382"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -6539,7 +6395,29 @@
 					)
 				)
 			)
-			(property "ki_keywords" "74 Series"
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "SN74LVC1T45DCKR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C9382 SC-70-6_L2.2-W1.3-P0.65-LS2.2-BR SN74LVC1T45DCKR Texas Instruments"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6551,26 +6429,33 @@
 				)
 			)
 			(symbol "SN74LVC1T45DCKR_0_1"
-				(rectangle
-					(start -8.89 5.08)
-					(end 8.89 -5.08)
+				(circle
+					(center -7.62 3.81)
+					(radius 0.381)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.382 -5.08) (xy 8.4811 -5.0702) (xy 8.5764 -5.0413) (xy 8.6642 -4.9944) (xy 8.7412 -4.9312)
+						(xy 8.8044 -4.8542) (xy 8.8513 -4.7664) (xy 8.8802 -4.6711) (xy 8.89 -4.572) (xy 8.8802 4.6711)
+						(xy 8.8513 4.7664) (xy 8.8044 4.8542) (xy 8.7412 4.9312) (xy 8.6642 4.9944) (xy 8.5764 5.0413)
+						(xy 8.4811 5.0702) (xy 8.382 5.08) (xy -8.4811 5.0702) (xy -8.5764 5.0413) (xy -8.6642 4.9944)
+						(xy -8.7412 4.9312) (xy -8.8044 4.8542) (xy -8.8513 4.7664) (xy -8.8802 4.6711) (xy -8.89 4.572)
+						(xy -8.8802 -4.6711) (xy -8.8513 -4.7664) (xy -8.8044 -4.8542) (xy -8.7412 -4.9312) (xy -8.6642 -4.9944)
+						(xy -8.5764 -5.0413) (xy -8.4811 -5.0702) (xy -8.382 -5.08) (xy 8.382 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type background)
-					)
-				)
-				(circle
-					(center -7.62 3.81)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(pin unspecified line
@@ -6684,14 +6569,17 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:TPD4EUSB30DQAR"
+		(symbol "JLCImport:TPD4EUSB30DQAR"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 0 10.16 0)
+				(at 0 10.128 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -6701,7 +6589,7 @@
 				)
 			)
 			(property "Value" "TPD4EUSB30DQAR"
-				(at 0 -10.16 0)
+				(at 0 -10.128 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -6710,29 +6598,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:USON-10_L2.5-W1.0-P0.50-BL"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/USB_TI_TPD4EUSB30DQAR_TPD4EUSB30DQAR_C90627.html"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
+			(property "Footprint" "JLCImport:TPD4EUSB30DQAR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6743,8 +6609,8 @@
 					)
 				)
 			)
-			(property "Manufacturer" "TI(德州仪器)"
-				(at 0 -17.78 0)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1805251249_Texas-Instruments-TPD4EUSB30DQAR_C90627.pdf"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -6754,8 +6620,8 @@
 					)
 				)
 			)
-			(property "MPN" "TPD4EUSB30DQAR"
-				(at 0 -20.32 0)
+			(property "Description" "-40℃~+85℃ 0.8pF 45W@8/20us 5.5V 5A@8/20us 7V 8V ESD Four channels IEC 61000-4-2、IEC 61000-4-5 Unidirectional USON-10(1x2.5) ESD and Surge Protection (TVS/ESD) ROHS"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -6765,8 +6631,8 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C90627"
-				(at 0 -22.86 0)
+			(property "LCSC" "C90627"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -6776,7 +6642,29 @@
 					)
 				)
 			)
-			(property "ki_keywords" "ESD Protection Devices"
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "TPD4EUSB30DQAR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C90627 TPD4EUSB30DQAR Texas Instruments USON-10_L2.5-W1.0-P0.50-BL"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6788,37 +6676,44 @@
 				)
 			)
 			(symbol "TPD4EUSB30DQAR_0_1"
-				(rectangle
-					(start -10.16 8.13)
-					(end 10.16 -8.13)
+				(circle
+					(center -8.89 6.858)
+					(radius 0.381)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -8.89 6.858)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.652 -8.128) (xy 9.7511 -8.1182) (xy 9.8464 -8.0893) (xy 9.9342 -8.0424) (xy 10.0112 -7.9792)
+						(xy 10.0744 -7.9022) (xy 10.1213 -7.8144) (xy 10.1502 -7.7191) (xy 10.16 -7.62) (xy 10.1502 7.7191)
+						(xy 10.1213 7.8144) (xy 10.0744 7.9022) (xy 10.0112 7.9792) (xy 9.9342 8.0424) (xy 9.8464 8.0893)
+						(xy 9.7511 8.1182) (xy 9.652 8.128) (xy -9.7511 8.1182) (xy -9.8464 8.0893) (xy -9.9342 8.0424)
+						(xy -10.0112 7.9792) (xy -10.0744 7.9022) (xy -10.1213 7.8144) (xy -10.1502 7.7191) (xy -10.16 7.62)
+						(xy -10.1502 -7.7191) (xy -10.1213 -7.8144) (xy -10.0744 -7.9022) (xy -10.0112 -7.9792) (xy -9.9342 -8.0424)
+						(xy -9.8464 -8.0893) (xy -9.7511 -8.1182) (xy -9.652 -8.128) (xy 9.652 -8.128)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type background)
-					)
-				)
-				(circle
-					(center -8.89 6.86)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -8.89 6.86)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(pin unspecified line
@@ -7004,12 +6899,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:TS665ZJ"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "JLCImport:TS665ZJ"
 			(pin_names
-				(hide yes)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7017,7 +6909,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SW"
-				(at 0 6.35 0)
+				(at 0 4.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -7027,7 +6919,7 @@
 				)
 			)
 			(property "Value" "TS665ZJ"
-				(at 0 -8.89 0)
+				(at 0 -4.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -7036,29 +6928,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:SW-TH_TS665ZJ"
-				(at 0 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_SHOU-HAN-TS665ZJ_C557599.html"
-				(at 0 -13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
+			(property "Footprint" "JLCImport:TS665ZJ"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7069,8 +6939,8 @@
 					)
 				)
 			)
-			(property "Manufacturer" "SHOU HAN(首韩)"
-				(at 0 -16.51 0)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2005221232_SHOU-HAN-TS665ZJ_C557599.pdf"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -7080,8 +6950,8 @@
 					)
 				)
 			)
-			(property "MPN" "TS665ZJ"
-				(at 0 -19.05 0)
+			(property "Description" "-25℃~+70℃ 100,000 cycles 12V 2.5N 50mA 5mm 6.2mm 7.5mm Black No PC Pin Right Angle Round Button SPST With Bracket 弯插,6.2x6.2mm Tactile Switches ROHS"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -7091,8 +6961,8 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C557599"
-				(at 0 -21.59 0)
+			(property "LCSC" "C557599"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -7102,7 +6972,29 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Tactile Switches"
+			(property "Manufacturer" "SHOU HAN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "TS665ZJ"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C557599 SHOU HAN SW-TH_TS665ZJ TS665ZJ"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7116,11 +7008,11 @@
 			(symbol "TS665ZJ_0_1"
 				(polyline
 					(pts
-						(xy -5.08 1.27) (xy 5.08 1.27)
+						(xy -5.08 2.54) (xy 5.08 2.54)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7128,11 +7020,11 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 -3.81) (xy -2.54 -3.81)
+						(xy -5.08 -2.54) (xy -2.54 -2.54)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7140,11 +7032,11 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 1.27) (xy 0.51 1.27)
+						(xy -2.54 2.54) (xy 0.508 2.54)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7152,33 +7044,33 @@
 				)
 				(polyline
 					(pts
-						(xy -2.29 -3.3) (xy 2.03 -2.03)
+						(xy -2.286 -2.032) (xy 2.032 -0.762)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
 					)
 				)
 				(circle
-					(center -2.03 -3.81)
-					(radius 0.51)
+					(center -2.032 -2.54)
+					(radius 0.508)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
 					)
 				)
 				(circle
-					(center 2.03 -3.81)
-					(radius 0.51)
+					(center 2.032 -2.54)
+					(radius 0.508)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7186,18 +7078,18 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -3.81) (xy 2.54 -3.81)
+						(xy 5.08 -2.54) (xy 2.54 -2.54)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
 					)
 				)
 				(pin unspecified line
-					(at -7.62 -3.81 0)
+					(at -7.62 -2.54 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -7215,7 +7107,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 7.62 -3.81 180)
+					(at 7.62 -2.54 180)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -7233,7 +7125,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -7.62 1.27 0)
+					(at -7.62 2.54 0)
 					(length 2.54)
 					(name "3"
 						(effects
@@ -7251,7 +7143,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 7.62 1.27 180)
+					(at 7.62 2.54 180)
 					(length 2.54)
 					(name "4"
 						(effects
@@ -7271,14 +7163,17 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:USBLC6-4SC6"
+		(symbol "JLCImport:USBLC6-4SC6"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
-				(at 0 13.97 0)
+				(at 0 18.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -7288,7 +7183,7 @@
 				)
 			)
 			(property "Value" "USBLC6-4SC6"
-				(at 0 -13.97 0)
+				(at 0 -18.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -7297,29 +7192,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
-				(at 0 -16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Diodes-ESD_STMicroelectronics_USBLC6-4SC6_USBLC6-4SC6_C111212.html"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
+			(property "Footprint" "JLCImport:USBLC6-4SC6"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7330,8 +7203,8 @@
 					)
 				)
 			)
-			(property "Manufacturer" "ST(意法半导体)"
-				(at 0 -21.59 0)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810130920_STMicroelectronics-USBLC6-4SC6_C111212.pdf"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -7341,8 +7214,8 @@
 					)
 				)
 			)
-			(property "MPN" "USBLC6-4SC6"
-				(at 0 -24.13 0)
+			(property "Description" "-40℃~+125℃@(Tj) 10V 10nA 130W@8/20us 17V 3pF 5.25V 5A ESD Four channels IEC 61000-4-2 Unidirectional SOT-23-6L ESD and Surge Protection (TVS/ESD) ROHS"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -7352,8 +7225,8 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C111212"
-				(at 0 -26.67 0)
+			(property "LCSC" "C111212"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -7363,7 +7236,29 @@
 					)
 				)
 			)
-			(property "ki_keywords" "ESD Protection Devices"
+			(property "Manufacturer" "STMicroelectronics"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "USBLC6-4SC6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C111212 SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL STMicroelectronics USBLC6-4SC6"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7375,34 +7270,23 @@
 				)
 			)
 			(symbol "USBLC6-4SC6_0_1"
-				(rectangle
-					(start -10.16 16.51)
-					(end 10.16 -16.51)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(circle
-					(center -8.25 14.6)
-					(radius 0.64)
+					(center -8.255 14.605)
+					(radius 0.635)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(circle
 					(center -7.62 5.08)
-					(radius 0.25)
+					(radius 0.254)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7410,10 +7294,10 @@
 				)
 				(circle
 					(center -7.62 0)
-					(radius 0.25)
+					(radius 0.254)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7424,8 +7308,8 @@
 						(xy -7.62 0) (xy -10.16 0)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7433,10 +7317,10 @@
 				)
 				(circle
 					(center -7.62 -5.08)
-					(radius 0.25)
+					(radius 0.254)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7447,8 +7331,8 @@
 						(xy -5.08 12.7) (xy -7.62 12.7) (xy -7.62 -12.7) (xy -5.08 -12.7)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7459,11 +7343,11 @@
 						(xy -5.08 10.16) (xy -2.54 12.7) (xy -5.08 15.24) (xy -5.08 10.16)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
-						(type background)
+						(type outline)
 					)
 				)
 				(polyline
@@ -7471,8 +7355,8 @@
 						(xy -5.08 5.08) (xy -7.62 5.08)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7483,11 +7367,11 @@
 						(xy -5.08 2.54) (xy -2.54 5.08) (xy -5.08 7.62) (xy -5.08 2.54)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
-						(type background)
+						(type outline)
 					)
 				)
 				(polyline
@@ -7495,8 +7379,8 @@
 						(xy -5.08 -5.08) (xy -7.62 -5.08)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7507,11 +7391,11 @@
 						(xy -5.08 -7.62) (xy -2.54 -5.08) (xy -5.08 -2.54) (xy -5.08 -7.62)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
-						(type background)
+						(type outline)
 					)
 				)
 				(polyline
@@ -7519,11 +7403,11 @@
 						(xy -5.08 -15.24) (xy -2.54 -12.7) (xy -5.08 -10.16) (xy -5.08 -15.24)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
-						(type background)
+						(type outline)
 					)
 				)
 				(polyline
@@ -7531,8 +7415,8 @@
 						(xy -2.54 15.24) (xy -2.54 10.16)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7543,8 +7427,8 @@
 						(xy -2.54 7.62) (xy -2.54 2.54)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7555,8 +7439,8 @@
 						(xy -2.54 -2.54) (xy -2.54 -7.62)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7567,8 +7451,8 @@
 						(xy -2.54 -10.16) (xy -2.54 -15.24)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7579,8 +7463,8 @@
 						(xy -2.54 -12.7) (xy 2.54 -12.7)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7588,10 +7472,10 @@
 				)
 				(circle
 					(center -1.27 5.08)
-					(radius 0.25)
+					(radius 0.254)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7602,8 +7486,8 @@
 						(xy -1.27 5.08) (xy -1.27 8.89) (xy -10.16 8.89)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7614,8 +7498,8 @@
 						(xy -1.27 0) (xy -7.62 0)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7626,19 +7510,19 @@
 						(xy -1.27 -2.54) (xy 1.27 0) (xy -1.27 2.54) (xy -1.27 -2.54)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
-						(type background)
+						(type outline)
 					)
 				)
 				(circle
 					(center -1.27 -5.08)
-					(radius 0.25)
+					(radius 0.254)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7649,8 +7533,8 @@
 						(xy -1.27 -5.08) (xy -1.27 -8.89) (xy -10.16 -8.89)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7661,8 +7545,8 @@
 						(xy 0 -12.7) (xy 0 -8.89) (xy 10.16 -8.89)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7670,10 +7554,10 @@
 				)
 				(circle
 					(center 0 -12.7)
-					(radius 0.25)
+					(radius 0.254)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7684,8 +7568,8 @@
 						(xy 1.27 12.7) (xy 1.27 8.89) (xy 10.16 8.89)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7693,10 +7577,10 @@
 				)
 				(circle
 					(center 1.27 12.7)
-					(radius 0.25)
+					(radius 0.254)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7707,8 +7591,8 @@
 						(xy 1.27 2.54) (xy 1.27 -2.54)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7716,11 +7600,11 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 2.03 2.54)
+						(xy 1.27 2.54) (xy 2.032 2.54)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7731,8 +7615,8 @@
 						(xy 1.27 0) (xy 7.62 0)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7740,11 +7624,11 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -2.54) (xy 0.51 -2.54)
+						(xy 1.27 -2.54) (xy 0.508 -2.54)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7755,8 +7639,8 @@
 						(xy 2.54 12.7) (xy -2.54 12.7)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7767,11 +7651,11 @@
 						(xy 2.54 10.16) (xy 5.08 12.7) (xy 2.54 15.24) (xy 2.54 10.16)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
-						(type background)
+						(type outline)
 					)
 				)
 				(polyline
@@ -7779,8 +7663,8 @@
 						(xy 2.54 5.08) (xy -2.54 5.08)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7791,11 +7675,11 @@
 						(xy 2.54 2.54) (xy 5.08 5.08) (xy 2.54 7.62) (xy 2.54 2.54)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
-						(type background)
+						(type outline)
 					)
 				)
 				(polyline
@@ -7803,8 +7687,8 @@
 						(xy 2.54 -5.08) (xy -2.54 -5.08)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7815,11 +7699,11 @@
 						(xy 2.54 -7.62) (xy 5.08 -5.08) (xy 2.54 -2.54) (xy 2.54 -7.62)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
-						(type background)
+						(type outline)
 					)
 				)
 				(polyline
@@ -7827,11 +7711,11 @@
 						(xy 2.54 -15.24) (xy 5.08 -12.7) (xy 2.54 -10.16) (xy 2.54 -15.24)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
-						(type background)
+						(type outline)
 					)
 				)
 				(polyline
@@ -7839,8 +7723,8 @@
 						(xy 5.08 15.24) (xy 5.08 10.16)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7851,8 +7735,8 @@
 						(xy 5.08 7.62) (xy 5.08 2.54)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7863,8 +7747,8 @@
 						(xy 5.08 5.08) (xy 7.62 5.08)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7875,8 +7759,8 @@
 						(xy 5.08 -2.54) (xy 5.08 -7.62)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7887,8 +7771,8 @@
 						(xy 5.08 -10.16) (xy 5.08 -15.24)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7899,8 +7783,8 @@
 						(xy 5.08 -12.7) (xy 7.62 -12.7) (xy 7.62 12.7) (xy 5.08 12.7)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7908,10 +7792,10 @@
 				)
 				(circle
 					(center 7.62 5.08)
-					(radius 0.25)
+					(radius 0.254)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7922,8 +7806,8 @@
 						(xy 7.62 0) (xy 10.16 0)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7931,10 +7815,10 @@
 				)
 				(circle
 					(center 7.62 0)
-					(radius 0.25)
+					(radius 0.254)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7945,8 +7829,8 @@
 						(xy 7.62 -5.08) (xy 5.08 -5.08)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -7954,13 +7838,31 @@
 				)
 				(circle
 					(center 7.62 -5.08)
-					(radius 0.25)
+					(radius 0.254)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.652 -16.51) (xy 9.7511 -16.5002) (xy 9.8464 -16.4713) (xy 9.9342 -16.4244) (xy 10.0112 -16.3612)
+						(xy 10.0744 -16.2842) (xy 10.1213 -16.1964) (xy 10.1502 -16.1011) (xy 10.16 -16.002) (xy 10.1502 16.1011)
+						(xy 10.1213 16.1964) (xy 10.0744 16.2842) (xy 10.0112 16.3612) (xy 9.9342 16.4244) (xy 9.8464 16.4713)
+						(xy 9.7511 16.5002) (xy 9.652 16.51) (xy -9.7511 16.5002) (xy -9.8464 16.4713) (xy -9.9342 16.4244)
+						(xy -10.0112 16.3612) (xy -10.0744 16.2842) (xy -10.1213 16.1964) (xy -10.1502 16.1011) (xy -10.16 16.002)
+						(xy -10.1502 -16.1011) (xy -10.1213 -16.1964) (xy -10.0744 -16.2842) (xy -10.0112 -16.3612) (xy -9.9342 -16.4244)
+						(xy -9.8464 -16.4713) (xy -9.7511 -16.5002) (xy -9.652 -16.51) (xy 9.652 -16.51)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
 					)
 				)
 				(pin input line
@@ -8074,12 +7976,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:XL-2835RGBC-KS"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "JLCImport:XL-2835RGBC-KS"
 			(pin_names
-				(hide yes)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8087,7 +7986,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "LED"
-				(at 0 3.81 0)
+				(at 0 2 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -8097,7 +7996,7 @@
 				)
 			)
 			(property "Value" "XL-2835RGBC-KS"
-				(at 0 -6.35 0)
+				(at 0 -2 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -8106,29 +8005,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:LED-SMD_L3.5-W2.8-RD-A"
-				(at 0 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C2843781.pdf"
-				(at 0 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
+			(property "Footprint" "JLCImport:XL-2835RGBC-KS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -8139,8 +8016,8 @@
 					)
 				)
 			)
-			(property "Manufacturer" "XINGLIGHT(成兴光)"
-				(at 0 -13.97 0)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2402181506_XINGLIGHT-XL-2835RGBC-KS_C2843781.pdf"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -8150,8 +8027,8 @@
 					)
 				)
 			)
-			(property "MPN" "XL-2835RGBC-KS"
-				(at 0 -16.51 0)
+			(property "Description" "-30℃~+85℃ 0.7mm 120° 2.8mm 3.5mm 3V~5.5V B:465nm、G:525nm、R:625nm R:300mcd~400mcd、G:1000mcd~1300mcd、B:240mcd~350mcd R:620nm~630nm、G:520nm~530nm、B:460nm~470nm Top-mount Water Clear SMD2835-2P RGB LEDs(Built-in IC) ROHS"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -8161,8 +8038,8 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C2843781"
-				(at 0 -19.05 0)
+			(property "LCSC" "C2843781"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -8172,7 +8049,29 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Light Emitting Diodes (LED)"
+			(property "Manufacturer" "XINGLIGHT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "XL-2835RGBC-KS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C2843781 LED-SMD_L3.5-W2.8-RD-A XINGLIGHT XL-2835RGBC-KS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -8186,35 +8085,11 @@
 			(symbol "XL-2835RGBC-KS_0_1"
 				(polyline
 					(pts
-						(xy -4.06 2.03) (xy -3.05 1.52) (xy -3.56 1.02) (xy -4.06 2.03)
+						(xy -4.064 3.302) (xy -3.048 2.794) (xy -3.556 2.286) (xy -4.064 3.302)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.05 3.05) (xy -2.03 2.54) (xy -2.54 2.03) (xy -3.05 3.05)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.29 0.25) (xy -3.3 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -8222,11 +8097,11 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -2.29 2.29)
+						(xy -3.048 4.318) (xy -2.032 3.81) (xy -2.54 3.302) (xy -3.048 4.318)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -8234,11 +8109,11 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 0.51) (xy -1.27 -3.05)
+						(xy -2.286 1.524) (xy -3.302 2.54)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -8246,11 +8121,11 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -2.54 -1.27)
+						(xy -1.27 2.54) (xy -2.286 3.556)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -8258,30 +8133,54 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0.51) (xy -1.27 -1.27) (xy 1.27 -3.05) (xy 1.27 0.51)
+						(xy -1.27 1.778) (xy -1.27 -1.778)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy 2.54 -1.27) (xy 1.27 -1.27)
+						(xy -1.27 0) (xy -2.54 0)
 					)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.778) (xy -1.27 0) (xy 1.27 -1.778) (xy 1.27 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
 					)
 				)
 				(pin unspecified line
-					(at -5.08 -1.27 0)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "K"
 						(effects
@@ -8299,169 +8198,9 @@
 					)
 				)
 				(pin unspecified line
-					(at 5.08 -1.27 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "RC0402FR-0710KL_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RC0402FR-0710KL"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "EasyEDA:R0402"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1002-1_C60490.html"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO(国巨)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "RC0402FR-0710KL"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C60490"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Resistors"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RC0402FR-0710KL_1_0_1"
-				(rectangle
-					(start -2.54 1.02)
-					(end 2.54 -1.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at 5.08 0 180)
 					(length 2.54)
-					(name "2"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12498,7 +12237,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR065")
 					(unit 1)
 				)
@@ -12577,7 +12316,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR055")
 					(unit 1)
 				)
@@ -12656,7 +12395,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR088")
 					(unit 1)
 				)
@@ -12735,7 +12474,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR059")
 					(unit 1)
 				)
@@ -12814,7 +12553,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR029")
 					(unit 1)
 				)
@@ -12893,7 +12632,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR053")
 					(unit 1)
 				)
@@ -12901,7 +12640,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:USBLC6-4SC6")
+		(lib_id "JLCImport:USBLC6-4SC6")
 		(at 248.92 139.7 0)
 		(unit 1)
 		(body_style 1)
@@ -12932,29 +12671,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
-			(at 248.92 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Diodes-ESD_STMicroelectronics_USBLC6-4SC6_USBLC6-4SC6_C111212.html"
-			(at 248.92 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
+		(property "Footprint" "JLCImport:USBLC6-4SC6"
 			(at 248.92 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -12965,8 +12682,30 @@
 				)
 			)
 		)
-		(property "Manufacturer" "ST(意法半导体)"
-			(at 248.92 161.29 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810130920_STMicroelectronics-USBLC6-4SC6_C111212.pdf"
+			(at 248.92 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-40℃~+125℃@(Tj) 10V 10nA 130W@8/20us 17V 3pF 5.25V 5A ESD Four channels IEC 61000-4-2 Unidirectional SOT-23-6L ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 248.92 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 248.92 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12998,6 +12737,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C111212"
+			(at 248.92 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "USBLC6-4SC6"
+			(at 248.92 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "53c7cc96-af3c-4da9-a4ab-af6009d17315")
 		)
@@ -13018,7 +12779,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "D1")
 					(unit 1)
 				)
@@ -13026,8 +12787,7 @@
 		)
 	)
 	(symbol
-		(lib_name "ERJPA2F4700X_2")
-		(lib_id "EasyEDA:ERJPA2F4700X")
+		(lib_id "JLCImport:ERJPA2F4700X")
 		(at 397.51 88.9 0)
 		(unit 1)
 		(body_style 1)
@@ -13057,8 +12817,8 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:R0402"
-			(at 397.51 96.52 0)
+		(property "Footprint" "JLCImport:ERJPA2F4700X"
+			(at 397.51 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13068,8 +12828,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_PANASONIC-ERJPA2F4700X_C427238.html"
-			(at 397.51 99.06 0)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404111648_PANASONIC-ERJPA2F4700X_C427238.pdf"
+			(at 397.51 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13079,7 +12839,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 200mW 470Ω 50V Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 397.51 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -13156,8 +12916,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "PANASONIC(松下)"
-			(at 397.51 101.6 0)
+		(property "Manufacturer" "PANASONIC"
+			(at 397.51 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13189,6 +12949,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C427238"
+			(at 397.51 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "ERJPA2F4700X"
+			(at 397.51 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9f210bbf-af82-4da6-a033-c3751ddb7ad1")
 		)
@@ -13197,7 +12979,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "R6")
 					(unit 1)
 				)
@@ -13276,7 +13058,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR049")
 					(unit 1)
 				)
@@ -13284,7 +13066,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:GT-USB-7010ASV")
+		(lib_id "JLCImport:GT-USB-7010ASV")
 		(at 328.93 142.24 0)
 		(unit 1)
 		(body_style 1)
@@ -13296,7 +13078,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a5bdd17-9054-48df-b6b7-e2b242444a12")
 		(property "Reference" "U6"
-			(at 331.47 120.65 0)
+			(at 327.66 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13306,7 +13088,7 @@
 			)
 		)
 		(property "Value" "GT-USB-7010ASV"
-			(at 331.47 123.19 0)
+			(at 327.66 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13315,29 +13097,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:USB-C-SMD_G-SWITCH_GT-USB-7010ASV"
-			(at 328.93 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2988369.pdf"
-			(at 328.93 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
+		(property "Footprint" "JLCImport:GT-USB-7010ASV"
 			(at 328.93 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -13348,8 +13108,30 @@
 				)
 			)
 		)
-		(property "Manufacturer" "G-Switch(品赞)"
-			(at 328.93 168.91 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221125_G-Switch-GT-USB-7010ASV_C2988369.pdf"
+			(at 328.93 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-40℃~+85℃ 1 1.68mm 10,000 Cycles 16P 24V 3A 7.35mm Black Female Surface Mount, Right Angle Type-C USB 2.0 SMD USB Connectors ROHS"
+			(at 328.93 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "G-Switch"
+			(at 328.93 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13372,6 +13154,28 @@
 		)
 		(property "LCSC Part" "C2988369"
 			(at 328.93 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2988369"
+			(at 328.93 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "GT-USB-7010ASV"
+			(at 328.93 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13431,7 +13235,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "U6")
 					(unit 1)
 				)
@@ -13439,8 +13243,8 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:B3B-XH-A")
-		(at 256.54 38.1 90)
+		(lib_id "JLCImport:B3B-XH-A_LF_SN")
+		(at 259.08 38.1 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13472,7 +13276,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "EasyEDA:CONN-TH_3P-P2.50_A2501WV2-3P"
+		(property "Footprint" "JLCImport:B3B-XH-A_LF_SN"
 			(at 259.08 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -13483,8 +13287,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/XH-Connectors_JST-Sales-America_B3B-XH-A-LF-SN_JST-Sales-America-B3B-XH-A-LF-SN_C144394.html"
-			(at 261.62 38.1 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JST-B3B-XH-A-LF-SN_C144394.pdf"
+			(at 259.08 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13494,8 +13298,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 256.54 38.1 0)
+		(property "Description" "-25℃~+85℃ 1 1x3P 2.5mm 250V 3 3A 3P 5.75mm 7mm 9.9mm Brass K Pin PA66 Through Hole Tin UL94V-0 White XH 插件,P=2.5mm Wire To Board Connector ROHS"
+			(at 259.08 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13506,7 +13310,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 264.16 38.1 0)
+			(at 259.08 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13517,7 +13321,7 @@
 			)
 		)
 		(property "MPN" "B3B-XH-A(LF)(SN)"
-			(at 266.7 38.1 0)
+			(at 269.24 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13528,7 +13332,29 @@
 			)
 		)
 		(property "LCSC Part" "C144394"
-			(at 269.24 38.1 0)
+			(at 271.78 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C144394"
+			(at 259.08 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "B3B-XH-A(LF)(SN)"
+			(at 259.08 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13549,7 +13375,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "U9")
 					(unit 1)
 				)
@@ -13557,8 +13383,7 @@
 		)
 	)
 	(symbol
-		(lib_name "ERJPA2F4700X_1")
-		(lib_id "EasyEDA:ERJPA2F4700X")
+		(lib_id "JLCImport:ERJPA2F4700X")
 		(at 397.51 30.48 0)
 		(unit 1)
 		(body_style 1)
@@ -13588,8 +13413,8 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:R0402"
-			(at 397.51 38.1 0)
+		(property "Footprint" "JLCImport:ERJPA2F4700X"
+			(at 397.51 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13599,8 +13424,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_PANASONIC-ERJPA2F4700X_C427238.html"
-			(at 397.51 40.64 0)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404111648_PANASONIC-ERJPA2F4700X_C427238.pdf"
+			(at 397.51 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13610,7 +13435,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 200mW 470Ω 50V Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 397.51 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -13687,8 +13512,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "PANASONIC(松下)"
-			(at 397.51 43.18 0)
+		(property "Manufacturer" "PANASONIC"
+			(at 397.51 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13720,6 +13545,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C427238"
+			(at 397.51 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "ERJPA2F4700X"
+			(at 397.51 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3d40d534-6e26-4560-9153-ff59d75b97e3")
 		)
@@ -13728,7 +13575,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "R3")
 					(unit 1)
 				)
@@ -13807,7 +13654,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR042")
 					(unit 1)
 				)
@@ -13884,7 +13731,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR0101")
 					(unit 1)
 				)
@@ -13963,7 +13810,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR061")
 					(unit 1)
 				)
@@ -14040,7 +13887,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR0111")
 					(unit 1)
 				)
@@ -14119,7 +13966,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR032")
 					(unit 1)
 				)
@@ -14196,7 +14043,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR086")
 					(unit 1)
 				)
@@ -14275,7 +14122,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR038")
 					(unit 1)
 				)
@@ -14354,7 +14201,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR063")
 					(unit 1)
 				)
@@ -14431,7 +14278,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR0134")
 					(unit 1)
 				)
@@ -14510,7 +14357,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR034")
 					(unit 1)
 				)
@@ -14587,7 +14434,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR0113")
 					(unit 1)
 				)
@@ -14740,7 +14587,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "J14")
 					(unit 1)
 				)
@@ -14819,7 +14666,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR021")
 					(unit 1)
 				)
@@ -14827,7 +14674,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:LPJG0926HENL_C22457393")
+		(lib_id "JLCImport:LPJG0926HENL_C22457393")
 		(at 397.51 59.69 0)
 		(unit 1)
 		(body_style 1)
@@ -14859,29 +14706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EasyEDA:RJ45-TH_LPJG0926HENL_C22457393"
-			(at 397.51 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C22457393.pdf"
-			(at 397.51 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
+		(property "Footprint" "JLCImport:LPJG0926HENL_C22457393"
 			(at 397.51 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -14892,8 +14717,30 @@
 				)
 			)
 		)
-		(property "Manufacturer" "LINK-PP(连普科技)"
-			(at 397.51 93.98 0)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20250709/DE426B8BF096B5442AFA4AE31641E078.pdf"
+			(at 397.51 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0℃~+70℃ 1 Gold Phosphor bronze RJ45 Jack Right Angle Shielded With LED With PoE Plugin Ethernet Connectors / Modular Connectors (RJ45 RJ11) ROHS"
+			(at 397.51 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "--"
+			(at 397.51 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14916,6 +14763,28 @@
 		)
 		(property "LCSC Part" "C22457393"
 			(at 397.51 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22457393"
+			(at 397.51 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "LPJG0926HENL"
+			(at 397.51 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14987,7 +14856,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "RJ1")
 					(unit 1)
 				)
@@ -15692,7 +15561,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "Module1")
 					(unit 2)
 				)
@@ -15771,7 +15640,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR052")
 					(unit 1)
 				)
@@ -15850,7 +15719,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR062")
 					(unit 1)
 				)
@@ -15929,7 +15798,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR014")
 					(unit 1)
 				)
@@ -16008,7 +15877,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR015")
 					(unit 1)
 				)
@@ -16085,7 +15954,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR0115")
 					(unit 1)
 				)
@@ -16164,7 +16033,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR019")
 					(unit 1)
 				)
@@ -16243,7 +16112,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR031")
 					(unit 1)
 				)
@@ -16251,7 +16120,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:RC0402FR-0710KL")
+		(lib_id "JLCImport:RC0402FR-0710KL")
 		(at 367.03 118.11 90)
 		(unit 1)
 		(body_style 1)
@@ -16281,8 +16150,8 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:R0402"
-			(at 374.65 118.11 0)
+		(property "Footprint" "JLCImport:RC0402FR-0710KL"
+			(at 367.03 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16292,8 +16161,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1002-1_C60490.html"
-			(at 377.19 118.11 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0402FR-0710KL_C60490.pdf"
+			(at 367.03 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16303,7 +16172,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 367.03 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -16369,8 +16238,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 379.73 118.11 0)
+		(property "Manufacturer" "YAGEO"
+			(at 367.03 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16402,6 +16271,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C60490"
+			(at 367.03 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "RC0402FR-0710KL"
+			(at 367.03 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ab4d47d1-e3b9-49ca-af2d-7a44ed40480e")
 		)
@@ -16410,7 +16301,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "R11")
 					(unit 1)
 				)
@@ -16418,7 +16309,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:AFC01-S22FCA-00")
+		(lib_id "JLCImport:AFC01-S22FCA-00")
 		(at 298.45 54.61 0)
 		(unit 1)
 		(body_style 1)
@@ -16448,8 +16339,8 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:FPC-SMD_P0.5-22P_FGS-XJ-H2.0"
-			(at 298.45 96.52 0)
+		(property "Footprint" "JLCImport:AFC01-S22FCA-00"
+			(at 298.45 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16459,8 +16350,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_JUSHUO-AFC01-S22FCA-00_C262668.html"
-			(at 298.45 99.06 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JUSHUO-AFC01-S22FCA-00_C262668.pdf"
+			(at 298.45 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16470,7 +16361,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.3mm 0.5mm 22P 2mm Bottom Contact Copper alloy Hinged Lid Surface Mount, Right Angle Tin SMD,P=0.5mm,卧贴 FFC, FPC (Flat Flexible) Connector Assemblies ROHS"
 			(at 298.45 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -16536,8 +16427,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "JS(钜硕电子)"
-			(at 298.45 101.6 0)
+		(property "Manufacturer" "JUSHUO"
+			(at 298.45 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16560,6 +16451,28 @@
 		)
 		(property "LCSC Part" "C262668"
 			(at 298.45 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C262668"
+			(at 298.45 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "AFC01-S22FCA-00"
+			(at 298.45 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16643,7 +16556,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "FPC5")
 					(unit 1)
 				)
@@ -16720,7 +16633,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR0110")
 					(unit 1)
 				)
@@ -16799,7 +16712,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR022")
 					(unit 1)
 				)
@@ -16876,7 +16789,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR0112")
 					(unit 1)
 				)
@@ -16955,7 +16868,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR047")
 					(unit 1)
 				)
@@ -17034,7 +16947,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR020")
 					(unit 1)
 				)
@@ -17214,7 +17127,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "C3")
 					(unit 1)
 				)
@@ -17293,7 +17206,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR087")
 					(unit 1)
 				)
@@ -17370,7 +17283,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR066")
 					(unit 1)
 				)
@@ -17449,7 +17362,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR030")
 					(unit 1)
 				)
@@ -17528,7 +17441,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR016")
 					(unit 1)
 				)
@@ -17607,7 +17520,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR060")
 					(unit 1)
 				)
@@ -17686,7 +17599,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR050")
 					(unit 1)
 				)
@@ -17765,7 +17678,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR077")
 					(unit 1)
 				)
@@ -17844,7 +17757,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR018")
 					(unit 1)
 				)
@@ -18549,7 +18462,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "Module1")
 					(unit 1)
 				)
@@ -18628,7 +18541,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR028")
 					(unit 1)
 				)
@@ -18707,7 +18620,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR023")
 					(unit 1)
 				)
@@ -18786,7 +18699,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR048")
 					(unit 1)
 				)
@@ -18794,7 +18707,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:SN74LVC1T45DCKR")
+		(lib_id "JLCImport:SN74LVC1T45DCKR")
 		(at 179.07 236.22 0)
 		(unit 1)
 		(body_style 1)
@@ -18825,29 +18738,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:SC-70-6_L2.2-W1.3-P0.65-LS2.2-BR"
-			(at 179.07 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/74-Series_TI_SN74LVC1T45DCKR_SN74LVC1T45DCKR_C9382.html"
-			(at 179.07 248.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
+		(property "Footprint" "JLCImport:SN74LVC1T45DCKR"
 			(at 179.07 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -18858,8 +18749,30 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TI(德州仪器)"
-			(at 179.07 251.46 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810271111_Texas-Instruments-SN74LVC1T45DCKR_C9382.pdf"
+			(at 179.07 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-40℃~+85℃ 1 1 1.65V~5.5V 1.65V~5.5V 420Mbps Bidirectional Level translator Power-off protection、Output enable high-impedance Tri-State SC-70-6 Translators, Level Shifters ROHS"
+			(at 179.07 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 179.07 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18891,6 +18804,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C9382"
+			(at 179.07 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "SN74LVC1T45DCKR"
+			(at 179.07 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b3b1b28b-be79-4349-b86a-0a1eae85e3e2")
 		)
@@ -18911,7 +18846,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "U11")
 					(unit 1)
 				)
@@ -18919,8 +18854,8 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:TS665ZJ")
-		(at 125.73 172.72 270)
+		(lib_id "JLCImport:TS665ZJ")
+		(at 124.46 172.72 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18930,7 +18865,7 @@
 		(dnp no)
 		(uuid "a02b060d-3954-4427-b397-c148cd7d811d")
 		(property "Reference" "SW1"
-			(at 116.586 175.514 90)
+			(at 115.316 175.514 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18940,7 +18875,7 @@
 			)
 		)
 		(property "Value" "TS665ZJ"
-			(at 116.84 172.72 90)
+			(at 115.57 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18949,8 +18884,8 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:SW-TH_TS665ZJ"
-			(at 114.3 172.72 0)
+		(property "Footprint" "JLCImport:TS665ZJ"
+			(at 124.46 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18960,8 +18895,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_SHOU-HAN-TS665ZJ_C557599.html"
-			(at 111.76 172.72 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2005221232_SHOU-HAN-TS665ZJ_C557599.pdf"
+			(at 124.46 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18971,8 +18906,8 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 125.73 172.72 0)
+		(property "Description" "-25℃~+70℃ 100,000 cycles 12V 2.5N 50mA 5mm 6.2mm 7.5mm Black No PC Pin Right Angle Round Button SPST With Bracket 弯插,6.2x6.2mm Tactile Switches ROHS"
+			(at 124.46 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18983,7 +18918,7 @@
 			)
 		)
 		(property "Field5" "PTS645VH58-2LFS"
-			(at 125.73 172.72 0)
+			(at 124.46 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18994,7 +18929,7 @@
 			)
 		)
 		(property "Field6" "PTS645VH58-2LFS"
-			(at 125.73 172.72 0)
+			(at 124.46 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19005,7 +18940,7 @@
 			)
 		)
 		(property "Field7" "CK"
-			(at 125.73 172.72 0)
+			(at 124.46 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19016,7 +18951,7 @@
 			)
 		)
 		(property "Part Description" "Right angle through hole Tact switch"
-			(at 125.73 172.72 0)
+			(at 124.46 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19026,8 +18961,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "SHOU HAN(首韩)"
-			(at 109.22 172.72 0)
+		(property "Manufacturer" "SHOU HAN"
+			(at 124.46 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19038,7 +18973,7 @@
 			)
 		)
 		(property "MPN" "TS665ZJ"
-			(at 106.68 172.72 0)
+			(at 105.41 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19049,7 +18984,29 @@
 			)
 		)
 		(property "LCSC Part" "C557599"
-			(at 104.14 172.72 0)
+			(at 102.87 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C557599"
+			(at 124.46 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "TS665ZJ"
+			(at 124.46 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19073,7 +19030,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "SW1")
 					(unit 1)
 				)
@@ -19152,7 +19109,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR058")
 					(unit 1)
 				)
@@ -19231,7 +19188,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR040")
 					(unit 1)
 				)
@@ -19310,7 +19267,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR037")
 					(unit 1)
 				)
@@ -19389,7 +19346,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR041")
 					(unit 1)
 				)
@@ -19397,7 +19354,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:RC0402FR-071KL")
+		(lib_id "JLCImport:RC0402FR-071KL")
 		(at 102.87 232.41 90)
 		(unit 1)
 		(body_style 1)
@@ -19427,8 +19384,8 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:R0402"
-			(at 110.49 232.41 0)
+		(property "Footprint" "JLCImport:RC0402FR-071KL"
+			(at 102.87 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19438,8 +19395,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_1KR-1001-1_C106235.html"
-			(at 113.03 232.41 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0402FR-071KL_C106235.pdf"
+			(at 102.87 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19449,7 +19406,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 102.87 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -19526,8 +19483,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 115.57 232.41 0)
+		(property "Manufacturer" "YAGEO"
+			(at 102.87 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19559,6 +19516,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C106235"
+			(at 102.87 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "RC0402FR-071KL"
+			(at 102.87 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3e38ce96-c314-42f9-8022-8d8fed588e3f")
 		)
@@ -19567,7 +19546,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "R18")
 					(unit 1)
 				)
@@ -19646,7 +19625,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR017")
 					(unit 1)
 				)
@@ -19725,7 +19704,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR039")
 					(unit 1)
 				)
@@ -19802,7 +19781,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR0114")
 					(unit 1)
 				)
@@ -19881,7 +19860,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR045")
 					(unit 1)
 				)
@@ -19960,7 +19939,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR043")
 					(unit 1)
 				)
@@ -20039,7 +20018,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR046")
 					(unit 1)
 				)
@@ -20047,8 +20026,8 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:XL-2835RGBC-KS")
-		(at 101.6 218.44 90)
+		(lib_id "JLCImport:XL-2835RGBC-KS")
+		(at 102.87 218.44 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20059,7 +20038,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf7a9622-6d09-43ef-88a6-c9c9c34978d6")
 		(property "Reference" "LED1"
-			(at 105.41 217.9299 90)
+			(at 105.41 217.9319 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20070,7 +20049,7 @@
 			)
 		)
 		(property "Value" "XL-2835RGBC-KS"
-			(at 105.41 220.4699 90)
+			(at 105.41 220.4719 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20080,8 +20059,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "EasyEDA:LED-SMD_L3.5-W2.8-RD-A"
-			(at 110.49 218.44 0)
+		(property "Footprint" "JLCImport:XL-2835RGBC-KS"
+			(at 102.87 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20091,8 +20070,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2843781.pdf"
-			(at 113.03 218.44 0)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2402181506_XINGLIGHT-XL-2835RGBC-KS_C2843781.pdf"
+			(at 102.87 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20102,8 +20081,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 101.6 218.44 0)
+		(property "Description" "-30℃~+85℃ 0.7mm 120° 2.8mm 3.5mm 3V~5.5V B:465nm、G:525nm、R:625nm R:300mcd~400mcd、G:1000mcd~1300mcd、B:240mcd~350mcd R:620nm~630nm、G:520nm~530nm、B:460nm~470nm Top-mount Water Clear SMD2835-2P RGB LEDs(Built-in IC) ROHS"
+			(at 102.87 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20113,8 +20092,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "XINGLIGHT(成兴光)"
-			(at 115.57 218.44 0)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 102.87 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20125,7 +20104,7 @@
 			)
 		)
 		(property "MPN" "XL-2835RGBC-KS"
-			(at 118.11 218.44 0)
+			(at 119.38 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20136,7 +20115,29 @@
 			)
 		)
 		(property "LCSC Part" "C2843781"
-			(at 120.65 218.44 0)
+			(at 121.92 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2843781"
+			(at 102.87 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "XL-2835RGBC-KS"
+			(at 102.87 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20154,7 +20155,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "LED1")
 					(unit 1)
 				)
@@ -20162,8 +20163,7 @@
 		)
 	)
 	(symbol
-		(lib_name "RC0402FR-0710KL_1")
-		(lib_id "EasyEDA:RC0402FR-0710KL")
+		(lib_id "JLCImport:RC0402FR-0710KL")
 		(at 114.3 67.31 270)
 		(unit 1)
 		(body_style 1)
@@ -20193,29 +20193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:R0402"
-			(at 106.68 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1002-1_C60490.html"
-			(at 104.14 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
+		(property "Footprint" "JLCImport:RC0402FR-0710KL"
 			(at 114.3 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -20226,8 +20204,30 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 101.6 67.31 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0402FR-0710KL_C60490.pdf"
+			(at 114.3 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 114.3 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 114.3 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20259,6 +20259,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C60490"
+			(at 114.3 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "RC0402FR-0710KL"
+			(at 114.3 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7df96d65-9649-4898-b464-0a879694defe")
 		)
@@ -20267,7 +20289,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "R17")
 					(unit 1)
 				)
@@ -20346,7 +20368,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR054")
 					(unit 1)
 				)
@@ -20425,7 +20447,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR033")
 					(unit 1)
 				)
@@ -20504,7 +20526,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR056")
 					(unit 1)
 				)
@@ -20583,7 +20605,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR024")
 					(unit 1)
 				)
@@ -20662,7 +20684,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR026")
 					(unit 1)
 				)
@@ -20670,7 +20692,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:TPD4EUSB30DQAR")
+		(lib_id "JLCImport:TPD4EUSB30DQAR")
 		(at 337.82 35.56 0)
 		(unit 1)
 		(body_style 1)
@@ -20700,8 +20722,8 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:USON-10_L2.5-W1.0-P0.50-BL"
-			(at 337.82 48.26 0)
+		(property "Footprint" "JLCImport:TPD4EUSB30DQAR"
+			(at 337.82 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20711,8 +20733,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/USB_TI_TPD4EUSB30DQAR_TPD4EUSB30DQAR_C90627.html"
-			(at 337.82 50.8 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1805251249_Texas-Instruments-TPD4EUSB30DQAR_C90627.pdf"
+			(at 337.82 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20722,7 +20744,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-40℃~+85℃ 0.8pF 45W@8/20us 5.5V 5A@8/20us 7V 8V ESD Four channels IEC 61000-4-2、IEC 61000-4-5 Unidirectional USON-10(1x2.5) ESD and Surge Protection (TVS/ESD) ROHS"
 			(at 337.82 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -20799,8 +20821,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TI(德州仪器)"
-			(at 337.82 53.34 0)
+		(property "Manufacturer" "Texas Instruments"
+			(at 337.82 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20823,6 +20845,28 @@
 		)
 		(property "LCSC Part" "C90627"
 			(at 337.82 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C90627"
+			(at 337.82 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "TPD4EUSB30DQAR"
+			(at 337.82 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20864,7 +20908,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "U3")
 					(unit 1)
 				)
@@ -20941,7 +20985,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR064")
 					(unit 1)
 				)
@@ -21020,7 +21064,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR036")
 					(unit 1)
 				)
@@ -21099,7 +21143,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR051")
 					(unit 1)
 				)
@@ -21178,7 +21222,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR044")
 					(unit 1)
 				)
@@ -21257,7 +21301,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR013")
 					(unit 1)
 				)
@@ -21336,7 +21380,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR035")
 					(unit 1)
 				)
@@ -21415,7 +21459,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR057")
 					(unit 1)
 				)
@@ -21423,7 +21467,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:TPD4EUSB30DQAR")
+		(lib_id "JLCImport:TPD4EUSB30DQAR")
 		(at 337.82 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -21453,8 +21497,8 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:USON-10_L2.5-W1.0-P0.50-BL"
-			(at 337.82 80.01 0)
+		(property "Footprint" "JLCImport:TPD4EUSB30DQAR"
+			(at 337.82 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21464,8 +21508,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/USB_TI_TPD4EUSB30DQAR_TPD4EUSB30DQAR_C90627.html"
-			(at 337.82 82.55 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1805251249_Texas-Instruments-TPD4EUSB30DQAR_C90627.pdf"
+			(at 337.82 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21475,7 +21519,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-40℃~+85℃ 0.8pF 45W@8/20us 5.5V 5A@8/20us 7V 8V ESD Four channels IEC 61000-4-2、IEC 61000-4-5 Unidirectional USON-10(1x2.5) ESD and Surge Protection (TVS/ESD) ROHS"
 			(at 337.82 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -21552,8 +21596,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TI(德州仪器)"
-			(at 337.82 85.09 0)
+		(property "Manufacturer" "Texas Instruments"
+			(at 337.82 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21576,6 +21620,28 @@
 		)
 		(property "LCSC Part" "C90627"
 			(at 337.82 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C90627"
+			(at 337.82 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "TPD4EUSB30DQAR"
+			(at 337.82 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21617,7 +21683,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "U4")
 					(unit 1)
 				)
@@ -21696,7 +21762,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR027")
 					(unit 1)
 				)
@@ -21773,7 +21839,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR069")
 					(unit 1)
 				)
@@ -21852,51 +21918,9 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR025")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 12.7 246.38)
-		(size 50.8 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca")
-		(property "Sheetname" "buck_boost"
-			(at 12.7 245.6682 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "buck_boost.kicad_sch"
-			(at 12.7 272.4918 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "BetterVisionMainBoard"
-				(path "/"
-					(page "2")
 				)
 			)
 		)
@@ -21914,11 +21938,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "69fac105-0d9d-408f-a1f4-d2b6942bf0bd")
 		(property "Sheetname" "imu"
 			(at 100.33 245.6682 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21928,6 +21954,8 @@
 		)
 		(property "Sheetfile" "imu.kicad_sch"
 			(at 100.33 272.4918 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21935,11 +21963,43 @@
 				(justify left top)
 			)
 		)
-		(instances
-			(project "BetterVisionMainBoard"
-				(path "/"
-					(page "3")
+	)
+	(sheet
+		(at 12.7 246.38)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca")
+		(property "Sheetname" "buck_boost"
+			(at 12.7 245.6682 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buck_boost.kicad_sch"
+			(at 12.7 272.4918 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 			)
 		)
 	)

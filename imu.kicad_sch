@@ -1471,7 +1471,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/69fac105-0d9d-408f-a1f4-d2b6942bf0bd"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/69fac105-0d9d-408f-a1f4-d2b6942bf0bd"
 					(reference "#PWR02")
 					(unit 1)
 				)
@@ -1549,7 +1549,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/69fac105-0d9d-408f-a1f4-d2b6942bf0bd"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/69fac105-0d9d-408f-a1f4-d2b6942bf0bd"
 					(reference "#PWR075")
 					(unit 1)
 				)
@@ -1627,7 +1627,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/69fac105-0d9d-408f-a1f4-d2b6942bf0bd"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/69fac105-0d9d-408f-a1f4-d2b6942bf0bd"
 					(reference "#PWR078")
 					(unit 1)
 				)
@@ -1706,7 +1706,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/69fac105-0d9d-408f-a1f4-d2b6942bf0bd"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/69fac105-0d9d-408f-a1f4-d2b6942bf0bd"
 					(reference "#PWR073")
 					(unit 1)
 				)
@@ -1821,7 +1821,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/69fac105-0d9d-408f-a1f4-d2b6942bf0bd"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/69fac105-0d9d-408f-a1f4-d2b6942bf0bd"
 					(reference "C6")
 					(unit 1)
 				)
@@ -1970,7 +1970,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/69fac105-0d9d-408f-a1f4-d2b6942bf0bd"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/69fac105-0d9d-408f-a1f4-d2b6942bf0bd"
 					(reference "U8")
 					(unit 1)
 				)
@@ -2049,7 +2049,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/69fac105-0d9d-408f-a1f4-d2b6942bf0bd"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/69fac105-0d9d-408f-a1f4-d2b6942bf0bd"
 					(reference "#PWR05")
 					(unit 1)
 				)
@@ -2127,7 +2127,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/69fac105-0d9d-408f-a1f4-d2b6942bf0bd"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/69fac105-0d9d-408f-a1f4-d2b6942bf0bd"
 					(reference "#PWR076")
 					(unit 1)
 				)
@@ -2206,7 +2206,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/69fac105-0d9d-408f-a1f4-d2b6942bf0bd"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/69fac105-0d9d-408f-a1f4-d2b6942bf0bd"
 					(reference "#PWR071")
 					(unit 1)
 				)
@@ -2285,7 +2285,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/69fac105-0d9d-408f-a1f4-d2b6942bf0bd"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/69fac105-0d9d-408f-a1f4-d2b6942bf0bd"
 					(reference "#PWR074")
 					(unit 1)
 				)
@@ -2400,7 +2400,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/69fac105-0d9d-408f-a1f4-d2b6942bf0bd"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/69fac105-0d9d-408f-a1f4-d2b6942bf0bd"
 					(reference "C5")
 					(unit 1)
 				)
@@ -2515,7 +2515,7 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/69fac105-0d9d-408f-a1f4-d2b6942bf0bd"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/69fac105-0d9d-408f-a1f4-d2b6942bf0bd"
 					(reference "C7")
 					(unit 1)
 				)
@@ -2594,16 +2594,11 @@
 		)
 		(instances
 			(project "BetterVisionMainBoard"
-				(path "/69fac105-0d9d-408f-a1f4-d2b6942bf0bd"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/69fac105-0d9d-408f-a1f4-d2b6942bf0bd"
 					(reference "#PWR072")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "3")
 		)
 	)
 )
