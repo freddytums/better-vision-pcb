@@ -12759,6 +12759,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 248.92 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "53c7cc96-af3c-4da9-a4ab-af6009d17315")
 		)
@@ -12971,6 +12982,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 397.51 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9f210bbf-af82-4da6-a033-c3751ddb7ad1")
 		)
@@ -13067,7 +13089,7 @@
 	)
 	(symbol
 		(lib_id "JLCImport:GT-USB-7010ASV")
-		(at 328.93 142.24 0)
+		(at 332.74 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13078,7 +13100,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a5bdd17-9054-48df-b6b7-e2b242444a12")
 		(property "Reference" "U6"
-			(at 327.66 119.38 0)
+			(at 331.47 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13088,7 +13110,7 @@
 			)
 		)
 		(property "Value" "GT-USB-7010ASV"
-			(at 327.66 121.92 0)
+			(at 331.47 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13098,7 +13120,7 @@
 			)
 		)
 		(property "Footprint" "JLCImport:GT-USB-7010ASV"
-			(at 328.93 142.24 0)
+			(at 332.74 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13109,7 +13131,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221125_G-Switch-GT-USB-7010ASV_C2988369.pdf"
-			(at 328.93 142.24 0)
+			(at 332.74 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13120,7 +13142,7 @@
 			)
 		)
 		(property "Description" "-40℃~+85℃ 1 1.68mm 10,000 Cycles 16P 24V 3A 7.35mm Black Female Surface Mount, Right Angle Type-C USB 2.0 SMD USB Connectors ROHS"
-			(at 328.93 142.24 0)
+			(at 332.74 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13131,7 +13153,7 @@
 			)
 		)
 		(property "Manufacturer" "G-Switch"
-			(at 328.93 142.24 0)
+			(at 332.74 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13142,7 +13164,7 @@
 			)
 		)
 		(property "MPN" "GT-USB-7010ASV"
-			(at 328.93 171.45 0)
+			(at 332.74 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13153,7 +13175,7 @@
 			)
 		)
 		(property "LCSC Part" "C2988369"
-			(at 328.93 173.99 0)
+			(at 332.74 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13164,7 +13186,7 @@
 			)
 		)
 		(property "LCSC" "C2988369"
-			(at 328.93 142.24 0)
+			(at 332.74 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13175,7 +13197,18 @@
 			)
 		)
 		(property "Manufacturer Part" "GT-USB-7010ASV"
-			(at 328.93 142.24 0)
+			(at 332.74 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LSCS Part" ""
+			(at 332.74 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13355,6 +13388,17 @@
 		)
 		(property "Manufacturer Part" "B3B-XH-A(LF)(SN)"
 			(at 259.08 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LSCS Part" ""
+			(at 259.08 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13557,6 +13601,17 @@
 			)
 		)
 		(property "Manufacturer Part" "ERJPA2F4700X"
+			(at 397.51 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LSCS Part" ""
 			(at 397.51 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -14474,7 +14529,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
+		(property "Footprint" "JLCImport:BM04B-SRSS-TB_LF_SN"
 			(at 392.43 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -14563,6 +14618,17 @@
 			)
 		)
 		(property "LCSC Part" "C160390"
+			(at 392.43 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LSCS Part" ""
 			(at 392.43 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -14794,6 +14860,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 397.51 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "9"
 			(uuid "4c3c7f16-d207-4205-935a-1da25ffc7d95")
 		)
@@ -14949,6 +15026,17 @@
 			)
 		)
 		(property "LCSC Part" "C6782225"
+			(at 38.1 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LSCS Part" ""
 			(at 38.1 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -16293,6 +16381,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 367.03 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ab4d47d1-e3b9-49ca-af2d-7a44ed40480e")
 		)
@@ -16472,6 +16571,17 @@
 			)
 		)
 		(property "Manufacturer Part" "AFC01-S22FCA-00"
+			(at 298.45 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LSCS Part" ""
 			(at 298.45 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -16987,7 +17097,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EasyEDA:C0402"
+		(property "Footprint" "JLCImport:CC0402KRX7R7BB104"
 			(at 370.84 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -17110,6 +17220,17 @@
 		)
 		(property "LCSC Part" "C60474"
 			(at 370.84 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LSCS Part" ""
+			(at 370.84 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17850,6 +17971,17 @@
 			)
 		)
 		(property "LCSC Part" "C6782225"
+			(at 74.93 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LSCS Part" ""
 			(at 74.93 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -18826,6 +18958,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 179.07 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b3b1b28b-be79-4349-b86a-0a1eae85e3e2")
 		)
@@ -19007,6 +19150,17 @@
 		)
 		(property "Manufacturer Part" "TS665ZJ"
 			(at 124.46 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LSCS Part" ""
+			(at 124.46 172.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19529,6 +19683,17 @@
 		)
 		(property "Manufacturer Part" "RC0402FR-071KL"
 			(at 102.87 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LSCS Part" ""
+			(at 102.87 232.41 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20147,6 +20312,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 102.87 218.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "abbab199-1e1b-45f4-b961-4c8e55ff2303")
 		)
@@ -20272,6 +20448,17 @@
 		)
 		(property "Manufacturer Part" "RC0402FR-0710KL"
 			(at 114.3 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LSCS Part" ""
+			(at 114.3 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20866,6 +21053,17 @@
 			)
 		)
 		(property "Manufacturer Part" "TPD4EUSB30DQAR"
+			(at 337.82 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LSCS Part" ""
 			(at 337.82 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -21651,6 +21849,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 337.82 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0679b951-4140-4c3e-8123-d6afd7a1adc1")
 		)
@@ -21963,6 +22172,13 @@
 				(justify left top)
 			)
 		)
+		(instances
+			(project "BetterVisionMainBoard"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
+					(page "3")
+				)
+			)
+		)
 	)
 	(sheet
 		(at 12.7 246.38)
@@ -22000,6 +22216,13 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(instances
+			(project "BetterVisionMainBoard"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
+					(page "2")
+				)
 			)
 		)
 	)
