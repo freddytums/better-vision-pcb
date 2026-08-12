@@ -5509,7 +5509,7 @@
 			(uuid "9123d69d-99df-4c51-80cd-ac88cbeda596")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/JLCImport.3dshapes/RC0402FR-07100KL.wrl"
+		(model "${JLCIMPORT_DIR}/JLCImport.3dshapes/RC0402FR-07100KL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9478,7 +9478,7 @@
 			(uuid "10b382ad-7335-47de-8202-18cd16c52111")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3RD_PARTY}/JLCImport.3dshapes/RC0402FR-07100KL.wrl"
+		(model "${JLCIMPORT_DIR}/JLCImport.3dshapes/RC0402FR-07100KL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18095,7 +18095,7 @@
 			(uuid "f07ae0d3-8b4b-45a6-8f74-870c95eb8c17")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/CM5IO.3dshapes/10164227-1001a1rlf.stp"
+		(model "F:/james_kicad_libraries/cm5io/CM5IO.3dshapes/10164227-1001a1rlf.stp"
 			(offset
 				(xyz -0.5 21.5 0)
 			)
@@ -18106,7 +18106,7 @@
 				(xyz 0 0 90)
 			)
 		)
-		(model "${KIPRJMOD}/CM5IO.3dshapes/10164227-1001a1rlf.stp"
+		(model "F:/james_kicad_libraries/cm5io/CM5IO.3dshapes/10164227-1001a1rlf.stp"
 			(offset
 				(xyz 33.5 21.5 0)
 			)
