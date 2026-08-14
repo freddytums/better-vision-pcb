@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "BetterVisionMainBoard") (type "KiCad") (uri "E:/git/better-vision-pcb") (options "") (descr ""))
+)

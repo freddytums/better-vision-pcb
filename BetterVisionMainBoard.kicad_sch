@@ -3777,419 +3777,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x04"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x04_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "EasyEDA:CC0402KRX7R7BB104"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CC0402KRX7R7BB104"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "EasyEDA:C0402"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-16V_C60474.html"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO(国巨)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "CC0402KRX7R7BB104"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C60474"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CC0402KRX7R7BB104_0_1"
-				(polyline
-					(pts
-						(xy -0.51 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 -2.03) (xy -0.51 2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "JLCImport:AFC01-S22FCA-00"
 			(pin_names
 				(offset 1.016)
@@ -4315,7 +3902,7 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -6.35 26.67 0)
 					(length 5.08)
 					(name "1"
@@ -4333,7 +3920,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -6.35 24.13 0)
 					(length 5.08)
 					(name "2"
@@ -4351,7 +3938,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -6.35 21.59 0)
 					(length 5.08)
 					(name "3"
@@ -4369,7 +3956,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -6.35 19.05 0)
 					(length 5.08)
 					(name "4"
@@ -4387,7 +3974,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -6.35 16.51 0)
 					(length 5.08)
 					(name "5"
@@ -4405,7 +3992,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -6.35 13.97 0)
 					(length 5.08)
 					(name "6"
@@ -4423,7 +4010,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -6.35 11.43 0)
 					(length 5.08)
 					(name "7"
@@ -4441,7 +4028,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -6.35 8.89 0)
 					(length 5.08)
 					(name "8"
@@ -4459,7 +4046,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -6.35 6.35 0)
 					(length 5.08)
 					(name "9"
@@ -4477,7 +4064,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -6.35 3.81 0)
 					(length 5.08)
 					(name "10"
@@ -4495,7 +4082,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -6.35 1.27 0)
 					(length 5.08)
 					(name "11"
@@ -4513,7 +4100,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -6.35 -1.27 0)
 					(length 5.08)
 					(name "12"
@@ -4531,7 +4118,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -6.35 -3.81 0)
 					(length 5.08)
 					(name "13"
@@ -4549,7 +4136,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -6.35 -6.35 0)
 					(length 5.08)
 					(name "14"
@@ -4567,7 +4154,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -6.35 -8.89 0)
 					(length 5.08)
 					(name "15"
@@ -4585,7 +4172,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -6.35 -11.43 0)
 					(length 5.08)
 					(name "16"
@@ -4603,7 +4190,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -6.35 -13.97 0)
 					(length 5.08)
 					(name "17"
@@ -4621,7 +4208,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -6.35 -16.51 0)
 					(length 5.08)
 					(name "18"
@@ -4639,7 +4226,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -6.35 -19.05 0)
 					(length 5.08)
 					(name "19"
@@ -4657,7 +4244,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -6.35 -21.59 0)
 					(length 5.08)
 					(name "20"
@@ -4675,7 +4262,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -6.35 -24.13 0)
 					(length 5.08)
 					(name "21"
@@ -4693,7 +4280,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -6.35 -26.67 0)
 					(length 5.08)
 					(name "22"
@@ -4711,7 +4298,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 -34.29 90)
 					(length 5.08)
 					(name "23"
@@ -4729,7 +4316,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 34.29 270)
 					(length 5.08)
 					(name "24"
@@ -4750,7 +4337,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "JLCImport:B3B-XH-A_LF_SN"
+		(symbol "JLCImport:CC0402KRX7R7BB104"
 			(pin_names
 				(offset 1.016)
 			)
@@ -4759,8 +4346,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 9.62 0)
+			(property "Reference" "C"
+				(at 0 2 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4769,8 +4356,8 @@
 					)
 				)
 			)
-			(property "Value" "B3B-XH-A_LF_SN"
-				(at 0 -4.54 0)
+			(property "Value" "CC0402KRX7R7BB104"
+				(at 0 -2 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4779,7 +4366,7 @@
 					)
 				)
 			)
-			(property "Footprint" "JLCImport:B3B-XH-A_LF_SN"
+			(property "Footprint" "JLCImport:CC0402KRX7R7BB104"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4790,7 +4377,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JST-B3B-XH-A-LF-SN_C144394.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2203221430_YAGEO-CC0402KRX7R7BB104_C60474.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4801,7 +4388,7 @@
 					)
 				)
 			)
-			(property "Description" "-25℃~+85℃ 1 1x3P 2.5mm 250V 3 3A 3P 5.75mm 7mm 9.9mm Brass K Pin PA66 Through Hole Tin UL94V-0 White XH 插件,P=2.5mm Wire To Board Connector ROHS"
+			(property "Description" "100nF 16V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4812,7 +4399,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C144394"
+			(property "LCSC" "C60474"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4823,7 +4410,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "JST"
+			(property "Manufacturer" "YAGEO"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4834,7 +4421,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part" "B3B-XH-A(LF)(SN)"
+			(property "Manufacturer Part" "CC0402KRX7R7BB104"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4845,7 +4432,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "B3B-XH-A(LF)(SN) C144394 CONN-TH_3P-P2.50_A2501WV2-3P JST"
+			(property "ki_keywords" "C0402 C60474 CC0402KRX7R7BB104 YAGEO"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4856,21 +4443,58 @@
 					)
 				)
 			)
-			(symbol "B3B-XH-A_LF_SN_0_1"
-				(rectangle
-					(start -5.08 2.54)
-					(end 5.08 -2.54)
+			(symbol "CC0402KRX7R7BB104_0_1"
+				(polyline
+					(pts
+						(xy -0.508 0) (xy -2.54 0)
+					)
 					(stroke
 						(width 0.254)
 						(type solid)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-				(pin unspecified line
-					(at -2.54 7.62 270)
-					(length 5.08)
+				(polyline
+					(pts
+						(xy -0.508 -2.032) (xy -0.508 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.032) (xy 0.508 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
 					(name "1"
 						(effects
 							(font
@@ -4886,9 +4510,9 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 7.62 270)
-					(length 5.08)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
 					(name "2"
 						(effects
 							(font
@@ -4897,24 +4521,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 2.54 7.62 270)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5218,7 +4824,7 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 10.16 -12.7 180)
 					(length 2.54)
 					(name "SHELL"
@@ -5236,7 +4842,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 10.16 -10.16 180)
 					(length 2.54)
 					(name "SHELL"
@@ -5254,7 +4860,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 10.16 12.7 180)
 					(length 2.54)
 					(name "SHELL"
@@ -5272,7 +4878,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 10.16 15.24 180)
 					(length 2.54)
 					(name "SHELL"
@@ -5290,7 +4896,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 15.24 0)
 					(length 2.54)
 					(name "GND"
@@ -5308,7 +4914,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 12.7 0)
 					(length 2.54)
 					(name "VBUS"
@@ -5326,7 +4932,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 7.62 0)
 					(length 2.54)
 					(name "CC1"
@@ -5344,7 +4950,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 2.54 0)
 					(length 2.54)
 					(name "DP1"
@@ -5362,7 +4968,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 0 0)
 					(length 2.54)
 					(name "DN1"
@@ -5380,7 +4986,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 -5.08 0)
 					(length 2.54)
 					(name "SBU1"
@@ -5398,7 +5004,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 -12.7 0)
 					(length 2.54)
 					(name "GND"
@@ -5416,7 +5022,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 -10.16 0)
 					(length 2.54)
 					(name "VBUS"
@@ -5434,7 +5040,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 -7.62 0)
 					(length 2.54)
 					(name "CC2"
@@ -5452,7 +5058,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 -2.54 0)
 					(length 2.54)
 					(name "DP2"
@@ -5470,7 +5076,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 5.08 0)
 					(length 2.54)
 					(name "DN2"
@@ -5488,7 +5094,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 10.16 0)
 					(length 2.54)
 					(name "SBU2"
@@ -5645,7 +5251,7 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 16.51 0)
 					(length 2.54)
 					(name "TD1+"
@@ -5663,7 +5269,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 13.97 0)
 					(length 2.54)
 					(name "TD1-"
@@ -5681,7 +5287,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 11.43 0)
 					(length 2.54)
 					(name "TD2+"
@@ -5699,7 +5305,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 8.89 0)
 					(length 2.54)
 					(name "CT"
@@ -5717,7 +5323,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 6.35 0)
 					(length 2.54)
 					(name "CT"
@@ -5735,7 +5341,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 3.81 0)
 					(length 2.54)
 					(name "TD2-"
@@ -5753,7 +5359,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 1.27 0)
 					(length 2.54)
 					(name "TD3+"
@@ -5771,7 +5377,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 -1.27 0)
 					(length 2.54)
 					(name "TD3-"
@@ -5789,7 +5395,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 -3.81 0)
 					(length 2.54)
 					(name "TD4+"
@@ -5807,7 +5413,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 -6.35 0)
 					(length 2.54)
 					(name "TD4-"
@@ -5825,7 +5431,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 -8.89 0)
 					(length 2.54)
 					(name "VC1"
@@ -5843,7 +5449,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 -11.43 0)
 					(length 2.54)
 					(name "VC2"
@@ -5861,7 +5467,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 -13.97 0)
 					(length 2.54)
 					(name "VC3"
@@ -5879,7 +5485,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 -16.51 0)
 					(length 2.54)
 					(name "VC4"
@@ -5897,7 +5503,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 2.54 21.59 270)
 					(length 2.54)
 					(name "15"
@@ -5915,7 +5521,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 21.59 270)
 					(length 2.54)
 					(name "16"
@@ -5933,7 +5539,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 2.54 -21.59 90)
 					(length 2.54)
 					(name "17"
@@ -5951,7 +5557,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 -21.59 90)
 					(length 2.54)
 					(name "18"
@@ -5969,7 +5575,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 21.59 270)
 					(length 2.54)
 					(name "EH"
@@ -5987,7 +5593,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 -21.59 90)
 					(length 2.54)
 					(name "EH"
@@ -6322,6 +5928,242 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "JLCImport:SM04B-SRSS-TB_LF_SN"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CN"
+				(at 0 5.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SM04B-SRSS-TB_LF_SN"
+				(at 0 -5.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:SM04B-SRSS-TB_LF_SN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JST-SM04B-SRSS-TB-LF-SN_C160404.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-25℃~+85℃ 1 1A 1mm 1x4P 2.9mm 4 4.32mm 4P 50V 6mm Auxiliary Solder Pin Copper alloy PA SH Surface Mount, Right Angle Tin UL94V-0 White SMD,P=1mm,卧贴 Wire To Board Connector ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C160404"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "JST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "SM04B-SRSS-TB(LF)(SN)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C160404 CONN-SMD_4P-P1.00_SM04B-SRSS-TB-LF-SN JST SM04B-SRSS-TB(LF)(SN)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SM04B-SRSS-TB_LF_SN_0_1"
+				(polyline
+					(pts
+						(xy 10.922 -3.81) (xy 11.0211 -3.8002) (xy 11.1164 -3.7713) (xy 11.2042 -3.7244) (xy 11.2812 -3.6612)
+						(xy 11.3444 -3.5842) (xy 11.3913 -3.4964) (xy 11.4202 -3.4011) (xy 11.43 -3.302) (xy 11.4202 0.8611)
+						(xy 11.3913 0.9564) (xy 11.3444 1.0442) (xy 11.2812 1.1212) (xy 11.2042 1.1844) (xy 11.1164 1.2313)
+						(xy 11.0211 1.2602) (xy 10.922 1.27) (xy -11.0211 1.2602) (xy -11.1164 1.2313) (xy -11.2042 1.1844)
+						(xy -11.2812 1.1212) (xy -11.3444 1.0442) (xy -11.3913 0.9564) (xy -11.4202 0.8611) (xy -11.43 0.762)
+						(xy -11.4202 -3.4011) (xy -11.3913 -3.4964) (xy -11.3444 -3.5842) (xy -11.2812 -3.6612) (xy -11.2042 -3.7244)
+						(xy -11.1164 -3.7713) (xy -11.0211 -3.8002) (xy -10.922 -3.81) (xy 10.922 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 3.81 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -1.27 3.81 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 3.81 270)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 3.81 270)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 3.81 270)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 3.81 270)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "JLCImport:SN74LVC1T45DCKR"
 			(pin_names
 				(offset 1.016)
@@ -6458,7 +6300,7 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 2.54 0)
 					(length 2.54)
 					(name "VCCA"
@@ -6476,7 +6318,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 0 0)
 					(length 2.54)
 					(name "GND"
@@ -6494,7 +6336,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 -2.54 0)
 					(length 2.54)
 					(name "A"
@@ -6512,7 +6354,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 11.43 -2.54 180)
 					(length 2.54)
 					(name "B"
@@ -6530,7 +6372,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 11.43 0 180)
 					(length 2.54)
 					(name "DIR"
@@ -6548,7 +6390,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 11.43 2.54 180)
 					(length 2.54)
 					(name "VCCB"
@@ -7088,7 +6930,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 -2.54 0)
 					(length 2.54)
 					(name "1"
@@ -7106,7 +6948,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 -2.54 180)
 					(length 2.54)
 					(name "2"
@@ -7124,7 +6966,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
 					(name "3"
@@ -7142,7 +6984,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 2.54 180)
 					(length 2.54)
 					(name "4"
@@ -8179,7 +8021,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "K"
@@ -8197,7 +8039,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "A"
@@ -8347,8 +8189,8 @@
 		(uuid "168d9a87-92fc-4155-aa16-725d4c2051d0")
 	)
 	(rectangle
-		(start 355.6 106.68)
-		(end 414.02 149.86)
+		(start 351.79 106.68)
+		(end 416.56 149.86)
 		(stroke
 			(width 0)
 			(type default)
@@ -8372,7 +8214,7 @@
 	)
 	(text "Active Cooling Connector"
 		(exclude_from_sim no)
-		(at 383.794 109.22 0)
+		(at 379.984 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8382,7 +8224,7 @@
 	)
 	(text "FAN connector\n"
 		(exclude_from_sim no)
-		(at 384.81 122.174 0)
+		(at 383.032 148.336 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8445,7 +8287,7 @@
 	)
 	(text "R2 : Pullup added for Fans that don't \nhave a strong internal pullup "
 		(exclude_from_sim no)
-		(at 392.938 115.316 0)
+		(at 389.128 115.316 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8946,10 +8788,6 @@
 		(uuid "b090a26f-52e0-448e-b8d1-3c0672642ff0")
 	)
 	(no_connect
-		(at 102.87 157.48)
-		(uuid "b091dc2c-15fb-412e-9e58-2dc801131fa1")
-	)
-	(no_connect
 		(at 147.32 147.32)
 		(uuid "b62e411f-5be5-4c89-b936-c88fc574cfcc")
 	)
@@ -9042,6 +8880,10 @@
 		(uuid "ed0c55f5-e387-4eaa-b159-e58ca7f3f0a3")
 	)
 	(no_connect
+		(at 251.46 33.02)
+		(uuid "f0d01de0-c9db-4c6a-8dd2-ac01e83b7b65")
+	)
+	(no_connect
 		(at 208.28 147.32)
 		(uuid "f161de5e-3ee9-4e21-a25e-309bbb05b3bb")
 	)
@@ -9117,7 +8959,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 124.46) (xy 387.35 124.46)
+			(xy 378.46 128.27) (xy 383.54 128.27)
 		)
 		(stroke
 			(width 0)
@@ -9337,7 +9179,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 130.81) (xy 387.35 130.81)
+			(xy 363.22 130.81) (xy 383.54 130.81)
 		)
 		(stroke
 			(width 0)
@@ -9437,7 +9279,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 133.35) (xy 379.73 140.97)
+			(xy 375.92 133.35) (xy 375.92 140.97)
 		)
 		(stroke
 			(width 0)
@@ -9487,7 +9329,7 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 133.35) (xy 379.73 133.35)
+			(xy 383.54 133.35) (xy 375.92 133.35)
 		)
 		(stroke
 			(width 0)
@@ -9574,16 +9416,6 @@
 			(type default)
 		)
 		(uuid "40eda1f6-7f3e-4e0f-9e81-dfd76da790f6")
-	)
-	(wire
-		(pts
-			(xy 387.35 124.46) (xy 387.35 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4197fb96-0a2b-4e23-be7c-45ca07a6cf8f")
 	)
 	(wire
 		(pts
@@ -9767,7 +9599,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 135.89) (xy 387.35 135.89)
+			(xy 365.76 135.89) (xy 383.54 135.89)
 		)
 		(stroke
 			(width 0)
@@ -10147,7 +9979,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 110.49) (xy 367.03 110.49)
+			(xy 361.95 110.49) (xy 363.22 110.49)
 		)
 		(stroke
 			(width 0)
@@ -10157,7 +9989,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 110.49) (xy 367.03 113.03)
+			(xy 363.22 110.49) (xy 363.22 113.03)
 		)
 		(stroke
 			(width 0)
@@ -10537,7 +10369,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 123.19) (xy 367.03 130.81)
+			(xy 363.22 123.19) (xy 363.22 130.81)
 		)
 		(stroke
 			(width 0)
@@ -10926,7 +10758,7 @@
 		(uuid "1462acff-ef53-4027-a4cc-20d183843ba1")
 	)
 	(label "TACHO"
-		(at 369.57 135.89 0)
+		(at 365.76 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11156,7 +10988,7 @@
 		(uuid "65091055-1990-4221-8c59-534214387108")
 	)
 	(label "PWM"
-		(at 369.57 130.81 0)
+		(at 365.76 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11335,6 +11167,16 @@
 		)
 		(uuid "a0d2b267-8b42-4c09-a351-92e5dfb64928")
 	)
+	(label "nPWR_LED"
+		(at 102.87 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4a2c0da-d818-4605-86d8-de28afde9326")
+	)
 	(label "TRD2_P"
 		(at 111.76 50.8 0)
 		(effects
@@ -11454,16 +11296,6 @@
 			(justify left bottom)
 		)
 		(uuid "c713df2a-2493-42ad-a57d-2ce8a191e7ad")
-	)
-	(label "+3.3v"
-		(at 275.59 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cff0c23f-6c26-4dc6-b6ba-1a60109a6a1f")
 	)
 	(label "TRD1_N"
 		(at 379.73 55.88 0)
@@ -12049,7 +11881,7 @@
 	)
 	(global_label "+3.3v"
 		(shape input)
-		(at 365.76 110.49 180)
+		(at 361.95 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12059,7 +11891,7 @@
 		)
 		(uuid "b8642986-b5f0-4402-96b4-59b9f3f04e69")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 357.211 110.49 0)
+			(at 353.401 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12073,7 +11905,7 @@
 	)
 	(global_label "+5v"
 		(shape input)
-		(at 378.46 124.46 180)
+		(at 378.46 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12083,7 +11915,7 @@
 		)
 		(uuid "c5a8fd8e-2f29-4849-9a16-ca3f6e9cb91f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 371.7253 124.46 0)
+			(at 371.7253 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12116,6 +11948,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "+3.3v"
+		(shape input)
+		(at 275.59 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6afc839-4812-4983-9da7-b7915ecf1255")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 267.041 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -12318,6 +12174,133 @@
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:SM04B-SRSS-TB_LF_SN")
+		(at 387.35 132.08 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0425b111-ef4e-4a0f-b57a-1c56c61c11fa")
+		(property "Reference" "CN1"
+			(at 392.43 133.3501 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SM04B-SRSS-TB_LF_SN"
+			(at 392.43 130.8101 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "JLCImport:SM04B-SRSS-TB_LF_SN"
+			(at 387.35 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JST-SM04B-SRSS-TB-LF-SN_C160404.pdf"
+			(at 387.35 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 1A 1mm 1x4P 2.9mm 4 4.32mm 4P 50V 6mm Auxiliary Solder Pin Copper alloy PA SH Surface Mount, Right Angle Tin UL94V-0 White SMD,P=1mm,卧贴 Wire To Board Connector ROHS"
+			(at 387.35 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C160404"
+			(at 387.35 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 387.35 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "SM04B-SRSS-TB(LF)(SN)"
+			(at 387.35 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "67d0154e-6c3a-4a0f-86c4-30c33c446470")
+		)
+		(pin "3"
+			(uuid "128e4578-0232-48b1-8208-83f3f7282668")
+		)
+		(pin "6"
+			(uuid "991e7095-2fc4-4638-bcc1-a44062508e56")
+		)
+		(pin "5"
+			(uuid "b6e95c91-b61c-45e7-995b-5813a02d40f7")
+		)
+		(pin "4"
+			(uuid "c0208964-1a14-4658-b745-ed9a6a42b591")
+		)
+		(pin "1"
+			(uuid "fb917367-170a-4516-9a2d-13749473035f")
+		)
+		(instances
+			(project "BetterVisionMainBoard"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
+					(reference "CN1")
 					(unit 1)
 				)
 			)
@@ -12798,6 +12781,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 383.54 123.19 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "164212ee-1081-45ac-ba64-049492b2125e")
+		(property "Reference" "#PWR090"
+			(at 377.19 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 379.1458 123.317 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 383.54 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 383.54 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 383.54 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "46be2dd4-b7ef-463e-8988-f2e0438108e8")
+		)
+		(instances
+			(project "BetterVisionMainBoard"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JLCImport:ERJPA2F4700X")
 		(at 397.51 88.9 0)
 		(unit 1)
@@ -13270,157 +13330,6 @@
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:B3B-XH-A_LF_SN")
-		(at 259.08 38.1 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c675876-d76e-4e97-b523-84d0575ef77b")
-		(property "Reference" "U9"
-			(at 262.89 36.8299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "B3B-XH-A"
-			(at 262.89 39.3699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "JLCImport:B3B-XH-A_LF_SN"
-			(at 259.08 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JST-B3B-XH-A-LF-SN_C144394.pdf"
-			(at 259.08 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-25℃~+85℃ 1 1x3P 2.5mm 250V 3 3A 3P 5.75mm 7mm 9.9mm Brass K Pin PA66 Through Hole Tin UL94V-0 White XH 插件,P=2.5mm Wire To Board Connector ROHS"
-			(at 259.08 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "JST"
-			(at 259.08 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "B3B-XH-A(LF)(SN)"
-			(at 269.24 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C144394"
-			(at 271.78 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C144394"
-			(at 259.08 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "B3B-XH-A(LF)(SN)"
-			(at 259.08 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LSCS Part" ""
-			(at 259.08 38.1 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d4ddb833-87d6-4ce4-8019-73e3e390c586")
-		)
-		(pin "2"
-			(uuid "ccc3b024-145e-4f5f-9f77-531c3196e25f")
-		)
-		(pin "3"
-			(uuid "19e16ff7-e385-4469-9454-e6a60a4dcf87")
-		)
-		(instances
-			(project "BetterVisionMainBoard"
-				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -14491,170 +14400,6 @@
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 392.43 130.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "367c9ce5-da8c-4cc2-a313-04e444d3c4c7")
-		(property "Reference" "J14"
-			(at 390.525 139.065 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "JST_SHBM04B-SRSS-TB"
-			(at 389.89 141.605 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCImport:BM04B-SRSS-TB_LF_SN"
-			(at 392.43 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 392.43 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 392.43 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 392.43 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field5" "SHBM04B-SRSS-TB"
-			(at 392.43 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" "SHBM04B-SRSS-TB"
-			(at 392.43 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field7" "JST"
-			(at 392.43 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Description" "4 pin vertical 1mm pitch connector"
-			(at 392.43 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C160390"
-			(at 392.43 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LSCS Part" ""
-			(at 392.43 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "30ea91e9-31dc-47dc-8661-b488a36c9177")
-		)
-		(pin "2"
-			(uuid "078b6900-4c93-489f-8963-d6eddb914d97")
-		)
-		(pin "3"
-			(uuid "c1e2e976-9687-4db2-935f-ca76b90a2d5f")
-		)
-		(pin "4"
-			(uuid "9b0c737d-f425-4cb7-9428-23848e7e34df")
-		)
-		(instances
-			(project "BetterVisionMainBoard"
-				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -16209,7 +15954,7 @@
 	)
 	(symbol
 		(lib_id "JLCImport:RC0402FR-0710KL")
-		(at 367.03 118.11 90)
+		(at 363.22 118.11 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16219,7 +15964,7 @@
 		(dnp no)
 		(uuid "62207870-1c06-48be-868d-b4c8b2faecbd")
 		(property "Reference" "R11"
-			(at 361.95 118.11 0)
+			(at 358.14 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16229,7 +15974,7 @@
 			)
 		)
 		(property "Value" "RC0402FR-0710KL"
-			(at 359.41 122.936 0)
+			(at 355.6 122.936 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16239,7 +15984,7 @@
 			)
 		)
 		(property "Footprint" "JLCImport:RC0402FR-0710KL"
-			(at 367.03 118.11 0)
+			(at 363.22 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16250,7 +15995,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0402FR-0710KL_C60490.pdf"
-			(at 367.03 118.11 0)
+			(at 363.22 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16261,7 +16006,7 @@
 			)
 		)
 		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 367.03 118.11 0)
+			(at 363.22 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16272,7 +16017,7 @@
 			)
 		)
 		(property "Field4" "Farnell"
-			(at 367.03 118.11 0)
+			(at 363.22 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16283,7 +16028,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 367.03 118.11 0)
+			(at 363.22 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16294,7 +16039,7 @@
 			)
 		)
 		(property "Field7" "Rohm"
-			(at 367.03 118.11 0)
+			(at 363.22 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16305,7 +16050,7 @@
 			)
 		)
 		(property "Field6" "MCR01MZPF1002"
-			(at 367.03 118.11 0)
+			(at 363.22 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16316,7 +16061,7 @@
 			)
 		)
 		(property "Part Description" "Resistor 10K M1005 1% 63mW"
-			(at 367.03 118.11 0)
+			(at 363.22 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16327,7 +16072,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 367.03 118.11 0)
+			(at 363.22 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16338,7 +16083,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0710KL"
-			(at 382.27 118.11 0)
+			(at 378.46 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16349,7 +16094,7 @@
 			)
 		)
 		(property "LCSC Part" "C60490"
-			(at 384.81 118.11 0)
+			(at 381 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16360,7 +16105,7 @@
 			)
 		)
 		(property "LCSC" "C60490"
-			(at 367.03 118.11 0)
+			(at 363.22 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16371,7 +16116,7 @@
 			)
 		)
 		(property "Manufacturer Part" "RC0402FR-0710KL"
-			(at 367.03 118.11 0)
+			(at 363.22 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16382,7 +16127,7 @@
 			)
 		)
 		(property "LSCS Part" ""
-			(at 367.03 118.11 0)
+			(at 363.22 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16668,6 +16413,85 @@
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "FPC5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 251.46 27.94 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64c6eecc-5bab-4eb6-9bd8-c0ff7c8e6d28")
+		(property "Reference" "#PWR092"
+			(at 245.11 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 247.65 27.9399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16532679-1932-4985-97a3-f0e61a418a7c")
+		)
+		(instances
+			(project "BetterVisionMainBoard"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -17059,197 +16883,6 @@
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA:CC0402KRX7R7BB104")
-		(at 370.84 50.8 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "747fb352-4c40-4a02-a245-5dcbfa0f33d4")
-		(property "Reference" "C3"
-			(at 371.856 47.5234 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 371.856 45.212 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCImport:CC0402KRX7R7BB104"
-			(at 370.84 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-16V_C60474.html"
-			(at 370.84 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 370.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field4" "Farnell"
-			(at 370.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field5" "2611911"
-			(at 370.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" "RM EMK105 B7104KV-F"
-			(at 370.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field7" "TAIYO YUDEN EUROPE GMBH"
-			(at 370.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Description" "	0.1uF 10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 370.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field8" "110091611"
-			(at 370.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 370.84 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CC0402KRX7R7BB104"
-			(at 370.84 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C60474"
-			(at 370.84 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LSCS Part" ""
-			(at 370.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fdb7779d-a6d1-4382-b882-335ac9b0e27f")
-		)
-		(pin "2"
-			(uuid "31144ae4-b829-426a-a194-5d64c509fcbc")
-		)
-		(instances
-			(project "BetterVisionMainBoard"
-				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -18760,6 +18393,132 @@
 		)
 	)
 	(symbol
+		(lib_id "JLCImport:SM04B-SRSS-TB_LF_SN")
+		(at 255.27 36.83 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "95c9be13-bb25-4945-8336-28c637cc6246")
+		(property "Reference" "CN2"
+			(at 254 50.292 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SM04B-SRSS-TB_LF_SN"
+			(at 244.094 52.578 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "JLCImport:SM04B-SRSS-TB_LF_SN"
+			(at 255.27 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JST-SM04B-SRSS-TB-LF-SN_C160404.pdf"
+			(at 255.27 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-25℃~+85℃ 1 1A 1mm 1x4P 2.9mm 4 4.32mm 4P 50V 6mm Auxiliary Solder Pin Copper alloy PA SH Surface Mount, Right Angle Tin UL94V-0 White SMD,P=1mm,卧贴 Wire To Board Connector ROHS"
+			(at 255.27 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C160404"
+			(at 255.27 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 255.27 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "SM04B-SRSS-TB(LF)(SN)"
+			(at 255.27 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a6a18cb9-f7da-4562-a859-194a206d92b4")
+		)
+		(pin "3"
+			(uuid "1d042404-edf3-4cf4-9ba9-3dd85facba96")
+		)
+		(pin "6"
+			(uuid "eca61916-5f3b-43f4-ab0f-0992077b1286")
+		)
+		(pin "5"
+			(uuid "7f94045e-81d9-4d03-a95e-5732a892348b")
+		)
+		(pin "4"
+			(uuid "cbad6ad8-41ef-49e0-a9c9-7bfd704e06db")
+		)
+		(pin "1"
+			(uuid "dfb164d1-55e3-422f-ac16-804c4229805e")
+		)
+		(instances
+			(project "BetterVisionMainBoard"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
+					(reference "CN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 147.32 152.4 270)
 		(unit 1)
@@ -19877,6 +19636,119 @@
 		)
 	)
 	(symbol
+		(lib_id "JLCImport:CC0402KRX7R7BB104")
+		(at 370.84 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b74bfcd9-46eb-453e-9e40-5f6adfbe7faf")
+		(property "Reference" "C3"
+			(at 370.84 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CC0402KRX7R7BB104"
+			(at 370.84 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:CC0402KRX7R7BB104"
+			(at 370.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2203221430_YAGEO-CC0402KRX7R7BB104_C60474.pdf"
+			(at 370.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100nF 16V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 370.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C60474"
+			(at 370.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 370.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CC0402KRX7R7BB104"
+			(at 370.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c829711-f7cd-49ed-b2f3-d8f77dd00451")
+		)
+		(pin "2"
+			(uuid "15162551-56b4-4089-92e7-c1c1ad803e0e")
+		)
+		(instances
+			(project "BetterVisionMainBoard"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 405.13 86.36 0)
 		(unit 1)
@@ -20185,6 +20057,85 @@
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 251.46 45.72 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc1f67c4-f287-4a15-ac4f-15295b355b6b")
+		(property "Reference" "#PWR091"
+			(at 245.11 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 247.65 45.7199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5f7265ed-e60d-459d-b32e-77d9b3e27693")
+		)
+		(instances
+			(project "BetterVisionMainBoard"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -21271,6 +21222,83 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 383.54 140.97 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ddde873a-cde7-4b60-972c-a9d1c650f28a")
+		(property "Reference" "#PWR089"
+			(at 377.19 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 379.1458 141.097 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 383.54 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 383.54 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 383.54 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "150a3188-f59a-4fd0-b7a7-d048457560a5")
+		)
+		(instances
+			(project "BetterVisionMainBoard"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 208.28 152.4 90)
 		(unit 1)
 		(body_style 1)
@@ -21980,7 +22008,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 379.73 140.97 0)
+		(at 375.92 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21990,7 +22018,7 @@
 		(dnp no)
 		(uuid "fa5922fa-e967-40a1-aed1-023c657eb40a")
 		(property "Reference" "#PWR069"
-			(at 379.73 147.32 0)
+			(at 375.92 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22001,7 +22029,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 379.857 145.3642 0)
+			(at 376.047 145.3642 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22011,7 +22039,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 379.73 140.97 0)
+			(at 375.92 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22022,7 +22050,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 379.73 140.97 0)
+			(at 375.92 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22033,7 +22061,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 379.73 140.97 0)
+			(at 375.92 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

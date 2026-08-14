@@ -130,7 +130,7 @@
       "otherItems": false,
       "pins": false,
       "ruleAreas": false,
-      "symbols": true,
+      "symbols": false,
       "text": false,
       "wires": true
     }
