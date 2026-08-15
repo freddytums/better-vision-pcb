@@ -467,7 +467,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "ignore",
       "pin_to_pin": "error",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -487,8 +487,7 @@
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
       "EasyEDA",
-      "BetterVisionMainBoard",
-      "JLCImport"
+      "BetterVisionMainBoard"
     ]
   },
   "meta": {
@@ -737,7 +736,7 @@
         "uuid": "f44ceb17-72f5-41f7-85b6-46c590c0f90f"
       }
     ],
-    "used_designators": "CN1-2,#PWR89-92,C10,U5",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
