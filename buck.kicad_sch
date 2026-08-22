@@ -167,6 +167,163 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "JLCImport:0402WGF2432TCE"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 3.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "24.3kΩ"
+				(at 0 -3.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:0402WGF2432TCE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010030_UNI-ROYAL-Uniroyal-Elec-0402WGF2432TCE_C26969.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-55℃~+155℃ 24.3kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C26969"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "0402WGF2432TCE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "0402WGF2432TCE C26969 R0402 UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0402WGF2432TCE_0_1"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "JLCImport:0402WGF3652TCE"
 			(pin_names
 				(offset 1.016)
@@ -274,6 +431,163 @@
 				)
 			)
 			(symbol "0402WGF3652TCE_0_1"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JLCImport:0402WGF4423TCE"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 3.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "442kΩ"
+				(at 0 -3.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:0402WGF4423TCE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF4423TCE_C5101.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-55℃~+155℃ 442kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C5101"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "0402WGF4423TCE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "0402WGF4423TCE C5101 R0402 UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0402WGF4423TCE_0_1"
 				(rectangle
 					(start -2.54 1.016)
 					(end 2.54 -1.016)
@@ -767,163 +1081,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "JLCImport:AC0402FR-0724K9L"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 3.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "24.9kΩ"
-				(at 0 -3.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "JLCImport:AC0402FR-0724K9L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-AC0402FR-0724K9L_C226371.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "-55℃~+155℃ 24.9kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C226371"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "AC0402FR-0724K9L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "AC0402FR-0724K9L C226371 R0402 YAGEO"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "AC0402FR-0724K9L_0_1"
-				(rectangle
-					(start -2.54 1.016)
-					(end 2.54 -1.016)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2107,6 +2264,200 @@
 				)
 				(pin input line
 					(at 3.81 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JLCImport:CC0603KRX7R9BB104"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100nF 50V"
+				(at 0 -2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:CC0603KRX7R9BB104"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C14663"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "CC0603KRX7R9BB104"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C0603 C14663 CC0603KRX7R9BB104 YAGEO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CC0603KRX7R9BB104_0_1"
+				(polyline
+					(pts
+						(xy -0.508 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -2.032) (xy -0.508 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.032) (xy 0.508 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -3604,7 +3955,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "JLCImport:FRC0402F2212TS"
+		(symbol "JLCImport:FRC0402F6812TS"
 			(pin_names
 				(offset 1.016)
 			)
@@ -3623,7 +3974,7 @@
 					)
 				)
 			)
-			(property "Value" "22.1kΩ"
+			(property "Value" "68.1kΩ"
 				(at 0 -3.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3633,7 +3984,7 @@
 					)
 				)
 			)
-			(property "Footprint" "JLCImport:FRC0402F2212TS"
+			(property "Footprint" "JLCImport:FRC0402F6812TS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3644,7 +3995,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241009_FOJAN-FRC0402F2212TS_C2929993.pdf"
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0402F6812TS_C3013185.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3655,7 +4006,7 @@
 					)
 				)
 			)
-			(property "Description" "-55℃~+155℃ 22.1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(property "Description" "-55℃~+155℃ 50V 62.5mW 68.1kΩ Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3666,7 +4017,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C2929993"
+			(property "LCSC" "C3013185"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3688,7 +4039,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part" "FRC0402F2212TS"
+			(property "Manufacturer Part" "FRC0402F6812TS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3699,7 +4050,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "C2929993 FOJAN FRC0402F2212TS R0402"
+			(property "ki_keywords" "C3013185 FOJAN FRC0402F6812TS R0402"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3710,7 +4061,7 @@
 					)
 				)
 			)
-			(symbol "FRC0402F2212TS_0_1"
+			(symbol "FRC0402F6812TS_0_1"
 				(rectangle
 					(start -2.54 1.27)
 					(end 2.54 -1.27)
@@ -3761,7 +4112,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "JLCImport:FRC0402F4023TS"
+		(symbol "JLCImport:FRC0402F6982TS"
 			(pin_names
 				(offset 1.016)
 			)
@@ -3780,7 +4131,7 @@
 					)
 				)
 			)
-			(property "Value" "402kΩ"
+			(property "Value" "69.8kΩ"
 				(at 0 -3.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3790,7 +4141,7 @@
 					)
 				)
 			)
-			(property "Footprint" "JLCImport:FRC0402F4023TS"
+			(property "Footprint" "JLCImport:FRC0402F6982TS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3801,7 +4152,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0402F4023TS_C5126256.pdf"
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0402F6982TS_C5126210.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3812,7 +4163,7 @@
 					)
 				)
 			)
-			(property "Description" "-55℃~+155℃ 402kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(property "Description" "-55℃~+155℃ 50V 62.5mW 69.8kΩ Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3823,7 +4174,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C5126256"
+			(property "LCSC" "C5126210"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3845,7 +4196,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part" "FRC0402F4023TS"
+			(property "Manufacturer Part" "FRC0402F6982TS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3856,7 +4207,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "C5126256 FOJAN FRC0402F4023TS R0402"
+			(property "ki_keywords" "C5126210 FOJAN FRC0402F6982TS R0402"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3867,164 +4218,7 @@
 					)
 				)
 			)
-			(symbol "FRC0402F4023TS_0_1"
-				(rectangle
-					(start -2.54 1.27)
-					(end 2.54 -1.27)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "JLCImport:FRC0402F6042TS"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 3.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "60.4kΩ"
-				(at 0 -3.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "JLCImport:FRC0402F6042TS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0402F6042TS_C2998058.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "-55℃~+155℃ 50V 60.4kΩ 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C2998058"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "FOJAN"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "FRC0402F6042TS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "C2998058 FOJAN FRC0402F6042TS R0402"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "FRC0402F6042TS_0_1"
+			(symbol "FRC0402F6982TS_0_1"
 				(rectangle
 					(start -2.54 1.27)
 					(end 2.54 -1.27)
@@ -4851,163 +5045,6 @@
 				)
 			)
 			(symbol "RC0402FR-0710KL_0_1"
-				(rectangle
-					(start -2.54 1.016)
-					(end 2.54 -1.016)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "JLCImport:RC0402FR-0733KL"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 3.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "33kΩ"
-				(at 0 -3.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "JLCImport:RC0402FR-0733KL"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0402FR-0733KL_C138003.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "-55℃~+155℃ 33kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C138003"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "RC0402FR-0733KL"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "C138003 R0402 RC0402FR-0733KL YAGEO"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RC0402FR-0733KL_0_1"
 				(rectangle
 					(start -2.54 1.016)
 					(end 2.54 -1.016)
@@ -7124,7 +7161,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "DC-DC Buck Boost Converter"
+	(text "DC-DC Buck Converter"
 		(exclude_from_sim no)
 		(at 281.94 41.148 0)
 		(effects
@@ -7205,6 +7242,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1bfd65d7-a409-430c-8bb3-4b207a72f01b")
+	)
+	(junction
+		(at 266.7 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20421449-cd3b-4ca7-bb0b-d78824a72085")
 	)
 	(junction
 		(at 148.59 193.04)
@@ -7303,12 +7346,6 @@
 		(uuid "4a94af52-abb6-46cf-a44d-46004c02a26d")
 	)
 	(junction
-		(at 298.45 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50e91c6a-d746-4270-a371-b15a9c14bac2")
-	)
-	(junction
 		(at 233.68 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7363,6 +7400,12 @@
 		(uuid "69a55d83-1380-4755-9658-7297082471b8")
 	)
 	(junction
+		(at 130.81 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d23a40a-f1dd-45a0-8a07-d2754c583783")
+	)
+	(junction
 		(at 256.54 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7409,6 +7452,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b52b1de-5177-4fc5-8aa0-c323fdc53026")
+	)
+	(junction
+		(at 140.97 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d00e401-1ad2-4030-99e7-1388a2355221")
 	)
 	(junction
 		(at 109.22 87.63)
@@ -7459,16 +7508,16 @@
 		(uuid "ba707783-11c1-4256-9baa-4353e03a2bce")
 	)
 	(junction
+		(at 90.17 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd0fdf56-a15d-4a87-ab3e-19457977daa7")
+	)
+	(junction
 		(at 100.33 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf7a96ce-6fbe-4f54-a12a-41f0a93923c5")
-	)
-	(junction
-		(at 90.17 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c2a08587-386b-4428-9d1e-bb0570650fb0")
 	)
 	(junction
 		(at 360.68 68.58)
@@ -7594,7 +7643,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 120.65) (xy 109.22 120.65)
+			(xy 137.16 120.65) (xy 130.81 120.65)
 		)
 		(stroke
 			(width 0)
@@ -7734,6 +7783,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 76.2) (xy 260.35 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f4b15e5-8041-40e7-acc7-ea01c7c21185")
+	)
+	(wire
+		(pts
 			(xy 148.59 191.77) (xy 148.59 193.04)
 		)
 		(stroke
@@ -7824,6 +7883,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 120.65) (xy 109.22 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b268bcf-cb7b-496d-b2f6-ae3fff475528")
+	)
+	(wire
+		(pts
 			(xy 381 68.58) (xy 381 69.85)
 		)
 		(stroke
@@ -7861,6 +7930,16 @@
 			(type default)
 		)
 		(uuid "202dca4a-b168-4d41-9f8d-db41c7e81a20")
+	)
+	(wire
+		(pts
+			(xy 260.35 48.26) (xy 260.35 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "217f7fe4-8328-44ab-9468-93ff4a05a923")
 	)
 	(wire
 		(pts
@@ -8064,6 +8143,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 76.2) (xy 270.51 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38508975-20a6-41e8-b199-1536cce21292")
+	)
+	(wire
+		(pts
 			(xy 365.76 81.28) (xy 370.84 81.28)
 		)
 		(stroke
@@ -8214,6 +8303,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 74.93) (xy 140.97 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d2a8e94-36f4-4f61-a552-ac4cb4bb6ce1")
+	)
+	(wire
+		(pts
 			(xy 123.19 195.58) (xy 123.19 175.26)
 		)
 		(stroke
@@ -8244,6 +8343,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 74.93) (xy 140.97 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5386e0dd-93b6-4706-a370-4c65cc8ab9f4")
+	)
+	(wire
+		(pts
 			(xy 226.06 71.12) (xy 233.68 71.12)
 		)
 		(stroke
@@ -8261,6 +8370,16 @@
 			(type default)
 		)
 		(uuid "54834e5a-20b1-401a-88bc-12108a5adf5e")
+	)
+	(wire
+		(pts
+			(xy 257.81 48.26) (xy 260.35 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54db178e-1f58-4603-bc35-a33ba6398b35")
 	)
 	(wire
 		(pts
@@ -8291,6 +8410,16 @@
 			(type default)
 		)
 		(uuid "55413e9f-c221-4c1d-ac93-38d9374e2547")
+	)
+	(wire
+		(pts
+			(xy 130.81 101.6) (xy 130.81 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5542f692-fd5c-4f41-b600-280001f9e87a")
 	)
 	(wire
 		(pts
@@ -8464,6 +8593,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 76.2) (xy 266.7 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a9f920e-2eb1-4741-b71d-a6e24d677167")
+	)
+	(wire
+		(pts
 			(xy 132.08 63.5) (xy 137.16 63.5)
 		)
 		(stroke
@@ -8541,6 +8680,16 @@
 			(type default)
 		)
 		(uuid "6f311a87-d850-48fd-82c2-d0a95260ebe4")
+	)
+	(wire
+		(pts
+			(xy 130.81 111.76) (xy 130.81 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "702d0aec-b533-445d-a443-aefd9409f856")
 	)
 	(wire
 		(pts
@@ -9164,6 +9313,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 76.2) (xy 260.35 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c39f9ed8-96c2-4229-a496-b0f3b2e74254")
+	)
+	(wire
+		(pts
 			(xy 125.73 165.1) (xy 125.73 154.94)
 		)
 		(stroke
@@ -9274,16 +9433,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 86.36) (xy 298.45 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf822e3f-789e-499e-b585-ce41f31d6c0d")
-	)
-	(wire
-		(pts
 			(xy 147.32 86.36) (xy 119.38 86.36)
 		)
 		(stroke
@@ -9344,6 +9493,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 71.12) (xy 144.78 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d687dfd6-cd54-4d48-a2d8-2e811d5a7299")
+	)
+	(wire
+		(pts
 			(xy 43.18 50.8) (xy 68.58 50.8)
 		)
 		(stroke
@@ -9394,7 +9553,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 97.79) (xy 90.17 97.79)
+			(xy 82.55 97.79) (xy 90.17 97.79)
 		)
 		(stroke
 			(width 0)
@@ -9424,7 +9583,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 73.66) (xy 298.45 86.36)
+			(xy 298.45 73.66) (xy 298.45 87.63)
 		)
 		(stroke
 			(width 0)
@@ -9484,7 +9643,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 107.95) (xy 90.17 107.95)
+			(xy 82.55 107.95) (xy 90.17 107.95)
 		)
 		(stroke
 			(width 0)
@@ -9561,6 +9720,16 @@
 			(type default)
 		)
 		(uuid "ede28ef2-1e54-4c41-ba9d-cf735dbfc981")
+	)
+	(wire
+		(pts
+			(xy 266.7 83.82) (xy 270.51 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f03f7acd-3fa2-4c18-8c5e-8186aa5c3cd4")
 	)
 	(wire
 		(pts
@@ -9644,16 +9813,6 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 86.36) (xy 298.45 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe232f7e-6dd6-47ab-9e96-8949e6c4e43e")
-	)
-	(wire
-		(pts
 			(xy 323.85 68.58) (xy 323.85 53.34)
 		)
 		(stroke
@@ -9684,7 +9843,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 71.12) (xy 144.78 71.12)
+			(xy 137.16 71.12) (xy 140.97 71.12)
 		)
 		(stroke
 			(width 0)
@@ -9731,6 +9890,30 @@
 			(justify left bottom)
 		)
 		(uuid "f0ba807d-09af-4a5e-95a0-b4bdd60114d2")
+	)
+	(global_label "GPIO5"
+		(shape input)
+		(at 270.51 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "144757cd-8c55-45b2-a844-e8215a3a234f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 279.18 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(global_label "VBUS"
 		(shape input)
@@ -9873,6 +10056,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "+3.3v"
+		(shape input)
+		(at 257.81 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c50b01fc-928b-4162-ade0-cecc40232a94")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.261 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -10979,7 +11186,7 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:FRC0402F6042TS")
+		(lib_id "JLCImport:FRC0402F6982TS")
 		(at 109.22 102.87 90)
 		(unit 1)
 		(body_style 1)
@@ -11001,7 +11208,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "60.4kΩ"
+		(property "Value" "69.8kΩ"
 			(at 111.76 104.1399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11012,7 +11219,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "JLCImport:FRC0402F6042TS"
+		(property "Footprint" "JLCImport:FRC0402F6982TS"
 			(at 109.22 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -11023,7 +11230,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0402F6042TS_C2998058.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0402F6982TS_C5126210.pdf"
 			(at 109.22 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -11034,7 +11241,7 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 50V 60.4kΩ 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 50V 62.5mW 69.8kΩ Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 109.22 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -11078,7 +11285,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2998058"
+		(property "LCSC" "C5126210"
 			(at 109.22 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -11089,7 +11296,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "FRC0402F6042TS"
+		(property "Manufacturer Part" "FRC0402F6982TS"
 			(at 109.22 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -12645,7 +12852,7 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:FRC0402F2212TS")
+		(lib_id "JLCImport:0402WGF2262TCE")
 		(at 158.75 186.69 90)
 		(unit 1)
 		(body_style 1)
@@ -12667,7 +12874,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22.1kΩ"
+		(property "Value" "22.6kΩ"
 			(at 161.29 187.9599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12678,7 +12885,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "JLCImport:FRC0402F2212TS"
+		(property "Footprint" "JLCImport:0402WGF2262TCE"
 			(at 158.75 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -12689,7 +12896,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241009_FOJAN-FRC0402F2212TS_C2929993.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010030_UNI-ROYAL-Uniroyal-Elec-0402WGF2262TCE_C26960.pdf"
 			(at 158.75 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -12700,7 +12907,7 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 22.1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 22.6kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 158.75 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -12711,7 +12918,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2929993"
+		(property "LCSC" "C26960"
 			(at 158.75 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -12722,7 +12929,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FOJAN"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 158.75 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -12733,7 +12940,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "FRC0402F2212TS"
+		(property "Manufacturer Part" "0402WGF2262TCE"
 			(at 158.75 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -14414,7 +14621,7 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:RC0402FR-0733KL")
+		(lib_id "JLCImport:FRC0402F6812TS")
 		(at 90.17 102.87 90)
 		(unit 1)
 		(body_style 1)
@@ -14436,7 +14643,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "33kΩ"
+		(property "Value" "68.1kΩ"
 			(at 92.71 104.1399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14447,7 +14654,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "JLCImport:RC0402FR-0733KL"
+		(property "Footprint" "JLCImport:FRC0402F6812TS"
 			(at 90.17 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -14458,7 +14665,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0402FR-0733KL_C138003.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0402F6812TS_C3013185.pdf"
 			(at 90.17 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -14469,7 +14676,7 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 33kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 50V 62.5mW 68.1kΩ Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 90.17 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -14480,7 +14687,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "FOJAN"
 			(at 90.17 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -14513,7 +14720,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C138003"
+		(property "LCSC" "C3013185"
 			(at 90.17 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -14524,7 +14731,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "RC0402FR-0733KL"
+		(property "Manufacturer Part" "FRC0402F6812TS"
 			(at 90.17 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -15938,7 +16145,7 @@
 	)
 	(symbol
 		(lib_id "JLCImport:BZT52C4V7_C173408")
-		(at 83.82 102.87 90)
+		(at 82.55 102.87 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15948,7 +16155,7 @@
 		(dnp no)
 		(uuid "abf66990-9265-4b53-94e1-f49b340e9a1d")
 		(property "Reference" "D3"
-			(at 81.28 102.87 90)
+			(at 85.09 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15959,7 +16166,7 @@
 			)
 		)
 		(property "Value" "BZT52C4V7_C173408"
-			(at 85.82 102.87 0)
+			(at 80.55 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15970,7 +16177,7 @@
 			)
 		)
 		(property "Footprint" "JLCImport:BZT52C4V7_C173408"
-			(at 83.82 102.87 0)
+			(at 82.55 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15981,7 +16188,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407261727_MDD-Microdiode-Semiconductor-BZT52C4V7_C173408.pdf"
-			(at 83.82 102.87 0)
+			(at 82.55 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15992,7 +16199,7 @@
 			)
 		)
 		(property "Description" "1 Independent 130Ω 2uA@1V 4.47V~4.94V 4.7V 500mW SOD-123 Zener Diodes ROHS"
-			(at 83.82 102.87 0)
+			(at 82.55 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16003,7 +16210,7 @@
 			)
 		)
 		(property "Manufacturer" "MDD(Microdiode Semiconductor)"
-			(at 83.82 102.87 0)
+			(at 82.55 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16014,7 +16221,7 @@
 			)
 		)
 		(property "MPN" "BZT52C4V7"
-			(at 99.06 102.87 0)
+			(at 67.31 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16025,7 +16232,7 @@
 			)
 		)
 		(property "LCSC Part" "C173408"
-			(at 101.6 102.87 0)
+			(at 64.77 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16036,7 +16243,7 @@
 			)
 		)
 		(property "LCSC" "C173408"
-			(at 83.82 102.87 0)
+			(at 82.55 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16047,7 +16254,7 @@
 			)
 		)
 		(property "Manufacturer Part" "BZT52C4V7"
-			(at 83.82 102.87 0)
+			(at 82.55 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16058,7 +16265,7 @@
 			)
 		)
 		(property "LSCS Part" ""
-			(at 83.82 102.87 90)
+			(at 82.55 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16637,7 +16844,7 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:FRC0402F4023TS")
+		(lib_id "JLCImport:0402WGF4423TCE")
 		(at 109.22 92.71 90)
 		(unit 1)
 		(body_style 1)
@@ -16659,7 +16866,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "402kΩ"
+		(property "Value" "442kΩ"
 			(at 111.76 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16670,7 +16877,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "JLCImport:FRC0402F4023TS"
+		(property "Footprint" "JLCImport:0402WGF4423TCE"
 			(at 109.22 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -16681,7 +16888,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0402F4023TS_C5126256.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF4423TCE_C5101.pdf"
 			(at 109.22 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -16692,7 +16899,7 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 402kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 442kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 109.22 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -16703,7 +16910,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FOJAN"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 109.22 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -16736,7 +16943,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5126256"
+		(property "LCSC" "C5101"
 			(at 109.22 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -16747,7 +16954,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "FRC0402F4023TS"
+		(property "Manufacturer Part" "0402WGF4423TCE"
 			(at 109.22 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -17221,8 +17428,8 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:RC0402FR-07100KL")
-		(at 270.51 81.28 90)
+		(lib_id "JLCImport:RC0402FR-0710KL")
+		(at 260.35 60.96 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17232,7 +17439,7 @@
 		(dnp no)
 		(uuid "cfefb0b7-6c66-40b9-9760-9fff16418b44")
 		(property "Reference" "R26"
-			(at 272.542 81.534 90)
+			(at 262.382 61.214 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17242,8 +17449,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100kΩ"
-			(at 273.526 81.28 0)
+		(property "Value" "10kΩ"
+			(at 264.414 62.992 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17252,8 +17459,8 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCImport:RC0402FR-07100KL"
-			(at 270.51 81.28 0)
+		(property "Footprint" "JLCImport:RC0402FR-0710KL"
+			(at 260.35 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17263,8 +17470,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0402FR-07100KL_C60491.pdf"
-			(at 270.51 81.28 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0402FR-0710KL_C60490.pdf"
+			(at 260.35 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17274,8 +17481,8 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 270.51 81.28 0)
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 260.35 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17285,8 +17492,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C60491"
-			(at 270.51 81.28 0)
+		(property "LCSC" "C60490"
+			(at 260.35 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17297,7 +17504,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 270.51 81.28 0)
+			(at 260.35 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17307,8 +17514,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "RC0402FR-07100KL"
-			(at 270.51 81.28 0)
+		(property "Manufacturer Part" "RC0402FR-0710KL"
+			(at 260.35 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17319,7 +17526,7 @@
 			)
 		)
 		(property "LSCS Part" ""
-			(at 270.51 81.28 90)
+			(at 260.35 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18248,7 +18455,7 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:AC0402FR-0724K9L")
+		(lib_id "JLCImport:0402WGF2432TCE")
 		(at 323.85 86.36 270)
 		(unit 1)
 		(body_style 1)
@@ -18270,7 +18477,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "24.9kΩ"
+		(property "Value" "24.3kΩ"
 			(at 326.39 87.6299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18281,7 +18488,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "JLCImport:AC0402FR-0724K9L"
+		(property "Footprint" "JLCImport:0402WGF2432TCE"
 			(at 323.85 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -18292,7 +18499,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-AC0402FR-0724K9L_C226371.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010030_UNI-ROYAL-Uniroyal-Elec-0402WGF2432TCE_C26969.pdf"
 			(at 323.85 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -18303,7 +18510,7 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 24.9kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 24.3kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 323.85 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -18314,7 +18521,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C226371"
+		(property "LCSC" "C26969"
 			(at 323.85 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -18325,7 +18532,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 323.85 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -18336,7 +18543,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "AC0402FR-0724K9L"
+		(property "Manufacturer Part" "0402WGF2432TCE"
 			(at 323.85 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -18368,6 +18575,119 @@
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:CC0603KRX7R9BB104")
+		(at 130.81 106.68 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fd182ce3-1928-4d1f-a4e1-8313cc55b363")
+		(property "Reference" "C24"
+			(at 124.46 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 50V"
+			(at 124.46 109.474 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:CC0603KRX7R9BB104"
+			(at 130.81 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
+			(at 130.81 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 130.81 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 130.81 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 130.81 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
+			(at 130.81 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4514c20c-e02a-4749-b250-222598f57c41")
+		)
+		(pin "2"
+			(uuid "c98bf052-28c4-498d-97d8-cd6bb7045488")
+		)
+		(instances
+			(project "BetterVisionMainBoard"
+				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
+					(reference "C24")
 					(unit 1)
 				)
 			)
