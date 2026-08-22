@@ -4356,7 +4356,7 @@
 					)
 				)
 			)
-			(property "Value" "CC0402KRX7R7BB104"
+			(property "Value" "100nF 16V"
 				(at 0 -2 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4550,7 +4550,7 @@
 					)
 				)
 			)
-			(property "Value" "ERJPA2F4700X"
+			(property "Value" "470Ω"
 				(at 0 -3.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4649,7 +4649,7 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -4667,7 +4667,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -5633,7 +5633,7 @@
 					)
 				)
 			)
-			(property "Value" "RC0402FR-0710KL"
+			(property "Value" "10kΩ"
 				(at 0 -3.016 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5790,7 +5790,7 @@
 					)
 				)
 			)
-			(property "Value" "RC0402FR-071KL"
+			(property "Value" "1kΩ"
 				(at 0 -3.016 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6053,7 +6053,7 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -3.81 3.81 270)
 					(length 2.54)
 					(name "1"
@@ -6071,7 +6071,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -1.27 3.81 270)
 					(length 2.54)
 					(name "2"
@@ -6089,7 +6089,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 1.27 3.81 270)
 					(length 2.54)
 					(name "3"
@@ -6107,7 +6107,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 3.81 3.81 270)
 					(length 2.54)
 					(name "4"
@@ -6125,7 +6125,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 8.89 3.81 270)
 					(length 2.54)
 					(name "5"
@@ -6143,7 +6143,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 3.81 270)
 					(length 2.54)
 					(name "6"
@@ -6558,7 +6558,7 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 5.08 0)
 					(length 2.54)
 					(name "D1+"
@@ -6576,7 +6576,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 2.54 0)
 					(length 2.54)
 					(name "D1-"
@@ -6594,7 +6594,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 0 0)
 					(length 2.54)
 					(name "GND"
@@ -6612,7 +6612,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 -2.54 0)
 					(length 2.54)
 					(name "D2+"
@@ -6630,7 +6630,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -12.7 -5.08 0)
 					(length 2.54)
 					(name "D2-"
@@ -6648,7 +6648,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 12.7 -5.08 180)
 					(length 2.54)
 					(name "N.C."
@@ -6666,7 +6666,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 12.7 -2.54 180)
 					(length 2.54)
 					(name "N.C."
@@ -6684,7 +6684,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 12.7 0 180)
 					(length 2.54)
 					(name "GND"
@@ -6702,7 +6702,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 12.7 2.54 180)
 					(length 2.54)
 					(name "N.C."
@@ -6720,7 +6720,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 12.7 5.08 180)
 					(length 2.54)
 					(name "N.C."
@@ -8903,10 +8903,6 @@
 		(at 41.91 66.04)
 		(uuid "fdce75d5-5ca6-41ed-b370-9740c3322c7a")
 	)
-	(no_connect
-		(at 41.91 73.66)
-		(uuid "ffe0b361-aaab-4b45-b4dc-df63f9465fbc")
-	)
 	(wire
 		(pts
 			(xy 345.44 115.57) (xy 345.44 128.27)
@@ -9936,6 +9932,16 @@
 			(type default)
 		)
 		(uuid "8f570753-81e8-4ca7-ac24-f615d4b0e083")
+	)
+	(wire
+		(pts
+			(xy 30.48 73.66) (xy 41.91 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fbab0a5-4bc3-4d34-9170-4ca62e4cde07")
 	)
 	(wire
 		(pts
@@ -11543,6 +11549,30 @@
 			)
 		)
 	)
+	(global_label "GPIO6"
+		(shape input)
+		(at 30.48 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "296975b7-b6de-4943-8717-fcbcb2c0174a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.81 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "+1.8v"
 		(shape input)
 		(at 24.13 147.32 180)
@@ -12034,7 +12064,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0273c68e-aa04-4a87-b32f-d77c945ccdce")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR063"
 			(at 345.44 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -12046,7 +12076,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 345.567 174.5742 0)
+			(at 345.44 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12094,7 +12124,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR065")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -12112,7 +12142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02d470ac-44d6-40ef-a86e-fb252681e6cc")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR050"
 			(at 214.63 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -12173,7 +12203,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR055")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -12191,7 +12221,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0425b111-ef4e-4a0f-b57a-1c56c61c11fa")
-		(property "Reference" "CN1"
+		(property "Reference" "CN2"
 			(at 392.43 133.3501 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12203,14 +12233,13 @@
 			)
 		)
 		(property "Value" "SM04B-SRSS-TB_LF_SN"
-			(at 392.43 130.8101 90)
+			(at 393.16 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "JLCImport:SM04B-SRSS-TB_LF_SN"
@@ -12301,6 +12330,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 387.35 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "67d0154e-6c3a-4a0f-86c4-30c33c446470")
 		)
@@ -12322,7 +12362,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "CN1")
+					(reference "CN2")
 					(unit 1)
 				)
 			)
@@ -12340,7 +12380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04f7611b-8399-45da-bdbc-d276de96f4e4")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR023"
 			(at 109.22 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -12401,7 +12441,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR088")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -12419,7 +12459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b7351cd-9c41-4cc2-b05b-12eab15ac383")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR046"
 			(at 214.63 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -12480,7 +12520,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR059")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -12498,7 +12538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fd8a6d0-cd68-44ad-bebe-522c8df053b6")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR016"
 			(at 109.22 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -12559,7 +12599,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR029")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -12577,7 +12617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10e392f8-fb73-43ad-a756-77b5fa0b624f")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR052"
 			(at 214.63 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -12638,7 +12678,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR053")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -12764,6 +12804,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 248.92 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "53c7cc96-af3c-4da9-a4ab-af6009d17315")
 		)
@@ -12802,7 +12853,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "164212ee-1081-45ac-ba64-049492b2125e")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR068"
 			(at 377.19 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -12814,7 +12865,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 379.1458 123.317 0)
+			(at 379.73 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12862,7 +12913,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR090")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -12879,7 +12930,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17e92c35-b422-470e-86a6-8c09463b3784")
-		(property "Reference" "R6"
+		(property "Reference" "R5"
 			(at 397.51 93.726 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12889,8 +12940,8 @@
 				)
 			)
 		)
-		(property "Value" "470R"
-			(at 397.51 91.44 0)
+		(property "Value" "470Ω"
+			(at 397.51 92.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13053,6 +13104,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 397.51 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9f210bbf-af82-4da6-a033-c3751ddb7ad1")
 		)
@@ -13062,7 +13124,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -13080,7 +13142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "185e04f9-d071-45f4-87a6-2f1e025a3a74")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR040"
 			(at 140.97 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -13092,14 +13154,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 160.0199 90)
+			(at 146.05 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -13141,7 +13202,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR049")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -13159,7 +13220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a5bdd17-9054-48df-b6b7-e2b242444a12")
-		(property "Reference" "U6"
+		(property "Reference" "U2"
 			(at 331.47 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13267,6 +13328,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 332.74 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A7"
 			(uuid "9d3cfeb6-b44a-40eb-a9cf-1a4dfcb1d6cf")
 		)
@@ -13318,7 +13390,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "U6")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -13335,7 +13407,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1cee2786-6dfa-4705-ae5c-f87b50802f39")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 397.51 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13345,8 +13417,8 @@
 				)
 			)
 		)
-		(property "Value" "470R"
-			(at 397.51 25.6286 0)
+		(property "Value" "470Ω"
+			(at 397.51 33.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13509,6 +13581,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 397.51 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3d40d534-6e26-4560-9153-ff59d75b97e3")
 		)
@@ -13518,7 +13601,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -13536,7 +13619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "231929ae-0119-45c4-8f65-427e847ffaa8")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR033"
 			(at 140.97 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13548,14 +13631,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 106.6799 90)
+			(at 146.05 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -13597,7 +13679,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR042")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -13614,7 +13696,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "240edc47-9b7b-4e64-b2c3-114ba0bebbac")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR066"
 			(at 359.41 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -13626,7 +13708,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 361.3658 50.927 0)
+			(at 361.95 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13674,7 +13756,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR0101")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -13692,7 +13774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25fa0b4e-db9a-4f6a-959f-30d98b0cc0ad")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR044"
 			(at 214.63 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -13753,7 +13835,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR061")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -13770,7 +13852,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c008a26-c02a-46e7-ab8b-74a73af7deee")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR061"
 			(at 318.77 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -13782,7 +13864,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 320.7258 35.687 0)
+			(at 321.31 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13830,7 +13912,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR0111")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -13848,7 +13930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cd1ecf4-d462-4835-ae17-fe9945e11b37")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR012"
 			(at 109.22 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -13909,7 +13991,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR032")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -13926,7 +14008,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f0541b0-dca8-461d-800d-c6b6249f2905")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR041"
 			(at 151.13 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -13938,7 +14020,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.0858 236.347 0)
+			(at 153.67 236.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13986,7 +14068,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR086")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -14004,7 +14086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f7f97c9-aa2f-4226-9de4-2adafe4452a9")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR029"
 			(at 140.97 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -14016,14 +14098,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 76.1999 90)
+			(at 146.05 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -14065,7 +14146,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR038")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -14083,7 +14164,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "308fb741-b035-4c44-aad3-6d7f85749a47")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR042"
 			(at 214.63 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -14144,7 +14225,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR063")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -14161,7 +14242,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "34049c51-c824-47fb-93b9-f556f1713d58")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR060"
 			(at 289.56 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -14173,7 +14254,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 289.687 86.9442 0)
+			(at 289.56 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14221,7 +14302,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR0134")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -14239,7 +14320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34dd76b0-3831-4082-9a06-b8a4ec06350f")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR025"
 			(at 140.97 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -14251,14 +14332,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 45.7199 90)
+			(at 146.05 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -14300,7 +14380,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR034")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -14317,7 +14397,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3587bb17-1fcc-407c-80e9-9148f7402597")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR065"
 			(at 356.87 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -14329,7 +14409,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 354.9142 67.183 0)
+			(at 354.33 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14377,7 +14457,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR0113")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -14395,7 +14475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b8e24a2-461f-4b9e-8f3d-6f1bdac0c561")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR09"
 			(at 35.56 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -14407,14 +14487,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 119.3799 90)
+			(at 40.64 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -14456,7 +14535,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR021")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -14485,14 +14564,13 @@
 			)
 		)
 		(property "Value" "LPJG0926HENL_C22457393"
-			(at 359.918 73.406 0)
+			(at 397.51 83.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "JLCImport:LPJG0926HENL_C22457393"
@@ -14573,6 +14651,17 @@
 			)
 		)
 		(property "Manufacturer Part" "LPJG0926HENL"
+			(at 397.51 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LSCS Part" ""
 			(at 397.51 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -14760,6 +14849,17 @@
 			)
 		)
 		(property "MPN" "10164227-1001A1RLF"
+			(at 38.1 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LSCS Part" ""
 			(at 38.1 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -15391,7 +15491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b452099-2e23-41aa-bcd1-460097e42ecb")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR053"
 			(at 214.63 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -15452,7 +15552,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR052")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -15470,7 +15570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dce7e4a-da21-4788-9f33-739f9a0652d4")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR043"
 			(at 214.63 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -15531,7 +15631,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR062")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -15549,7 +15649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e39ad7f-d845-4d17-af75-bbcef5f41769")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR02"
 			(at 35.56 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -15561,14 +15661,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 45.7199 90)
+			(at 40.64 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -15610,7 +15709,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR014")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -15628,7 +15727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f747e35-f4ba-4a0e-9317-da8a727d9369")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR03"
 			(at 35.56 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -15640,14 +15739,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 53.3399 90)
+			(at 40.64 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -15689,7 +15787,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR015")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -15706,7 +15804,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52f5ef49-ea7c-4901-b0d7-1657d6f4b18e")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR070"
 			(at 405.13 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -15718,7 +15816,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 405.003 29.8958 0)
+			(at 405.13 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15766,7 +15864,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR0115")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -15784,7 +15882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53a92dc9-27d2-4b69-b535-4a4c72019eb1")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR07"
 			(at 35.56 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -15796,14 +15894,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 101.5999 90)
+			(at 40.64 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -15845,7 +15942,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR019")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -15863,7 +15960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c19bbcd-06e4-4515-873c-c55026180e2e")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR014"
 			(at 109.22 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -15924,7 +16021,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR031")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -15941,7 +16038,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62207870-1c06-48be-868d-b4c8b2faecbd")
-		(property "Reference" "R11"
+		(property "Reference" "R3"
 			(at 358.14 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15951,8 +16048,8 @@
 				)
 			)
 		)
-		(property "Value" "RC0402FR-0710KL"
-			(at 355.6 122.936 0)
+		(property "Value" "10kΩ"
+			(at 366.236 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16104,6 +16201,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 363.22 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ab4d47d1-e3b9-49ca-af2d-7a44ed40480e")
 		)
@@ -16113,7 +16221,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "R11")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -16130,7 +16238,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "644543fc-a2e3-46e8-b111-3058aaf1178c")
-		(property "Reference" "FPC5"
+		(property "Reference" "FPC1"
 			(at 298.45 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16141,7 +16249,7 @@
 			)
 		)
 		(property "Value" "AFC01-S22FCA-00"
-			(at 298.45 93.98 0)
+			(at 298.45 90.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16293,6 +16401,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 298.45 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7f238aed-8428-4a77-988b-76b3c9407ec4")
 		)
@@ -16368,7 +16487,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "FPC5")
+					(reference "FPC1")
 					(unit 1)
 				)
 			)
@@ -16386,7 +16505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64c6eecc-5bab-4eb6-9bd8-c0ff7c8e6d28")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR058"
 			(at 245.11 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -16398,14 +16517,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 247.65 27.9399 90)
+			(at 250.19 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -16447,7 +16565,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR092")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -16464,7 +16582,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64e84d37-ecb4-490a-bdaf-6b229d8488ac")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR062"
 			(at 318.77 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -16476,7 +16594,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 320.7258 67.437 0)
+			(at 321.31 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16524,7 +16642,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR0110")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -16542,7 +16660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68f95862-38b4-4b09-94d8-44b04d67e6e2")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR010"
 			(at 35.56 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -16554,14 +16672,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 129.5399 90)
+			(at 40.64 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -16603,7 +16720,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR022")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -16620,7 +16737,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d4cf661-cdcb-4670-b0f9-6d678265e0a9")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR064"
 			(at 356.87 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -16632,7 +16749,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 354.9142 35.433 0)
+			(at 354.33 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16680,7 +16797,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR0112")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -16698,7 +16815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70ffcde2-07e3-4a12-beb0-02d1b5af3f19")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR038"
 			(at 140.97 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -16710,14 +16827,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 144.7799 90)
+			(at 146.05 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -16759,7 +16875,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR047")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -16777,7 +16893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73ee75b7-2bda-46e6-889d-3b5de65974cf")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR08"
 			(at 35.56 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -16789,14 +16905,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 111.7599 90)
+			(at 40.64 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -16838,7 +16953,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR020")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -16856,7 +16971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76375cab-e04b-4b36-957f-0729238d7b4a")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR022"
 			(at 109.22 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -16917,7 +17032,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR087")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -16934,7 +17049,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "769db47b-31ff-4c63-b539-3d759d8a4d61")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR056"
 			(at 228.6 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -16946,7 +17061,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 228.727 145.3642 0)
+			(at 228.6 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16994,7 +17109,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR066")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -17012,7 +17127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7901cbd8-7423-45e1-a45d-4c82b479c3c2")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR015"
 			(at 109.22 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -17073,7 +17188,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR030")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -17091,7 +17206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7953ddc0-48ca-4d9d-af45-da3323b194fb")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR04"
 			(at 35.56 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -17103,14 +17218,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 63.4999 90)
+			(at 40.64 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -17152,7 +17266,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR016")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -17170,7 +17284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "812a96f4-ea48-46d6-a75a-59e767d98abd")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR045"
 			(at 214.63 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -17231,7 +17345,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR060")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -17249,7 +17363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81d718a7-9975-4d99-ae86-d413c3a659b1")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR055"
 			(at 214.63 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -17310,7 +17424,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR050")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -17328,7 +17442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "833fecc1-616b-451f-82e3-ab720adc7ab4")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR057"
 			(at 240.03 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -17340,14 +17454,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 242.57 35.5599 90)
+			(at 245.11 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -17389,7 +17502,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR077")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -17407,7 +17520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83b498bb-6f97-4765-bcb9-813a35c7ef89")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR06"
 			(at 35.56 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -17419,14 +17532,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 88.8999 90)
+			(at 40.64 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -17468,7 +17580,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR018")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -17582,6 +17694,17 @@
 			)
 		)
 		(property "MPN" "10164227-1001A1RLF"
+			(at 74.93 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LSCS Part" ""
 			(at 74.93 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -18213,7 +18336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "928686cc-1d6b-4556-b376-75ecf0ba4969")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR017"
 			(at 109.22 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -18274,7 +18397,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR028")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -18292,7 +18415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95a69b63-425b-4235-8822-416518c0db36")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR011"
 			(at 35.56 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -18304,14 +18427,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 160.0199 90)
+			(at 40.64 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -18353,7 +18475,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR023")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -18370,7 +18492,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95c9be13-bb25-4945-8336-28c637cc6246")
-		(property "Reference" "CN2"
+		(property "Reference" "CN1"
 			(at 254 50.292 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18382,14 +18504,13 @@
 			)
 		)
 		(property "Value" "SM04B-SRSS-TB_LF_SN"
-			(at 244.094 52.578 90)
+			(at 261.08 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "JLCImport:SM04B-SRSS-TB_LF_SN"
@@ -18480,6 +18601,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 255.27 36.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a6a18cb9-f7da-4562-a859-194a206d92b4")
 		)
@@ -18501,7 +18633,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "CN2")
+					(reference "CN1")
 					(unit 1)
 				)
 			)
@@ -18519,7 +18651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b37936d-3903-4d13-9c79-7f532bcecbb1")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR039"
 			(at 140.97 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -18531,14 +18663,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 152.3999 90)
+			(at 146.05 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -18580,7 +18711,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR048")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -18598,7 +18729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d3e6f9c-897f-4fef-90b3-327c0b889b3b")
-		(property "Reference" "U11"
+		(property "Reference" "U1"
 			(at 179.07 226.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18706,6 +18837,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 179.07 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b3b1b28b-be79-4349-b86a-0a1eae85e3e2")
 		)
@@ -18727,7 +18869,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "U11")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -18755,7 +18897,7 @@
 			)
 		)
 		(property "Value" "TS665ZJ"
-			(at 115.57 172.72 90)
+			(at 119.92 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18896,6 +19038,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 124.46 172.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ae87d066-947e-482a-8546-377ba8ac2222")
 		)
@@ -18929,7 +19082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a42fe5db-f52e-4fde-b7cc-959279043af0")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR047"
 			(at 214.63 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -18990,7 +19143,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR058")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -19008,7 +19161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7a5807f-8bbf-49aa-bf51-c4743ff1d9cd")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR031"
 			(at 140.97 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -19020,14 +19173,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 91.4399 90)
+			(at 146.05 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -19069,7 +19221,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR040")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -19087,7 +19239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae517376-602e-4619-88a1-9a59deec912c")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR028"
 			(at 140.97 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -19099,14 +19251,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 68.5799 90)
+			(at 146.05 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -19148,7 +19299,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR037")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -19166,7 +19317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae9f7c33-0d3c-42d1-a1de-debeaf652574")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR032"
 			(at 140.97 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -19178,14 +19329,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 99.0599 90)
+			(at 146.05 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -19227,7 +19377,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR041")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -19244,7 +19394,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aea0d40f-a046-4b5a-abc9-328098e86837")
-		(property "Reference" "R18"
+		(property "Reference" "R1"
 			(at 114.046 232.156 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19254,8 +19404,8 @@
 				)
 			)
 		)
-		(property "Value" "RC0402FR-071KL"
-			(at 114.808 234.696 90)
+		(property "Value" "1kΩ"
+			(at 105.886 232.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19418,6 +19568,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 102.87 232.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3e38ce96-c314-42f9-8022-8d8fed588e3f")
 		)
@@ -19427,7 +19588,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "R18")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -19445,7 +19606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3b720fb-ffd6-4fa9-9c4e-5779510d56dd")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR05"
 			(at 35.56 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -19457,14 +19618,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 76.1999 90)
+			(at 40.64 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -19506,7 +19666,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR017")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -19524,7 +19684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6c0f92e-570e-44bb-bf67-915279bab764")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR030"
 			(at 140.97 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -19536,14 +19696,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 83.8199 90)
+			(at 146.05 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -19585,7 +19744,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR039")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -19603,7 +19762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b74bfcd9-46eb-453e-9e40-5f6adfbe7faf")
-		(property "Reference" "C3"
+		(property "Reference" "C1"
 			(at 370.84 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19613,7 +19772,7 @@
 				)
 			)
 		)
-		(property "Value" "CC0402KRX7R7BB104"
+		(property "Value" "100nF 16V"
 			(at 370.84 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19711,6 +19870,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 370.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2c829711-f7cd-49ed-b2f3-d8f77dd00451")
 		)
@@ -19720,7 +19890,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "C3")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -19737,7 +19907,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b783c691-9684-4b06-9ad6-1f9de5c00c45")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR071"
 			(at 405.13 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -19749,7 +19919,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 405.257 90.7542 0)
+			(at 405.13 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19797,7 +19967,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR0114")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -19815,7 +19985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b93962a6-149f-4b45-b714-aee6335479d4")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR036"
 			(at 140.97 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -19827,14 +19997,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 129.5399 90)
+			(at 146.05 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -19876,7 +20045,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR045")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -19894,7 +20063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9f4f3d3-59a7-4f5a-91c3-f08d5ea35ec9")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR034"
 			(at 140.97 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -19906,14 +20075,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 114.2999 90)
+			(at 146.05 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -19955,7 +20123,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR043")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -19973,7 +20141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba1c4885-8192-4761-a252-231b631a2de7")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR037"
 			(at 140.97 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -19985,14 +20153,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 137.1599 90)
+			(at 146.05 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -20034,7 +20201,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR046")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -20052,7 +20219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc1f67c4-f287-4a15-ac4f-15295b355b6b")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR059"
 			(at 245.11 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -20064,14 +20231,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 247.65 45.7199 90)
+			(at 250.19 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -20113,7 +20279,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR091")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -20241,6 +20407,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 102.87 218.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "abbab199-1e1b-45f4-b961-4c8e55ff2303")
 		)
@@ -20267,7 +20444,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0c2a39a-d087-41e9-92ce-6f0e673b1fba")
-		(property "Reference" "R17"
+		(property "Reference" "R2"
 			(at 125.476 68.834 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20277,8 +20454,8 @@
 				)
 			)
 		)
-		(property "Value" "RC0402FR-0710KL"
-			(at 125.476 66.294 90)
+		(property "Value" "10kΩ"
+			(at 111.284 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20386,6 +20563,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 114.3 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7df96d65-9649-4898-b464-0a879694defe")
 		)
@@ -20395,7 +20583,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "R17")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -20413,7 +20601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb89bdbd-0853-449f-982b-f00fd8b8d684")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR051"
 			(at 214.63 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -20474,7 +20662,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR054")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -20492,7 +20680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ceddf183-6094-4d14-8b73-0f6ef25242cf")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR013"
 			(at 109.22 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -20553,7 +20741,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR033")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -20571,7 +20759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf290d67-5c2b-4370-a34c-c1c6003cb8b2")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR049"
 			(at 214.63 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -20632,7 +20820,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR056")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -20650,7 +20838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d354e27e-fe1a-4c7a-8ae7-e64761155607")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR021"
 			(at 109.22 127 0)
 			(hide yes)
 			(show_name no)
@@ -20711,7 +20899,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR024")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -20729,7 +20917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d97e12a5-b6af-4d2d-973f-0ed585347d92")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR019"
 			(at 109.22 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -20790,7 +20978,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR026")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -20817,8 +21005,8 @@
 				)
 			)
 		)
-		(property "Value" "TPD4EUSB30"
-			(at 337.82 26.0096 0)
+		(property "Value" "TPD4EUSB30DQAR"
+			(at 337.82 45.688 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20981,6 +21169,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 337.82 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "df05550c-9d94-447f-a386-371d32719932")
 		)
@@ -21031,7 +21230,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd26ca33-3da8-427f-bc56-bd239fe8d6da")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR024"
 			(at 121.92 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -21043,7 +21242,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 122.047 188.5442 0)
+			(at 121.92 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21091,7 +21290,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR064")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -21109,7 +21308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddbef568-c6a4-444c-a00f-58234812677f")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR027"
 			(at 140.97 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -21121,14 +21320,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 60.9599 90)
+			(at 146.05 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -21170,7 +21368,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR036")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -21187,7 +21385,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ddde873a-cde7-4b60-972c-a9d1c650f28a")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR069"
 			(at 377.19 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -21199,7 +21397,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 379.1458 141.097 0)
+			(at 379.73 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21247,7 +21445,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR089")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -21265,7 +21463,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de768785-90bc-4bb3-b10a-4affd55ac70e")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR054"
 			(at 214.63 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -21326,7 +21524,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR051")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -21344,7 +21542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eaadc132-bb80-43ad-afb4-9ed5e64e46a6")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR035"
 			(at 140.97 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -21356,14 +21554,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 121.9199 90)
+			(at 146.05 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -21405,7 +21602,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR044")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -21423,7 +21620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed8d9882-d502-4807-ba3a-a267b1b87a7d")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR01"
 			(at 35.56 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -21435,14 +21632,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 38.0999 90)
+			(at 40.64 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -21484,7 +21680,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR013")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -21502,7 +21698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ede64ba7-b1fd-48d0-8694-643048bfa759")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR026"
 			(at 140.97 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -21514,14 +21710,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 53.3399 90)
+			(at 146.05 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -21563,7 +21758,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR035")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -21581,7 +21776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f557b8b0-a771-4ad2-959a-a6dba7008cfa")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR048"
 			(at 214.63 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -21642,7 +21837,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR057")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -21669,8 +21864,8 @@
 				)
 			)
 		)
-		(property "Value" "TPD4EUSB30"
-			(at 337.82 57.7596 0)
+		(property "Value" "TPD4EUSB30DQAR"
+			(at 337.82 77.438 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21833,6 +22028,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 337.82 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0679b951-4140-4c3e-8123-d6afd7a1adc1")
 		)
@@ -21884,7 +22090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f86d1fc9-eb86-498f-b701-754ff69b658c")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR018"
 			(at 109.22 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -21945,7 +22151,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR027")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -21962,7 +22168,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa5922fa-e967-40a1-aed1-023c657eb40a")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR067"
 			(at 375.92 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -21974,7 +22180,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 376.047 145.3642 0)
+			(at 375.92 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22022,7 +22228,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR069")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -22040,7 +22246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fda3fab1-067a-4b65-993b-fced0a53826d")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR020"
 			(at 109.22 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -22101,7 +22307,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f"
-					(reference "#PWR025")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)

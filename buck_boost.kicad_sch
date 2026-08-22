@@ -29,7 +29,7 @@
 					)
 				)
 			)
-			(property "Value" "0402WGF2262TCE"
+			(property "Value" "22.6kΩ"
 				(at 0 -3.016 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -186,7 +186,7 @@
 					)
 				)
 			)
-			(property "Value" "0402WGF3652TCE"
+			(property "Value" "36.5kΩ"
 				(at 0 -3.016 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -343,7 +343,7 @@
 					)
 				)
 			)
-			(property "Value" "0402WGF9091TCE"
+			(property "Value" "9.09kΩ"
 				(at 0 -3.016 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -796,7 +796,7 @@
 					)
 				)
 			)
-			(property "Value" "AC0402FR-0724K9L"
+			(property "Value" "24.9kΩ"
 				(at 0 -3.016 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -953,7 +953,7 @@
 					)
 				)
 			)
-			(property "Value" "ARG03BTC2982N"
+			(property "Value" "29.8kΩ"
 				(at 0 -3.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1563,7 +1563,7 @@
 					)
 				)
 			)
-			(property "Value" "CC0402KRX5R7BB105"
+			(property "Value" "1uF 16V"
 				(at 0 -7.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1757,7 +1757,7 @@
 					)
 				)
 			)
-			(property "Value" "CC0402KRX7R7BB104"
+			(property "Value" "100nF 16V"
 				(at 0 -2 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1951,7 +1951,7 @@
 					)
 				)
 			)
-			(property "Value" "CC0402KRX7R9BB103"
+			(property "Value" "10nF 50V"
 				(at 0 -2 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2145,7 +2145,7 @@
 					)
 				)
 			)
-			(property "Value" "CGA0805X5R106K350MT"
+			(property "Value" "10uF 35V"
 				(at 0 -2 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2339,7 +2339,7 @@
 					)
 				)
 			)
-			(property "Value" "CGA0805X5R226M250MT"
+			(property "Value" "22uF 25V"
 				(at 0 4.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2533,7 +2533,7 @@
 					)
 				)
 			)
-			(property "Value" "CL10A105KB8NNNC"
+			(property "Value" "1uF 50V"
 				(at 0 -2 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2727,7 +2727,7 @@
 					)
 				)
 			)
-			(property "Value" "CL21B224KBFNNNE"
+			(property "Value" "220nF 50V"
 				(at 0 -2 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2921,7 +2921,7 @@
 					)
 				)
 			)
-			(property "Value" "CL31B106KBHNNNE"
+			(property "Value" "10uF 50V"
 				(at 0 -2 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3115,7 +3115,7 @@
 					)
 				)
 			)
-			(property "Value" "CL32A226KAJNNNE"
+			(property "Value" "22uF 25V"
 				(at 0 -2 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3309,7 +3309,7 @@
 					)
 				)
 			)
-			(property "Value" "CRCW04025K11FKED"
+			(property "Value" "5.11kΩ"
 				(at 0 -3.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3466,7 +3466,7 @@
 					)
 				)
 			)
-			(property "Value" "FRC0402F1052TS"
+			(property "Value" "10.5kΩ"
 				(at 0 -3.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3623,7 +3623,7 @@
 					)
 				)
 			)
-			(property "Value" "FRC0402F2212TS"
+			(property "Value" "22.1kΩ"
 				(at 0 -3.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3780,7 +3780,7 @@
 					)
 				)
 			)
-			(property "Value" "FRC0402F4023TS"
+			(property "Value" "402kΩ"
 				(at 0 -3.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3937,7 +3937,7 @@
 					)
 				)
 			)
-			(property "Value" "FRC0402F6042TS"
+			(property "Value" "60.4kΩ"
 				(at 0 -3.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4606,7 +4606,7 @@
 					)
 				)
 			)
-			(property "Value" "RC0402FR-07100KL"
+			(property "Value" "100kΩ"
 				(at 0 -3.016 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4763,7 +4763,7 @@
 					)
 				)
 			)
-			(property "Value" "RC0402FR-0710KL"
+			(property "Value" "10kΩ"
 				(at 0 -3.016 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4920,7 +4920,7 @@
 					)
 				)
 			)
-			(property "Value" "RC0402FR-0733KL"
+			(property "Value" "33kΩ"
 				(at 0 -3.016 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5077,7 +5077,7 @@
 					)
 				)
 			)
-			(property "Value" "RC0402FR-0740K2L"
+			(property "Value" "40.2kΩ"
 				(at 0 -3.016 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5234,7 +5234,7 @@
 					)
 				)
 			)
-			(property "Value" "RC0402FR-074K02L"
+			(property "Value" "4.02kΩ"
 				(at 0 -3.016 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5391,7 +5391,7 @@
 					)
 				)
 			)
-			(property "Value" "RVT1H470M0607"
+			(property "Value" "47uF 50V"
 				(at 0 -2 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6833,7 +6833,7 @@
 					)
 				)
 			)
-			(property "Value" "ZEMS0730-6R8M"
+			(property "Value" "6.8uH 7A"
 				(at 0 -2 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7213,6 +7213,12 @@
 		(uuid "22be151b-a1a6-4d3d-b6fb-e50c851e2f40")
 	)
 	(junction
+		(at 200.66 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24ddbc60-5e0f-4b2b-b52a-e21714fab2a1")
+	)
+	(junction
 		(at 100.33 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7445,12 +7451,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7856aba-a327-4e04-a371-6311c9557025")
-	)
-	(junction
-		(at 200.66 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8f7235d-dd9c-461c-8e19-6ff6ef01b962")
 	)
 	(junction
 		(at 360.68 81.28)
@@ -9404,7 +9404,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 172.72) (xy 214.63 172.72)
+			(xy 200.66 172.72) (xy 203.2 172.72)
 		)
 		(stroke
 			(width 0)
@@ -9852,6 +9852,30 @@
 			)
 		)
 	)
+	(global_label "GPIO6"
+		(shape input)
+		(at 203.2 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a20c77b9-efc6-46f9-9865-5ad9e6e3dfb4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.87 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "+5v"
 		(shape input)
 		(at 250.19 175.26 0)
@@ -9888,7 +9912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "032af755-9b6f-4424-bc96-3ef6cc1ab7fa")
-		(property "Reference" "R27"
+		(property "Reference" "R18"
 			(at 161.29 201.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9899,9 +9923,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CRCW04025K11FKED"
+		(property "Value" "5.11kΩ"
 			(at 161.29 204.4699 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9977,6 +10000,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 158.75 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "062d00a1-1dd6-4732-92d3-4a05c3fc09ea")
 		)
@@ -9986,7 +10020,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "R27")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -10003,7 +10037,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0caa9ea1-b6fb-42ae-8aee-b2258f4c325b")
-		(property "Reference" "C16"
+		(property "Reference" "C10"
 			(at 234.696 78.994 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10014,16 +10048,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CL31B106KBHNNNE"
-			(at 237.49 77.4699 90)
-			(hide yes)
+		(property "Value" "10uF 50V"
+			(at 233.68 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "JLCImport:CL31B106KBHNNNE"
@@ -10092,6 +10124,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 233.68 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "72c5dfdf-187d-4d50-aec4-c4e6ac7cbec5")
 		)
@@ -10101,7 +10144,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "C16")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -10119,7 +10162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d416e7c-b2e1-4c8b-a566-436c05553f45")
-		(property "Reference" "R14"
+		(property "Reference" "R25"
 			(at 259.08 105.4099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10130,7 +10173,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0402WGF3652TCE"
+		(property "Value" "36.5kΩ"
 			(at 259.08 107.9499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10207,6 +10250,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 256.54 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e56166c1-b35c-4a57-afcf-0b9ceb279b6b")
 		)
@@ -10216,7 +10270,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "R14")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -10232,10 +10286,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "10ceb235-ac0c-403a-86ed-e7d67c67e7af")
-		(property "Reference" "C10"
-			(at 298.45 66.04 0)
+		(property "Reference" "C15"
+			(at 302.006 72.644 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10244,16 +10297,14 @@
 				)
 			)
 		)
-		(property "Value" "CC0402KRX7R7BB104"
-			(at 297.1801 74.93 90)
-			(hide yes)
+		(property "Value" "100nF 16V"
+			(at 305.562 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "JLCImport:CC0402KRX7R7BB104"
@@ -10322,6 +10373,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 298.45 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "89e2727f-c828-4e4b-8676-44290836957b")
 		)
@@ -10331,7 +10393,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "C10")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -10347,10 +10409,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "11485f9a-0b6e-4599-8bb3-39552220c807")
-		(property "Reference" "C13"
-			(at 374.65 73.6599 90)
+		(property "Reference" "C19"
+			(at 372.364 73.152 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10360,9 +10421,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CL32A226KAJNNNE"
-			(at 374.65 76.1999 90)
-			(hide yes)
+		(property "Value" "22uF 25V"
+			(at 370.84 58.166 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10429,6 +10489,17 @@
 		)
 		(property "Manufacturer Part" "CL32A226KAJNNNE"
 			(at 370.84 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LSCS Part" ""
+			(at 370.84 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10447,7 +10518,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "C13")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -10463,10 +10534,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "13324e4e-1b9a-43a2-9f1b-8496fffffbac")
-		(property "Reference" "C4"
-			(at 354.33 73.6599 90)
+		(property "Reference" "C17"
+			(at 352.298 72.898 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10476,9 +10546,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CL32A226KAJNNNE"
-			(at 354.33 76.1999 90)
-			(hide yes)
+		(property "Value" "22uF 25V"
+			(at 350.774 57.404 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10554,6 +10623,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 350.52 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3da12620-8d1d-44f6-86ca-1e23c116bced")
 		)
@@ -10563,7 +10643,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "C4")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -10581,7 +10661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15451c13-9eef-432b-b746-3c9917b92947")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR085"
 			(at 241.3 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -10593,13 +10673,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.3 91.44 0)
+			(at 243.84 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10641,7 +10722,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "#PWR07")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -10657,10 +10738,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "18ebaded-b6e6-4381-a3a3-bd35f12ad03d")
-		(property "Reference" "C12"
-			(at 364.49 73.6599 90)
+		(property "Reference" "C18"
+			(at 362.458 73.152 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10670,9 +10750,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CL32A226KAJNNNE"
-			(at 364.49 76.1999 90)
-			(hide yes)
+		(property "Value" "22uF 25V"
+			(at 360.68 58.166 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10748,6 +10827,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 360.68 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0b1324e8-9c51-4075-8933-d1184f553ed6")
 		)
@@ -10757,7 +10847,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "C12")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -10773,10 +10863,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "24a962ed-c0b8-4565-9459-4c0b98a1f785")
-		(property "Reference" "R25"
-			(at 102.87 201.9299 90)
+		(property "Reference" "R9"
+			(at 102.108 202.692 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10786,9 +10875,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CRCW04025K11FKED"
-			(at 102.87 204.4699 90)
-			(hide yes)
+		(property "Value" "5.11kΩ"
+			(at 101.854 204.724 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10864,6 +10952,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 100.33 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0e991ede-ad57-4081-97ba-a9877db29f60")
 		)
@@ -10873,7 +10972,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "R25")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -10891,7 +10990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2724436b-b5af-4ee4-9135-f578a192471f")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 111.76 101.5999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10902,7 +11001,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "FRC0402F6042TS"
+		(property "Value" "60.4kΩ"
 			(at 111.76 104.1399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10914,7 +11013,7 @@
 			)
 		)
 		(property "Footprint" "JLCImport:FRC0402F6042TS"
-			(at 116.84 102.87 0)
+			(at 109.22 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10925,7 +11024,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0402F6042TS_C2998058.pdf"
-			(at 119.38 102.87 0)
+			(at 109.22 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10947,7 +11046,7 @@
 			)
 		)
 		(property "Manufacturer" "FOJAN"
-			(at 121.92 102.87 0)
+			(at 109.22 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11001,6 +11100,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 109.22 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fa5942e6-ace4-443f-88a7-7447f5662b64")
 		)
@@ -11010,7 +11120,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -11028,7 +11138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28f90f0e-eaf9-403e-8718-a0812ca12278")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR086"
 			(at 264.16 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -11040,14 +11150,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 266.7 68.5799 90)
+			(at 269.24 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -11089,7 +11198,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "#PWR01")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -11105,10 +11214,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "28fd0534-b25d-469e-b6df-f754d9e2fa68")
-		(property "Reference" "R23"
-			(at 151.13 201.9299 90)
+		(property "Reference" "R16"
+			(at 150.114 202.692 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11118,9 +11226,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CRCW04025K11FKED"
-			(at 151.13 204.4699 90)
-			(hide yes)
+		(property "Value" "5.11kΩ"
+			(at 150.114 204.724 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11196,6 +11303,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 148.59 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7f0615b5-1424-4b4e-91e8-24c0f7077e02")
 		)
@@ -11205,7 +11323,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "R23")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -11223,7 +11341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a9f3125-1ef2-49a7-9ba5-cb13ec8cee12")
-		(property "Reference" "U1"
+		(property "Reference" "U6"
 			(at 137.16 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11309,6 +11427,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 137.16 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "617f2a31-139f-48bb-9664-de10d7d2f338")
 		)
@@ -11348,7 +11477,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "U1")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -11366,7 +11495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b687ac8-b7d5-481c-ba6a-4358300af201")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR088"
 			(at 298.45 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -11378,13 +11507,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 298.45 102.87 0)
+			(at 300.99 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -11426,7 +11556,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "#PWR04")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -11453,9 +11583,8 @@
 				)
 			)
 		)
-		(property "Value" "ARG03BTC2982N"
-			(at 177.8 166.37 0)
-			(hide yes)
+		(property "Value" "29.8kΩ"
+			(at 177.8 173.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11530,6 +11659,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 177.8 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6ecbf68e-e070-4786-881b-381ed46403d9")
 		)
@@ -11557,7 +11697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "304c0935-83da-4c80-a143-b6254ab135b4")
-		(property "Reference" "R1"
+		(property "Reference" "R21"
 			(at 201.93 74.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11568,7 +11708,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RC0402FR-07100KL"
+		(property "Value" "100kΩ"
 			(at 201.93 77.4699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11645,6 +11785,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 199.39 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c6f29849-ac72-41a7-ae17-ce9f49385980")
 		)
@@ -11654,7 +11805,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "R1")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -11672,7 +11823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31391219-be66-45c9-aa83-81e80b5f2b8c")
-		(property "Reference" "C9"
+		(property "Reference" "C4"
 			(at 140.97 105.4099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11683,7 +11834,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CC0402KRX7R9BB103"
+		(property "Value" "10nF 50V"
 			(at 140.97 107.9499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11695,7 +11846,7 @@
 			)
 		)
 		(property "Footprint" "JLCImport:CC0402KRX7R9BB103"
-			(at 129.54 106.68 0)
+			(at 137.16 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11706,7 +11857,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0402KRX7R9BB103_C60133.pdf"
-			(at 127 106.68 0)
+			(at 137.16 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11728,7 +11879,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 124.46 106.68 0)
+			(at 137.16 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11782,6 +11933,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 137.16 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "16b0cf83-f863-4ede-be44-c8b13ea5cb47")
 		)
@@ -11791,7 +11953,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "C9")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -11809,7 +11971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "316f15ef-f362-4ea5-8b1a-f98c5b3c90a3")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR073"
 			(at 68.58 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -11821,13 +11983,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 91.44 0)
+			(at 71.12 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -11869,7 +12032,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "#PWR079")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -11887,7 +12050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32ee7882-d622-4bdf-8fbe-1c3b053240da")
-		(property "Reference" "R29"
+		(property "Reference" "R14"
 			(at 113.03 201.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11898,9 +12061,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CRCW04025K11FKED"
+		(property "Value" "5.11kΩ"
 			(at 113.03 204.4699 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11976,6 +12138,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 110.49 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a2bac570-cf3d-4b33-82b8-faf5cb654229")
 		)
@@ -11985,7 +12158,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "R29")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -12003,7 +12176,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "358d3db2-7a2c-43f4-a42f-89b6d36b8e0d")
-		(property "Reference" "U2"
+		(property "Reference" "U5"
 			(at 46.99 54.6099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12113,6 +12286,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 41.91 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "00a1d86d-2618-4091-bec1-4699b4bf3a2e")
 		)
@@ -12128,7 +12312,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "U2")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -12145,7 +12329,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d78e538-28b2-40fe-8803-9c74a579aa2b")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR084"
 			(at 224.79 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -12157,7 +12341,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.917 193.6242 0)
+			(at 224.79 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12205,7 +12389,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "#PWR095")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -12222,7 +12406,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3fabd547-41fb-4756-ba79-6aa7bd16a775")
-		(property "Reference" "C1"
+		(property "Reference" "C12"
 			(at 242.316 78.994 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12233,16 +12417,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CL31B106KBHNNNE"
-			(at 245.11 77.4699 90)
-			(hide yes)
+		(property "Value" "10uF 50V"
+			(at 241.046 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "JLCImport:CL31B106KBHNNNE"
@@ -12311,6 +12493,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 241.3 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "de801312-9b7a-4f2f-a152-1958ece97554")
 		)
@@ -12320,7 +12513,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "C1")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -12336,10 +12529,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3fbaf219-ed1a-4e98-9f14-58959ba89ff1")
-		(property "Reference" "C19"
-			(at 95.25 171.4499 90)
+		(property "Reference" "C3"
+			(at 85.852 170.942 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12349,9 +12541,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CGA0805X5R106K350MT"
-			(at 95.25 173.9899 90)
-			(hide yes)
+		(property "Value" "10uF 35V"
+			(at 79.502 173.228 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12427,6 +12618,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 91.44 172.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "17dcf6a6-5603-4e01-b2be-cb68f18727a9")
 		)
@@ -12436,7 +12638,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "C19")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -12454,7 +12656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f56d178-1494-40db-a645-0b04471aefa4")
-		(property "Reference" "R26"
+		(property "Reference" "R17"
 			(at 161.29 185.4199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12465,9 +12667,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "FRC0402F2212TS"
+		(property "Value" "22.1kΩ"
 			(at 161.29 187.9599 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12543,6 +12744,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 158.75 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "69cf5a5d-9ee7-4d54-90cb-77dc7f0ad276")
 		)
@@ -12552,7 +12764,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "R26")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -12569,7 +12781,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f893027-52aa-4865-8068-bbe7cf0ba7f7")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR081"
 			(at 186.69 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -12581,7 +12793,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.817 192.3542 0)
+			(at 186.69 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12629,7 +12841,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "#PWR093")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -12646,7 +12858,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "536f744b-2158-4079-ba98-16bb470e9922")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR075"
 			(at 91.44 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -12658,7 +12870,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.567 182.1942 0)
+			(at 91.44 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12706,7 +12918,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "#PWR094")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -12724,7 +12936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54fac1d0-8c8a-49de-b7ec-121d54c1475d")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR083"
 			(at 199.39 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -12736,13 +12948,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 199.39 97.79 0)
+			(at 201.93 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -12784,7 +12997,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "#PWR084")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -12813,18 +13026,18 @@
 			)
 		)
 		(property "Value" "SMCJ16CA_C41411764"
-			(at 43.688 78.994 90)
+			(at 66.58 77.47 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "JLCImport:SMCJ16CA_C41411764"
-			(at 60.96 77.47 0)
+			(at 68.58 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12835,7 +13048,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041728_hongjiacheng-SMCJ16CA_C41411764.pdf"
-			(at 58.42 77.47 0)
+			(at 68.58 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12857,7 +13070,7 @@
 			)
 		)
 		(property "Manufacturer" "hongjiacheng"
-			(at 55.88 77.47 0)
+			(at 68.58 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12911,6 +13124,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 68.58 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1387f334-eb13-4fc0-908f-978ba8a88488")
 		)
@@ -12936,10 +13160,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "570be2fa-b2c9-4b1b-9036-12f372f360c4")
-		(property "Reference" "R24"
-			(at 102.87 185.4199 90)
+		(property "Reference" "R8"
+			(at 102.108 186.436 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12949,9 +13172,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "FRC0402F1052TS"
-			(at 102.87 187.9599 90)
-			(hide yes)
+		(property "Value" "10.5kΩ"
+			(at 102.108 188.214 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13027,6 +13249,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 100.33 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "29cca2eb-5eae-43d9-b6b6-716bca3e9ca5")
 		)
@@ -13036,7 +13269,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "R24")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -13064,7 +13297,7 @@
 				)
 			)
 		)
-		(property "Value" "ZEMS0730-6R8M"
+		(property "Value" "6.8uH 7A"
 			(at 314.96 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13140,6 +13373,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 314.96 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a192a1dc-4f96-4044-9997-1ecf680b1313")
 		)
@@ -13167,7 +13411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b0cbcb2-3aa9-4792-bd48-882a314a0432")
-		(property "Reference" "C11"
+		(property "Reference" "C16"
 			(at 302.26 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13178,9 +13422,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CC0402KRX5R7BB105"
+		(property "Value" "1uF 16V"
 			(at 302.26 93.9799 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13256,6 +13499,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 298.45 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "44b0568b-37c4-458c-adce-093973871039")
 		)
@@ -13265,7 +13519,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "C11")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -13281,10 +13535,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5c698d40-7408-401a-8dcb-a7971b0b782b")
-		(property "Reference" "R22"
-			(at 151.13 185.4199 90)
+		(property "Reference" "R15"
+			(at 150.368 186.182 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13294,9 +13547,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0402WGF9091TCE"
-			(at 151.13 187.9599 90)
-			(hide yes)
+		(property "Value" "9.09kΩ"
+			(at 150.114 188.214 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13372,6 +13624,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 148.59 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bfe08b0b-3a89-450e-95fa-d7403f5b6d64")
 		)
@@ -13381,7 +13644,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "R22")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -13400,7 +13663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6248a18c-bf29-44a7-affd-b84051cd35b3")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1"
 			(at 104.14 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13423,7 +13686,7 @@
 			)
 		)
 		(property "Footprint" "JLCImport:2N7002"
-			(at 111.76 93.98 0)
+			(at 111.76 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13434,7 +13697,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--2N7002_C8545.pdf"
-			(at 111.76 96.52 0)
+			(at 111.76 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13456,7 +13719,7 @@
 			)
 		)
 		(property "Manufacturer" "Jiangsu Changjing Electronics Technology Co., Ltd."
-			(at 111.76 99.06 0)
+			(at 111.76 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13510,6 +13773,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 111.76 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5ecd3fc5-ae29-41f3-a6b8-16316b83438f")
 		)
@@ -13522,7 +13796,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -13540,7 +13814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "670166c6-7007-40bf-8a20-8c9cdc77cac2")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR089"
 			(at 323.85 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -13552,13 +13826,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 323.85 96.52 0)
+			(at 326.39 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -13600,7 +13875,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "#PWR06")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -13618,7 +13893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ca24307-0c7c-4cce-9430-ad8fc8b5c7bc")
-		(property "Reference" "R4"
+		(property "Reference" "R27"
 			(at 326.39 74.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13629,7 +13904,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RC0402FR-07100KL"
+		(property "Value" "100kΩ"
 			(at 326.39 77.4699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13706,6 +13981,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 323.85 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "79428a9d-19b7-48de-8a8a-951b43c26007")
 		)
@@ -13715,7 +14001,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "R4")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -13732,7 +14018,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6fd9ce56-8adf-4ec3-9a31-a9d823853c44")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR072"
 			(at 40.64 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -13744,7 +14030,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 70.104 0)
+			(at 40.64 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13792,7 +14078,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "#PWR068")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -13810,7 +14096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "727cd0c8-5c2b-4cbc-a8dc-ab06355d68fc")
-		(property "Reference" "R12"
+		(property "Reference" "R19"
 			(at 180.34 105.4099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13821,7 +14107,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RC0402FR-074K02L"
+		(property "Value" "4.02kΩ"
 			(at 180.34 107.9499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13898,6 +14184,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 177.8 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bde60dba-0da6-417c-9880-96d6206017b4")
 		)
@@ -13907,7 +14204,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "R12")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -13925,7 +14222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "738ee35b-5ebc-4108-8903-f88afb918831")
-		(property "Reference" "R21"
+		(property "Reference" "R23"
 			(at 203.2 166.3699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13936,9 +14233,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RC0402FR-0710KL"
+		(property "Value" "10kΩ"
 			(at 203.2 168.9099 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14014,6 +14310,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 200.66 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "55b59943-f723-4fc9-af5a-089f9d8bbfba")
 		)
@@ -14023,7 +14330,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "R21")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -14040,7 +14347,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7aaa5de8-ae2a-4c59-bd9e-1649c32531ed")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR082"
 			(at 194.31 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -14052,7 +14359,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.516 165.1 0)
+			(at 191.77 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14100,7 +14407,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "#PWR096")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -14118,7 +14425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bb98ea7-9e12-415c-93c2-1f82b372a0d1")
-		(property "Reference" "R16"
+		(property "Reference" "R7"
 			(at 92.71 101.5999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14129,7 +14436,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RC0402FR-0733KL"
+		(property "Value" "33kΩ"
 			(at 92.71 104.1399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14141,7 +14448,7 @@
 			)
 		)
 		(property "Footprint" "JLCImport:RC0402FR-0733KL"
-			(at 97.79 102.87 0)
+			(at 90.17 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14152,7 +14459,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0402FR-0733KL_C138003.pdf"
-			(at 100.33 102.87 0)
+			(at 90.17 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14174,7 +14481,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 102.87 102.87 0)
+			(at 90.17 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14228,6 +14535,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 90.17 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f44afb08-1164-4b05-ba41-1a8f3e3b07fb")
 		)
@@ -14237,7 +14555,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "R16")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -14254,7 +14572,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c5b0968-1826-4654-bc0d-55ab64ebe2a4")
-		(property "Reference" "C23"
+		(property "Reference" "C5"
 			(at 169.672 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14264,9 +14582,8 @@
 				)
 			)
 		)
-		(property "Value" "CC0402KRX7R7BB104"
-			(at 166.37 162.56 0)
-			(hide yes)
+		(property "Value" "100nF 16V"
+			(at 166.37 169.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14341,6 +14658,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 166.37 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "49da4f2f-cd24-4746-b52c-c5cdab1032b6")
 		)
@@ -14350,7 +14678,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "C23")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -14368,7 +14696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f7d13a0-1e86-4491-8522-999abae205a6")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR090"
 			(at 365.76 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -14380,13 +14708,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 365.76 87.63 0)
+			(at 368.3 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -14428,7 +14757,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "#PWR08")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -14446,7 +14775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81492666-3090-4c23-98f1-75ecff247002")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR080"
 			(at 181.61 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -14507,7 +14836,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "#PWR083")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -14525,7 +14854,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "851b259b-2667-4ec2-8a43-574a9df7c011")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR079"
 			(at 161.29 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -14537,13 +14866,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 161.29 128.27 0)
+			(at 163.83 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -14585,7 +14915,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "#PWR080")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -14603,7 +14933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e42766c-9b5e-438f-99d7-2b340588f336")
-		(property "Reference" "R13"
+		(property "Reference" "R24"
 			(at 259.08 92.7099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14614,9 +14944,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RC0402FR-07100KL"
+		(property "Value" "100kΩ"
 			(at 259.08 95.2499 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14692,6 +15021,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 256.54 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5590f910-fbfa-431c-bac5-3da29b238939")
 		)
@@ -14701,7 +15041,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "R13")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -14718,7 +15058,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "905dbf1f-c0d0-4ca8-a347-908b77460ad8")
-		(property "Reference" "C22"
+		(property "Reference" "C11"
 			(at 234.696 183.896 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14729,20 +15069,18 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CGA0805X5R226M250MT"
-			(at 237.49 182.8799 90)
-			(hide yes)
+		(property "Value" "22uF 25V"
+			(at 233.426 169.672 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "JLCImport:CGA0805X5R226M250MT"
-			(at 241.3 181.61 0)
+			(at 233.68 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14753,7 +15091,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/373011.html"
-			(at 243.84 181.61 0)
+			(at 233.68 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14775,7 +15113,7 @@
 			)
 		)
 		(property "Manufacturer" "HRE"
-			(at 246.38 181.61 0)
+			(at 233.68 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14829,6 +15167,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 233.68 181.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e7dcd519-4e2e-4716-b6fc-621eb71d722f")
 		)
@@ -14838,7 +15187,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "C22")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -14856,7 +15205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90c07e93-7e89-43c9-b4be-e1a04d20b4d3")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR074"
 			(at 76.2 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -14868,13 +15217,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 86.36 0)
+			(at 78.74 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -14916,7 +15266,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "#PWR081")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -14932,10 +15282,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "948f71fa-a102-4a3d-9aea-bcf11f78a6fc")
-		(property "Reference" "C14"
-			(at 384.81 73.6599 90)
+		(property "Reference" "C20"
+			(at 383.032 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14945,9 +15294,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CL32A226KAJNNNE"
-			(at 384.81 76.1999 90)
-			(hide yes)
+		(property "Value" "22uF 25V"
+			(at 380.746 58.166 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15023,6 +15371,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 381 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "38416b5b-46fc-4930-b37a-c91891ce3e37")
 		)
@@ -15032,7 +15391,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "C14")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -15049,7 +15408,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97a2b873-e819-48e1-af3c-e6f1936d5a61")
-		(property "Reference" "C2"
+		(property "Reference" "C14"
 			(at 250.952 78.994 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15060,16 +15419,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CL21B224KBFNNNE"
-			(at 254 77.4699 90)
-			(hide yes)
+		(property "Value" "220nF 50V"
+			(at 250.19 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "JLCImport:CL21B224KBFNNNE"
@@ -15138,6 +15495,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 250.19 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9aab7602-8d81-442f-8b9b-d0642441ff44")
 		)
@@ -15147,7 +15515,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "C2")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -15164,7 +15532,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a10a8c0a-47e1-40d8-b649-7f93f0985e10")
-		(property "Reference" "C21"
+		(property "Reference" "C8"
 			(at 226.06 183.642 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15175,20 +15543,18 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CGA0805X5R226M250MT"
-			(at 228.6 182.8799 90)
-			(hide yes)
+		(property "Value" "22uF 25V"
+			(at 224.536 169.672 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "JLCImport:CGA0805X5R226M250MT"
-			(at 232.41 181.61 0)
+			(at 224.79 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15199,7 +15565,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/373011.html"
-			(at 234.95 181.61 0)
+			(at 224.79 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15221,7 +15587,7 @@
 			)
 		)
 		(property "Manufacturer" "HRE"
-			(at 237.49 181.61 0)
+			(at 224.79 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15275,6 +15641,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 224.79 181.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c51c0ff5-cfd3-4fb2-8f71-4f6e4e24ea61")
 		)
@@ -15284,7 +15661,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "C21")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -15301,7 +15678,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a27275de-5f44-4ec2-bbe0-f5a23dcc2414")
-		(property "Reference" "C17"
+		(property "Reference" "C9"
 			(at 226.822 79.248 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15312,16 +15689,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RVT1H470M0607"
-			(at 229.87 76.8628 90)
-			(hide yes)
+		(property "Value" "47uF 50V"
+			(at 225.806 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "JLCImport:RVT1H470M0607"
@@ -15390,6 +15765,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 226.06 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "34f007e9-67dc-4b17-92cf-32292bcd966d")
 		)
@@ -15399,7 +15785,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "C17")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -15417,7 +15803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a57376a5-5a1d-4c88-acb1-70c82243b56f")
-		(property "Reference" "U5"
+		(property "Reference" "U8"
 			(at 281.94 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15503,6 +15889,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 281.94 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ede9c624-2054-4ffc-8ed1-82f46f04207c")
 		)
@@ -15533,7 +15930,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "U5")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -15541,7 +15938,7 @@
 	)
 	(symbol
 		(lib_id "JLCImport:BZT52C4V7_C173408")
-		(at 83.82 102.87 270)
+		(at 83.82 102.87 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15551,7 +15948,7 @@
 		(dnp no)
 		(uuid "abf66990-9265-4b53-94e1-f49b340e9a1d")
 		(property "Reference" "D3"
-			(at 76.708 104.14 90)
+			(at 81.28 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15562,18 +15959,18 @@
 			)
 		)
 		(property "Value" "BZT52C4V7_C173408"
-			(at 60.452 101.854 90)
+			(at 85.82 102.87 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "JLCImport:BZT52C4V7_C173408"
-			(at 76.2 102.87 0)
+			(at 83.82 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15584,7 +15981,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407261727_MDD-Microdiode-Semiconductor-BZT52C4V7_C173408.pdf"
-			(at 73.66 102.87 0)
+			(at 83.82 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15606,7 +16003,7 @@
 			)
 		)
 		(property "Manufacturer" "MDD(Microdiode Semiconductor)"
-			(at 71.12 102.87 0)
+			(at 83.82 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15617,7 +16014,7 @@
 			)
 		)
 		(property "MPN" "BZT52C4V7"
-			(at 68.58 102.87 0)
+			(at 99.06 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15628,7 +16025,7 @@
 			)
 		)
 		(property "LCSC Part" "C173408"
-			(at 66.04 102.87 0)
+			(at 101.6 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15651,6 +16048,17 @@
 		)
 		(property "Manufacturer Part" "BZT52C4V7"
 			(at 83.82 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LSCS Part" ""
+			(at 83.82 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15686,7 +16094,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad1ae7ff-f276-4e51-b053-cefe877d2a7c")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR076"
 			(at 105.41 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -15698,7 +16106,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.537 217.7542 0)
+			(at 105.41 217.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15746,7 +16154,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "#PWR098")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -15763,7 +16171,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1c45d23-f3b2-4b0e-b3d6-ef9078aa45e5")
-		(property "Reference" "C20"
+		(property "Reference" "C7"
 			(at 215.392 183.642 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15774,20 +16182,18 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CGA0805X5R226M250MT"
-			(at 218.44 182.8799 90)
-			(hide yes)
+		(property "Value" "22uF 25V"
+			(at 214.884 169.926 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "JLCImport:CGA0805X5R226M250MT"
-			(at 222.25 181.61 0)
+			(at 214.63 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15798,7 +16204,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/373011.html"
-			(at 224.79 181.61 0)
+			(at 214.63 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15820,7 +16226,7 @@
 			)
 		)
 		(property "Manufacturer" "HRE"
-			(at 227.33 181.61 0)
+			(at 214.63 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15874,6 +16280,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 214.63 181.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ccb848b2-bfd6-4b97-88ab-26956a8a311f")
 		)
@@ -15883,7 +16300,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "C20")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -15901,7 +16318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd6412ab-552b-4bb4-91a6-2a16c8faa0b5")
-		(property "Reference" "C18"
+		(property "Reference" "C6"
 			(at 190.5 181.6099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15912,9 +16329,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CGA0805X5R106K350MT"
+		(property "Value" "10uF 35V"
 			(at 190.5 184.1499 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15990,6 +16406,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 186.69 182.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1fa35b15-dd9d-4d03-8e2e-382fd2e2bb73")
 		)
@@ -15999,7 +16426,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "C18")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -16017,7 +16444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf3cfc18-5ed5-4347-b268-87a37bf9a62b")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR077"
 			(at 140.97 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -16029,14 +16456,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 91.4399 90)
+			(at 146.05 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -16078,7 +16504,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "#PWR082")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -16096,7 +16522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c26f1692-33c7-4603-94a7-f9826f78fa39")
-		(property "Reference" "R28"
+		(property "Reference" "R13"
 			(at 113.03 185.4199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16107,9 +16533,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0402WGF2262TCE"
+		(property "Value" "22.6kΩ"
 			(at 113.03 187.9599 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16185,6 +16610,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 110.49 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b47c9dae-8d62-4a01-9892-a0f5b7e86562")
 		)
@@ -16194,7 +16630,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "R28")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -16212,7 +16648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c55b6dd1-37e2-476f-9c55-eee5662353c8")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 111.76 91.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16223,7 +16659,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "FRC0402F4023TS"
+		(property "Value" "402kΩ"
 			(at 111.76 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16235,7 +16671,7 @@
 			)
 		)
 		(property "Footprint" "JLCImport:FRC0402F4023TS"
-			(at 116.84 92.71 0)
+			(at 109.22 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16246,7 +16682,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2308241947_FOJAN-FRC0402F4023TS_C5126256.pdf"
-			(at 119.38 92.71 0)
+			(at 109.22 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16268,7 +16704,7 @@
 			)
 		)
 		(property "Manufacturer" "FOJAN"
-			(at 121.92 92.71 0)
+			(at 109.22 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16322,6 +16758,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 109.22 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "916fb5f0-8691-41ad-ac48-8f841576578b")
 		)
@@ -16331,7 +16778,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -16349,8 +16796,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca0e04bc-990b-42cc-8b80-a366d78f1e30")
-		(property "Reference" "Q1"
-			(at 124.46 57.15 0)
+		(property "Reference" "Q2"
+			(at 124.46 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16360,7 +16807,7 @@
 			)
 		)
 		(property "Value" "BSC012N06NSATMA1"
-			(at 124.46 59.69 0)
+			(at 124.46 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16370,7 +16817,7 @@
 			)
 		)
 		(property "Footprint" "JLCImport:BSC012N06NSATMA1"
-			(at 124.46 80.01 0)
+			(at 124.46 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16381,7 +16828,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404191415_Infineon-Technologies-BSC012N06NSATMA1_C6471337.pdf"
-			(at 124.46 82.55 0)
+			(at 124.46 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16403,7 +16850,7 @@
 			)
 		)
 		(property "Manufacturer" "Infineon Technologies"
-			(at 124.46 85.09 0)
+			(at 124.46 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16457,6 +16904,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 124.46 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "53a6ba60-5232-4811-85fe-8c0d77c0a674")
 		)
@@ -16484,7 +16942,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "Q1")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -16588,6 +17046,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 281.94 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ae78076c-25ca-43c1-9edb-3b27e238e63d")
 		)
@@ -16615,7 +17084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc818bbe-4722-4ea8-8320-40ce7c3fe1bd")
-		(property "Reference" "R15"
+		(property "Reference" "R6"
 			(at 92.71 91.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16626,7 +17095,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RC0402FR-07100KL"
+		(property "Value" "100kΩ"
 			(at 92.71 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16638,7 +17107,7 @@
 			)
 		)
 		(property "Footprint" "JLCImport:RC0402FR-07100KL"
-			(at 97.79 92.71 0)
+			(at 90.17 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16649,7 +17118,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0402FR-07100KL_C60491.pdf"
-			(at 100.33 92.71 0)
+			(at 90.17 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16671,7 +17140,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 102.87 92.71 0)
+			(at 90.17 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16725,6 +17194,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 90.17 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a50c4161-f27b-43ad-9ac8-a9c49a90f6b4")
 		)
@@ -16734,7 +17214,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "R15")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -16751,7 +17231,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cfefb0b7-6c66-40b9-9760-9fff16418b44")
-		(property "Reference" "R19"
+		(property "Reference" "R26"
 			(at 272.542 81.534 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16762,16 +17242,14 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RC0402FR-07100KL"
-			(at 273.05 82.5499 90)
-			(hide yes)
+		(property "Value" "100kΩ"
+			(at 273.526 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "JLCImport:RC0402FR-07100KL"
@@ -16840,6 +17318,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 270.51 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bdd497ec-c2cd-4bef-a3a3-deab74150a15")
 		)
@@ -16849,7 +17338,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "R19")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -16867,8 +17356,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4454982-5b15-423b-8d6a-1ea44914bdbe")
-		(property "Reference" "U10"
-			(at 161.29 62.23 0)
+		(property "Reference" "U7"
+			(at 161.29 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16878,7 +17367,7 @@
 			)
 		)
 		(property "Value" "TPS26631PWPR"
-			(at 161.29 64.77 0)
+			(at 161.29 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16888,7 +17377,7 @@
 			)
 		)
 		(property "Footprint" "JLCImport:TPS26631PWPR"
-			(at 161.29 105.41 0)
+			(at 161.29 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16899,7 +17388,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010600_Texas-Instruments-TPS26631PWPR_C2866319.pdf"
-			(at 161.29 107.95 0)
+			(at 161.29 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16921,7 +17410,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 161.29 110.49 0)
+			(at 161.29 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16965,6 +17454,17 @@
 			)
 		)
 		(property "Manufacturer Part" "TPS26631PWPR"
+			(at 161.29 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LSCS Part" ""
 			(at 161.29 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -17041,7 +17541,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "U10")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -17059,7 +17559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d54afe49-63a5-4cab-988e-45fb8fed8dc7")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 111.76 111.7599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17070,7 +17570,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RC0402FR-0740K2L"
+		(property "Value" "40.2kΩ"
 			(at 111.76 114.2999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17082,7 +17582,7 @@
 			)
 		)
 		(property "Footprint" "JLCImport:RC0402FR-0740K2L"
-			(at 116.84 113.03 0)
+			(at 109.22 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17093,7 +17593,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0402FR-0740K2L_C137983.pdf"
-			(at 119.38 113.03 0)
+			(at 109.22 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17115,7 +17615,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 121.92 113.03 0)
+			(at 109.22 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17169,6 +17669,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 109.22 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "68bbcba7-3507-45d7-9486-e4709fee01eb")
 		)
@@ -17178,7 +17689,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -17195,7 +17706,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da9c829b-9ad4-4e9f-b633-30c63d4c02cf")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR078"
 			(at 153.67 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -17207,7 +17718,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.797 217.7542 0)
+			(at 153.67 217.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17255,7 +17766,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "#PWR097")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -17273,7 +17784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db8e45cb-5fd4-4d1f-aa0b-b648dee791cb")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR087"
 			(at 281.94 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -17285,13 +17796,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 281.94 121.92 0)
+			(at 284.48 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -17333,7 +17845,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "#PWR03")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -17351,7 +17863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e43b3a55-a668-45a5-90d2-3f9ea7e76074")
-		(property "Reference" "R2"
+		(property "Reference" "R22"
 			(at 201.93 85.0899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17362,7 +17874,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0402WGF3652TCE"
+		(property "Value" "36.5kΩ"
 			(at 201.93 87.6299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17439,6 +17951,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 199.39 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "79186edb-e6f0-456f-8b8e-9641c81639c3")
 		)
@@ -17448,7 +17971,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "R2")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -17465,7 +17988,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e94c49e7-4b31-426d-b559-a58f5747da13")
-		(property "Reference" "C24"
+		(property "Reference" "C13"
 			(at 243.586 183.896 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17476,20 +17999,18 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CGA0805X5R226M250MT"
-			(at 246.38 182.8799 90)
-			(hide yes)
+		(property "Value" "22uF 25V"
+			(at 242.316 169.926 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "JLCImport:CGA0805X5R226M250MT"
-			(at 250.19 181.61 0)
+			(at 242.57 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17500,7 +18021,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/373011.html"
-			(at 252.73 181.61 0)
+			(at 242.57 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17522,7 +18043,7 @@
 			)
 		)
 		(property "Manufacturer" "HRE"
-			(at 255.27 181.61 0)
+			(at 242.57 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17576,6 +18097,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 242.57 181.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d8e983f2-7888-4c1d-9949-40233002e8a9")
 		)
@@ -17585,7 +18117,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "C24")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -17602,7 +18134,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ebcc1731-f9b0-4f2f-9736-a89adc9915f9")
-		(property "Reference" "C8"
+		(property "Reference" "C2"
 			(at 77.978 71.628 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17613,16 +18145,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CL10A105KB8NNNC"
-			(at 80.01 74.9299 90)
-			(hide yes)
+		(property "Value" "1uF 50V"
+			(at 82.804 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "JLCImport:CL10A105KB8NNNC"
@@ -17691,6 +18221,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 76.2 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1ddae330-3407-4e05-9359-6322c28c7dd9")
 		)
@@ -17700,7 +18241,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "C8")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -17718,7 +18259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f278ef09-470e-4e92-b973-6edb2711c6a5")
-		(property "Reference" "R5"
+		(property "Reference" "R28"
 			(at 326.39 85.0899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17729,7 +18270,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AC0402FR-0724K9L"
+		(property "Value" "24.9kΩ"
 			(at 326.39 87.6299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17806,6 +18347,17 @@
 				)
 			)
 		)
+		(property "LSCS Part" ""
+			(at 323.85 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fdc91b79-bdcd-479b-ac45-b9f84fbad2bd")
 		)
@@ -17815,7 +18367,7 @@
 		(instances
 			(project "BetterVisionMainBoard"
 				(path "/f44ceb17-72f5-41f7-85b6-46c590c0f90f/ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca"
-					(reference "R5")
+					(reference "R28")
 					(unit 1)
 				)
 			)
