@@ -22996,8 +22996,8 @@
 		)
 	)
 	(sheet
-		(at 100.33 246.38)
-		(size 50.8 25.4)
+		(at 18.415 247.015)
+		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -23012,7 +23012,7 @@
 		)
 		(uuid "69fac105-0d9d-408f-a1f4-d2b6942bf0bd")
 		(property "Sheetname" "imu"
-			(at 100.33 245.6682 0)
+			(at 18.415 246.3034 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23023,7 +23023,7 @@
 			)
 		)
 		(property "Sheetfile" "imu.kicad_sch"
-			(at 100.33 272.4918 0)
+			(at 18.415 251.4096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23042,8 +23042,8 @@
 		)
 	)
 	(sheet
-		(at 12.7 246.38)
-		(size 50.8 25.4)
+		(at 18.415 234.315)
+		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -23058,7 +23058,7 @@
 		)
 		(uuid "ad05195d-9bb9-43d0-819a-9ba5f7ffc1ca")
 		(property "Sheetname" "buck"
-			(at 12.7 245.6682 0)
+			(at 18.415 233.6034 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23069,7 +23069,7 @@
 			)
 		)
 		(property "Sheetfile" "buck.kicad_sch"
-			(at 12.7 272.4918 0)
+			(at 18.415 238.7096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
