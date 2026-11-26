@@ -7193,13 +7193,154 @@
 	)
 	(text "12V Battery Input"
 		(exclude_from_sim no)
-		(at 41.148 28.956 0)
+		(at 41.148 38.354 0)
 		(effects
 			(font
 				(size 2.54 2.54)
 			)
 		)
 		(uuid "e77c6d05-1939-4078-a91f-39efdf95c74c")
+	)
+	(text_box "U6 TPS2121: \nIN1 buck (priority) / IN2 USB-C. Handover < 4.55 V.\nOV 5.75 V both. ILM 3.5 A (R20 29.8k). ST → GPIO6."
+		(exclude_from_sim no)
+		(at 65.405 150.0774 0)
+		(size 55.88 8.0376)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "21331639-a052-440e-8037-7064ad19466f")
+	)
+	(text_box "D2 TVS\nV_RWM	16V\nV_BR	19.7V\nV_C		26V @ 57.7A\nP_PPM	1.5kW, 10/1000 uS\nI_R		1 uA @ V_RWM"
+		(exclude_from_sim no)
+		(at 34.29 81.915 0)
+		(size 31.115 14.5055)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left top)
+		)
+		(uuid "21e0e56f-5cb9-4e8b-8853-17ab27240806")
+	)
+	(text_box "Q2 BSC012N06NS: \nreverse-polarity block (U7 B_GATE). 60 V, 1.2 mΩ."
+		(exclude_from_sim no)
+		(at 112.395 46.355 0)
+		(size 37.465 8.0376)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2315b494-82aa-473c-a66f-c9ef148b4a02")
+	)
+	(text_box "U5\nMAX 300V / 12A\n28 ~ 14 AWG WIRE"
+		(exclude_from_sim no)
+		(at 14.605 52.4271 0)
+		(size 20.955 8.0376)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4b58a369-a3c5-4cdf-aad4-114ff471254f")
+	)
+	(text_box "U7 eFuse\nUVLO 6.0 V / OVP 16.5 V / ILIM 4.5 A (R19 4.02k)\nAuto-retry. Never GND UVLO/OVP. EP → GND vias."
+		(exclude_from_sim no)
+		(at 156.21 53.34 0)
+		(size 52.705 8.255)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "8960aebe-9600-434c-85dc-9e6305dcfaa2")
+	)
+	(text_box "U8 LMR33640A: \n4 A buck, 400 kHz, Vout 5.12 V (R27/R28 100k/24.3k).\nEN ← U7 PGOOD. PG → GPIO5. L1 6.8 µH."
+		(exclude_from_sim no)
+		(at 292.735 104.9924 0)
+		(size 59.055 8.0376)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "8f036da4-0dc9-4e82-8623-5254c9430d8e")
+	)
+	(text_box "Q1 2N7002: \nQ2 fast turn-off (U7 DRV). Ciss ≤ 50 pF, Vgs(th) ≤ 3 V."
+		(exclude_from_sim no)
+		(at 88.265 34.29 0)
+		(size 31.75 10.0822)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ce57fc4a-663f-4fcb-b2c6-24587b7932c8")
 	)
 	(junction
 		(at 370.84 81.28)
@@ -13233,8 +13374,7 @@
 			)
 		)
 		(property "Value" "SMCJ16CA_C41411764"
-			(at 66.58 77.47 0)
-			(hide yes)
+			(at 54.102 78.232 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14980,7 +15120,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "81492666-3090-4c23-98f1-75ecff247002")
 		(property "Reference" "#PWR080"
 			(at 181.61 91.44 0)
@@ -14994,7 +15133,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 91.4399 90)
+			(at 178.562 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16649,7 +16788,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bf3cfc18-5ed5-4347-b268-87a37bf9a62b")
 		(property "Reference" "#PWR077"
 			(at 140.97 91.44 0)
@@ -16663,7 +16801,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 87.63 90)
+			(at 141.224 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
