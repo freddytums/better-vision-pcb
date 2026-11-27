@@ -1296,7 +1296,7 @@
 			)
 		)
 	)
-	(global_label "GPIO9"
+	(global_label "IMU_MISO"
 		(shape input)
 		(at 167.64 120.65 180)
 		(fields_autoplaced yes)
@@ -1320,7 +1320,7 @@
 			)
 		)
 	)
-	(global_label "GPIO11"
+	(global_label "IMU_SCLK"
 		(shape input)
 		(at 242.57 123.19 0)
 		(fields_autoplaced yes)
@@ -1368,7 +1368,7 @@
 			)
 		)
 	)
-	(global_label "GPIO25"
+	(global_label "IMU_INT1"
 		(shape input)
 		(at 167.64 128.27 180)
 		(fields_autoplaced yes)
@@ -1392,7 +1392,7 @@
 			)
 		)
 	)
-	(global_label "GPIO10"
+	(global_label "IMU_MOSI"
 		(shape input)
 		(at 242.57 120.65 0)
 		(fields_autoplaced yes)
@@ -1416,7 +1416,7 @@
 			)
 		)
 	)
-	(global_label "GPIO8"
+	(global_label "IMU_nCS"
 		(shape input)
 		(at 242.57 125.73 0)
 		(fields_autoplaced yes)

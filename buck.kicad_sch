@@ -10032,7 +10032,7 @@
 		)
 		(uuid "f0ba807d-09af-4a5e-95a0-b4bdd60114d2")
 	)
-	(global_label "GPIO5"
+	(global_label "BUCK_PG"
 		(shape input)
 		(at 270.51 83.82 0)
 		(fields_autoplaced yes)
@@ -10080,7 +10080,7 @@
 			)
 		)
 	)
-	(global_label "GPIO16"
+	(global_label "nEFUSE_FLT"
 		(shape input)
 		(at 180.34 83.82 0)
 		(fields_autoplaced yes)
@@ -10176,7 +10176,7 @@
 			)
 		)
 	)
-	(global_label "GPIO6"
+	(global_label "PMUX_ST"
 		(shape input)
 		(at 203.2 172.72 0)
 		(fields_autoplaced yes)
